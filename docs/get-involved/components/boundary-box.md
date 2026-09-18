@@ -1,0 +1,35 @@
+---
+title: Boundary Box
+description: Constrain content to the page boundary with consistent horizontal padding using the BoundaryBox component.
+---
+
+import BoundaryBox from "@site/src/components/Layout/BoundaryBox";
+
+## Boundary Box
+
+[`<BoundaryBox>`](/docs/get-involved/components/boundary-box) ensures consistent boundaries of its children on all screen sizes. 
+
+:::info
+
+Usually you put everything inside a [`<BoundaryBox>`](/docs/get-involved/components/boundary-box) except a [`<BackgroundWrapper>`](/docs/get-involved/components/background-wrapper).
+
+:::
+
+## Example
+
+[`<BoundaryBox>`](/docs/get-involved/components/boundary-box) is just a wrapper component. It is used to wrap other elements or components as shown:
+
+```
+<BoundaryBox>
+  This is how<br />
+  text looks like<br />
+  in a boundary box.
+</BoundaryBox>  
+```
+
+### Result
+<BoundaryBox>
+  This is how<br />
+  text looks like<br />
+  in a boundary box.
+</BoundaryBox>  

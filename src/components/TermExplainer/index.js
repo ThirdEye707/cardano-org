@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import {translate} from '@docusaurus/Translate';
 import styles from "./styles.module.css";
 import Divider from "@site/src/components/Layout/Divider";
 import termsData from "@site/src/data/termsForTermExplainer.json"; // Import all the terms
@@ -11,13 +12,15 @@ export default function TermExplainer({ category }) {
     if (category && termsData.categories[category]) {
       const categoryTerms = termsData.categories[category];
       const randomTerms = categoryTerms.sort(() => 0.5 - Math.random()).slice(0, 2);
+      // Pick random terms on the client only to avoid an SSR hydration mismatch.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setTerms(randomTerms);
     }
   }, [category]);
 
   return (
     <div className={styles.sectionWrap}>
-      <Divider text={`${category} Terms you should know`} white={true} />
+      <Divider text={translate({id: 'termExplainer.divider', message: '{category} Terms you should know'}).replace('{category}', category)} white={true} />
       <div className={styles.flexBox}>
         {terms.map((term, index) => (
           <div key={index} className={index % 2 === 0 ? styles.leftTextWrap : styles.rightTextWrap}>

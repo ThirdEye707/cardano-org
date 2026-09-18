@@ -1,0 +1,4980 @@
+{
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "ドロップダウンを展開",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "ドロップダウンを折りたたむ",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "サイドバーを開く",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "サイドバーを開く",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "エラーが発生しました",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.blog.archive.title": {
+    "message": "アーカイブ",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "アーカイブ",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "先頭へ戻る",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ブログ記事一覧のナビゲーション",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "新しい記事",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "過去の記事",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "ブログ記事のナビゲーション",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "新しい記事",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "過去の記事",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "全てのタグを見る",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "システムモード",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "ライトモード",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "ダークモード",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "ダークモードを切り替える(現在は{mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "パンくずリストのナビゲーション",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count}項目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "ドキュメントページ",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "前へ",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "次へ",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count}記事",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "「{tagName}」タグのついた{nDocsTagged}",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "バージョン: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "これはリリース前のバージョン{versionLabel}の{siteTitle}のドキュメントです。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "これはバージョン{versionLabel}の{siteTitle}のドキュメントで現在はメンテナンスされていません",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新のドキュメントは{latestVersionLink} ({versionLabel}) を見てください",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新バージョン",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "このページを編集",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} への直接リンク",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "{date}に",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "{user}が",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "{atDate}{byUser}最終更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "ページが見つかりません",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "他のバージョン",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "タグ:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "注意",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危険",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "備考",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "注記",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ヒント",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "警告",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "閉じる",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近のブログ記事のナビゲーション",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "'{label}'の目次を開く",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "'{label}'の目次を隠す",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(新しいタブで開く)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "ナビゲーション",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "他の言語",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "このページの見出し",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.NotFound.p1": {
+    "message": "お探しのページが見つかりませんでした",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "このページにリンクしているサイトの所有者にリンクが壊れていることを伝えてください",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.blog.post.readMore": {
+    "message": "もっと見る",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title}についてもっと見る",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "約{readingTime}分",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "コピー",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "コピーしました",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "クリップボードにコードをコピー",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "折り返し",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "ホームページ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "サイドバーを隠す",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "サイドバーを隠す",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "ドキュメントのサイドバー",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "ナビゲーションバーを閉じる",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "メインメニューに戻る",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "ナビゲーションバーを開く",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "検索結果{count}件をすべて見る"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "{count}件のドキュメントが見つかりました",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "『{query}』の検索結果",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "ドキュメントを検索",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "検索するキーワードを入力してください",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "検索",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Algolia提供",
+    "description": "The description label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "検索結果が見つかりませんでした",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "新しい検索結果を取得しています...",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.label": {
+    "message": "検索",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchModal.searchBox.resetButtonTitle": {
+    "message": "クリア",
+    "description": "The label and ARIA label for search box reset button"
+  },
+  "theme.SearchModal.searchBox.cancelButtonText": {
+    "message": "キャンセル",
+    "description": "The label and ARIA label for search box cancel button"
+  },
+  "theme.SearchModal.searchBox.placeholderText": {
+    "message": "ドキュメントを検索",
+    "description": "The placeholder text for the main search input field"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAi": {
+    "message": "別の質問をする...",
+    "description": "The placeholder text when in AI question mode"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAiStreaming": {
+    "message": "回答中...",
+    "description": "The placeholder text for search box when AI is streaming an answer"
+  },
+  "theme.SearchModal.searchBox.enterKeyHint": {
+    "message": "検索",
+    "description": "The hint for the search box enter key text"
+  },
+  "theme.SearchModal.searchBox.enterKeyHintAskAi": {
+    "message": "確定",
+    "description": "The hint for the Ask AI search box enter key text"
+  },
+  "theme.SearchModal.searchBox.searchInputLabel": {
+    "message": "検索",
+    "description": "The ARIA label for search input"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonText": {
+    "message": "キーワード検索に戻る",
+    "description": "The text for back to keyword search button"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonAriaLabel": {
+    "message": "キーワード検索に戻る",
+    "description": "The ARIA label for back to keyword search button"
+  },
+  "theme.SearchModal.startScreen.recentSearchesTitle": {
+    "message": "最近の検索",
+    "description": "The title for recent searches"
+  },
+  "theme.SearchModal.startScreen.noRecentSearchesText": {
+    "message": "最近の検索履歴はありません",
+    "description": "The text when there are no recent searches"
+  },
+  "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
+    "message": "この検索をお気に入りに追加",
+    "description": "The title for save recent search button"
+  },
+  "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
+    "message": "この検索を履歴から削除",
+    "description": "The title for remove recent search button"
+  },
+  "theme.SearchModal.startScreen.favoriteSearchesTitle": {
+    "message": "お気に入り",
+    "description": "The title for favorite searches"
+  },
+  "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
+    "message": "この検索をお気に入りから削除",
+    "description": "The title for remove favorite search button"
+  },
+  "theme.SearchModal.startScreen.recentConversationsTitle": {
+    "message": "最近の会話",
+    "description": "The title for recent conversations"
+  },
+  "theme.SearchModal.startScreen.removeRecentConversationButtonTitle": {
+    "message": "この会話を履歴から削除",
+    "description": "The title for remove recent conversation button"
+  },
+  "theme.SearchModal.errorScreen.titleText": {
+    "message": "検索結果の取得に失敗しました",
+    "description": "The title for error screen"
+  },
+  "theme.SearchModal.errorScreen.helpText": {
+    "message": "ネットワーク接続を確認してください",
+    "description": "The help text for error screen"
+  },
+  "theme.SearchModal.resultsScreen.askAiPlaceholder": {
+    "message": "AIに質問：",
+    "description": "The placeholder text for Ask AI input"
+  },
+  "theme.SearchModal.askAiScreen.disclaimerText": {
+    "message": "回答はAIによって生成されており、誤りがある可能性があります。必ず内容を確認してください。",
+    "description": "The disclaimer text for AI answers"
+  },
+  "theme.SearchModal.askAiScreen.relatedSourcesText": {
+    "message": "関連ソース",
+    "description": "The text for related sources"
+  },
+  "theme.SearchModal.askAiScreen.thinkingText": {
+    "message": "考え中...",
+    "description": "The text when AI is thinking"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonText": {
+    "message": "コピー",
+    "description": "The text for copy button"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonCopiedText": {
+    "message": "コピーしました！",
+    "description": "The text for copy button when copied"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonTitle": {
+    "message": "コピー",
+    "description": "The title for copy button"
+  },
+  "theme.SearchModal.askAiScreen.likeButtonTitle": {
+    "message": "いいね",
+    "description": "The title for like button"
+  },
+  "theme.SearchModal.askAiScreen.dislikeButtonTitle": {
+    "message": "よくない",
+    "description": "The title for dislike button"
+  },
+  "theme.SearchModal.askAiScreen.thanksForFeedbackText": {
+    "message": "フィードバックありがとうございます！",
+    "description": "The text for thanks for feedback"
+  },
+  "theme.SearchModal.askAiScreen.preToolCallText": {
+    "message": "検索中...",
+    "description": "The text before tool call"
+  },
+  "theme.SearchModal.askAiScreen.duringToolCallText": {
+    "message": "検索中：",
+    "description": "The text during tool call"
+  },
+  "theme.SearchModal.askAiScreen.afterToolCallText": {
+    "message": "検索完了：",
+    "description": "The text after tool call"
+  },
+  "theme.SearchModal.footer.selectText": {
+    "message": "選ぶ",
+    "description": "The select text for footer"
+  },
+  "theme.SearchModal.footer.submitQuestionText": {
+    "message": "質問を送信",
+    "description": "The submit question text for footer"
+  },
+  "theme.SearchModal.footer.selectKeyAriaLabel": {
+    "message": "エンターキー",
+    "description": "The ARIA label for select key in footer"
+  },
+  "theme.SearchModal.footer.navigateText": {
+    "message": "移動",
+    "description": "The navigate text for footer"
+  },
+  "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
+    "message": "上矢印キー",
+    "description": "The ARIA label for navigate up key in footer"
+  },
+  "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
+    "message": "下矢印キー",
+    "description": "The ARIA label for navigate down key in footer"
+  },
+  "theme.SearchModal.footer.closeText": {
+    "message": "閉じる",
+    "description": "The close text for footer"
+  },
+  "theme.SearchModal.footer.closeKeyAriaLabel": {
+    "message": "エスケープキー",
+    "description": "The ARIA label for close key in footer"
+  },
+  "theme.SearchModal.footer.searchByText": {
+    "message": "検索",
+    "description": "The 'Powered by' text for footer"
+  },
+  "theme.SearchModal.footer.backToSearchText": {
+    "message": "検索に戻る",
+    "description": "The back to search text for footer"
+  },
+  "theme.SearchModal.noResultsScreen.noResultsText": {
+    "message": "見つかりませんでした",
+    "description": "The text when there are no results"
+  },
+  "theme.SearchModal.noResultsScreen.suggestedQueryText": {
+    "message": "次の検索を試す:",
+    "description": "The text for suggested query"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
+    "message": "よりよい検索結果がありますか?",
+    "description": "The text for reporting missing results"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
+    "message": "報告する",
+    "description": "The link text for reporting missing results"
+  },
+  "theme.SearchModal.placeholder": {
+    "message": "ドキュメントを検索",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "読み込み中...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "クリックして読み込む{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "オフライン中は画像は読み込まれません",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "画像が存在しません",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "画像の読み込みに失敗しました",
+    "description": "When the image fails to load for unknown error"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count}件",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "「{tagName}」タグの記事が{nPosts}件あります",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "著者一覧",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "すべての著者を見る",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "この著者による投稿はまだありません。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "非公開のページ",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "このページは非公開です。 検索対象外となり、このページのリンクに直接アクセスできるユーザーのみに公開されます。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "下書きのページ",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "このページは下書きです。開発環境でのみ表示され、本番環境のビルドには含まれません。",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "もう一度試してください",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "メインコンテンツまでスキップ",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "タグ",
+    "description": "The title of the tag list page"
+  },
+  "whatIsAda.hero.title": {
+    "message": "ADAとは？"
+  },
+  "whatIsAda.hero.description1": {
+    "message": "新しい通貨のかたち。新しい取引のかたち。"
+  },
+  "whatIsAda.hero.description2": {
+    "message": "ダイレクトに。安全に。どこからでも。誰でも。"
+  },
+  "whatIsAda.meta.title": {
+    "message": "ADAとは：Cardanoのネイティブトークン"
+  },
+  "whatIsAda.meta.description": {
+    "message": "ADAはCardanoブロックチェーンのネイティブ暗号資産です。送金や決済、ステーキング、ガバナンス投票、分散型アプリケーションの利用に使えます。"
+  },
+  "whatIsAda.section.headline": {
+    "message": "ADAとは？"
+  },
+  "whatIsAda.section.title": {
+    "message": "ADAはCardanoのネイティブトークン"
+  },
+  "whatIsAda.section.description1": {
+    "message": "ADAの名前は、19世紀の数学者であり世界初のコンピュータプログラマーとして知られるエイダ・ラブレスに由来しています。彼女は詩人バイロン卿の娘でもあります。"
+  },
+  "whatIsAda.section.description2": {
+    "message": "ADAはデジタル通貨です。世界中の誰もが、第三者を介さずにADAで安全に価値を交換できます。すべての取引はCardanoブロックチェーン上に永続的、安全、透明に記録されます。"
+  },
+  "whatIsAda.section.description3": {
+    "message": "ADA保有者はCardanoネットワークにステークを持っています。ウォレットに保管されたADAはステークプールに委任して報酬を得ることができます。ネットワークの運営に参加するだけでなく、自分でステークプールを運営して報酬獲得の確率を高めることも可能です。将来的には、Cardanoプラットフォーム上のさまざまなアプリケーションやサービスにもADAが利用できるようになります。"
+  },
+  "whatIsAda.section.quote": {
+    "message": "ADAで何ができる？"
+  },
+  "howToBuyAda.title": {
+    "message": "ADAの購入・売却方法"
+  },
+  "howToBuyAda.description1": {
+    "message": "Cardanoブロックチェーンを利用するためのADAの入手方法はさまざまです。詳しくは{whereToGetAdaLink}をご覧ください。"
+  },
+  "howToBuyAda.whereToGetAdaLink": {
+    "message": "ADAの入手方法"
+  },
+  "howToBuyAda.description2": {
+    "message": "ADA保有者として、資産を安全に保つことが重要です。秘密鍵は必ず自分だけのものにしてください。暗号資産を取引所に必要以上に長く置かず、暗号資産ウォレットの利用を強くお勧めします。"
+  },
+  "walletSection.typhon.title": {
+    "message": "Typhonウォレット"
+  },
+  "walletSection.typhon.text": {
+    "message": "超高速で機能豊富、安全で美しいウェブ＆拡張機能のCardanoウォレット。マルチアカウントで複数のプールに委任できます。"
+  },
+  "walletSection.typhon.subtext": {
+    "message": "Chrome、Brave、Edgeのブラウザ拡張機能"
+  },
+  "walletSection.typhon.label": {
+    "message": "Typhonを入手"
+  },
+  "walletSection.vespr.title": {
+    "message": "VESPRウォレット"
+  },
+  "walletSection.vespr.text": {
+    "message": "VESPRはCardanoネットワーク向けのノンカストディアルモバイルライトウォレットで、デジタル資産のセキュリティと安全性を最優先しながら、優れた使いやすさを実現しています。"
+  },
+  "walletSection.vespr.subtext": {
+    "message": "iOS・Androidアプリ"
+  },
+  "walletSection.vespr.label": {
+    "message": "VESPRを入手"
+  },
+  "walletSection.yoroi.title": {
+    "message": "Yoroiウォレット"
+  },
+  "walletSection.yoroi.text": {
+    "message": "ブラウザベースのインターフェースを備えたユーザーフレンドリーな[オープンソース](https://github.com/Emurgo/yoroi-frontend)Cardanoウォレットで、ADAを安全に管理できます。モバイルアプリとしても利用可能です。"
+  },
+  "walletSection.yoroi.subtext": {
+    "message": "ブラウザ拡張機能、iOS・Androidアプリ"
+  },
+  "walletSection.yoroi.label": {
+    "message": "Yoroiを入手"
+  },
+  "walletSection.eternl.title": {
+    "message": "Eternlウォレット"
+  },
+  "walletSection.eternl.text": {
+    "message": "ブラウザで使える代替Cardanoライトウォレット。Cardanoコミュニティから最もリクエストの多い機能を追加することを目指しています。モバイルアプリとしても利用可能です。"
+  },
+  "walletSection.eternl.subtext": {
+    "message": "ブラウザ拡張機能、iOS・Androidアプリ"
+  },
+  "walletSection.eternl.label": {
+    "message": "Eternlを入手"
+  },
+  "walletSection.lace.title": {
+    "message": "Laceウォレット"
+  },
+  "walletSection.lace.text": {
+    "message": "Cardanoの創設者の一つであるIOGの[オープンソース](https://github.com/input-output-hk/lace)ライトウォレットプラットフォーム。独立した監査人による手動検証済みで、デジタル資産を素早く、簡単に、安全に管理しWeb3を楽しめます。"
+  },
+  "walletSection.lace.subtext": {
+    "message": "Chrome、Braveのブラウザ拡張機能"
+  },
+  "walletSection.lace.label": {
+    "message": "Laceを入手"
+  },
+  "walletSection.daedalus.title": {
+    "message": "Daedalusウォレット"
+  },
+  "walletSection.daedalus.text": {
+    "message": "Cardanoの[オープンソース](https://github.com/input-output-hk/daedalus)フルノードウォレット。ブロックチェーンの完全なコピーを維持することで、高度な制御とセキュリティを提供しますが、より複雑なユーザー体験を伴います。そのため、高度な機能を必要とするプロフェッショナルユーザー向けです。"
+  },
+  "walletSection.daedalus.subtext": {
+    "message": "高性能デスクトップPC専用"
+  },
+  "walletSection.daedalus.label": {
+    "message": "Daedalusを入手"
+  },
+  "walletSection.explore.title": {
+    "message": "アプリを探索"
+  },
+  "walletSection.explore.text": {
+    "message": "やり取りを容易にするさまざまなウォレットを見つけましょう。"
+  },
+  "walletSection.explore.label": {
+    "message": "その他のウォレット"
+  },
+  "walletSection.divider": {
+    "message": "Cardanoウォレット"
+  },
+  "walletSection.disclaimer": {
+    "message": "サンプルアプリケーションは情報提供のみを目的としており、推奨や承認を意味するものではありません。利用は完全に自己責任で行ってください。説明は各プロジェクトチームによって提供されています。"
+  },
+  "walletSection.storageTitle": {
+    "message": "ADAの保管と安全な管理方法"
+  },
+  "walletSection.storageDescription1": {
+    "message": "暗号資産ウォレットは、公開鍵と秘密鍵の保管、デジタル通貨の送受信、残高の確認、対応するブロックチェーンとのやり取りのために設計されたソフトウェアです。"
+  },
+  "walletSection.storageDescription2": {
+    "message": "利用可能なウォレットのバリエーションに加え、ホットウォレットとコールドウォレットの2種類があります。"
+  },
+  "walletSection.hotWalletText": {
+    "message": "ホットウォレットはインターネットに接続されており、必要な鍵があればいつでもアクセスできます。モバイルウォレット、ソフトウェアウォレット、取引所に保管された資金がホットウォレットの例です。"
+  },
+  "walletSection.coldWalletText": {
+    "message": "コールドウォレットはオフラインのウォレットです。インターネットに接続されておらず、頻繁にアクセスする必要のない資金の安全な保管に使用されます。ハードウェアウォレット（ウォレットの秘密鍵を保管するセキュアなハードウェアデバイス）やペーパーウォレットが例です。CardanoはTrezorとLedgerの両方のハードウェアウォレットに対応しています。"
+  },
+  "whatIsAda.button.getStarted": {
+    "message": "Cardanoをはじめよう"
+  },
+  "whatIsAda.button.whereToGetAda": {
+    "message": "ADAの入手方法"
+  },
+  "getStarted.hero.title": {
+    "message": "Cardanoをはじめよう"
+  },
+  "getStarted.hero.description": {
+    "message": "自分の目で新しい世界を確かめよう。わずか数ステップで基本がわかります。"
+  },
+  "getStarted.meta.title": {
+    "message": "Cardanoを始めよう：最初のステップ"
+  },
+  "getStarted.meta.description": {
+    "message": "数ステップでCardanoウォレットを用意し、ADAを入手して、DAppsやステーキングを体験できます。Cardanoエコシステムの初心者向けガイドです。"
+  },
+  "getStarted.step1.title": {
+    "message": "ウォレットをダウンロード"
+  },
+  "getStarted.step1.description": {
+    "message": "ウォレットは暗号資産の受け取り、送金、Cardanoアカウントの管理ができるアプリです。"
+  },
+  "getStarted.step1.heading": {
+    "message": "ウォレットをダウンロード"
+  },
+  "getStarted.step1.text1": {
+    "message": "Cardanoウォレットは、ブロックチェーンへの個人的なインターフェースです。ウェブブラウザがインターネットへの窓口であるように、ウォレットはADAの管理、dAppの利用、ネットワークとのやり取りを安全に行えます。"
+  },
+  "getStarted.step1.text2": {
+    "message": "ウォレットは次のステップで作成します。ダウンロードしただけではウォレットは作られません。"
+  },
+  "getStarted.step1.securityNote": {
+    "message": "リカバリーフレーズはウォレットへのアクセスを回復するために必要です。Cardanoウォレットはノンカストディアル（非管理型）のため、中央のサービス、ヘルプデスク、復旧手段はありません。"
+  },
+  "getStarted.step1.checkbox": {
+    "message": "ウォレットをダウンロードしました。"
+  },
+  "getStarted.common.scamLink": {
+    "message": "よくある詐欺に注意しましょう。"
+  },
+  "getStarted.step2.title": {
+    "message": "リカバリーフレーズをバックアップ"
+  },
+  "getStarted.step2.description": {
+    "message": "新しいウォレットを作成すると、12語、15語、または24語の単語セットが表示されます。これがリカバリーフレーズ（シードフレーズ）です。ウォレットのマスターキーなので、大切に保管してください。"
+  },
+  "getStarted.step2.heading": {
+    "message": "リカバリーフレーズを保存"
+  },
+  "getStarted.step2.whatToDo": {
+    "message": "やるべきこと："
+  },
+  "getStarted.step2.tip1": {
+    "message": "紙に書き留めて、オフラインで安全に保管する"
+  },
+  "getStarted.step2.tip2": {
+    "message": "誰とも共有せず、デジタルで保存しない"
+  },
+  "getStarted.step2.tip3": {
+    "message": "リカバリーフレーズを知っている人は誰でもあなたの資産にアクセスできます"
+  },
+  "getStarted.step2.tip4": {
+    "message": "異なる安全な場所に複数のコピーを保管する"
+  },
+  "getStarted.step2.checkbox": {
+    "message": "リカバリーフレーズをバックアップしました。"
+  },
+  "getStarted.step3.title": {
+    "message": "ウォレットのセットアップを完了"
+  },
+  "getStarted.step3.description": {
+    "message": "パスワード設定と確認でウォレットの初期設定を完了しましょう。"
+  },
+  "getStarted.step3.heading": {
+    "message": "最後のセットアップ手順"
+  },
+  "getStarted.step3.intro": {
+    "message": "リカバリーフレーズをバックアップしたら、次の2つの重要なステップを完了してください："
+  },
+  "getStarted.step3.passwordLabel": {
+    "message": "送金パスワード："
+  },
+  "getStarted.step3.passwordText": {
+    "message": "日常の取引を保護するために、強力なパスワードを作成してください。このパスワードはリカバリーフレーズとは異なり、このデバイス上のウォレットを保護します。"
+  },
+  "getStarted.step3.verifyLabel": {
+    "message": "バックアップの確認："
+  },
+  "getStarted.step3.verifyText": {
+    "message": "ほとんどのウォレットでは、単語を順番に選択してリカバリーフレーズを確認するよう求められます。これにより、正しく保存されたことが確認できます。"
+  },
+  "getStarted.step3.ready": {
+    "message": "これらのステップが完了すれば、ウォレットの準備完了です！"
+  },
+  "getStarted.step3.securityNote": {
+    "message": "送金パスワードを忘れた場合は、リカバリーフレーズを使ってウォレットを復元できます。"
+  },
+  "getStarted.step3.securityWarning": {
+    "message": "ただし、リカバリーフレーズを入手した人は、送金パスワードなしでウォレットに完全にアクセスし、資産を移動できます。"
+  },
+  "getStarted.step3.checkbox": {
+    "message": "ウォレットのセットアップを完了しました。"
+  },
+  "getStarted.step4.title": {
+    "message": "ウォレットを接続"
+  },
+  "getStarted.step4.description": {
+    "message": "ウォレットをCardano上のアプリやプロジェクトの共通アカウントとして使いましょう。下のようなウォレットコネクターを使えば、ウェブサイトがウォレットに安全に接続でき、別々のアカウントやパスワードを作らずにやり取りできます。"
+  },
+  "getStarted.step4.securityNote": {
+    "message": "接続やトランザクションを承認する際は、そのサイトに特定の権限を付与することになります。承認前に必ずウェブサイトのアドレスを確認し、何を承認するか確認してください。"
+  },
+  "getStarted.step4.checkbox": {
+    "message": "ウォレットを接続しました。"
+  },
+  "getStarted.step5.title": {
+    "message": "ADAを入手"
+  },
+  "getStarted.step5.description": {
+    "message": "Cardanoのネイティブ暗号資産ADAを入手して、ブロックチェーンの利用を始めましょう。"
+  },
+  "getStarted.step5.heading": {
+    "message": "ADAの入手方法"
+  },
+  "getStarted.step5.text": {
+    "message": "ADAを入手するにはいくつかの方法がありますが、最も一般的なのは暗号資産取引所で法定通貨や他の暗号資産を使って購入する方法です。"
+  },
+  "getStarted.step5.button": {
+    "message": "すべての方法を見る"
+  },
+  "getStarted.step5.securityNote": {
+    "message": "暗号資産の世界にはチャンスが多い反面、詐欺師の活動の場でもあります。"
+  },
+  "getStarted.step5.checkbox": {
+    "message": "ウォレットにADAが入りました。"
+  },
+  "getStarted.step6.title": {
+    "message": "エコシステムを探索"
+  },
+  "getStarted.step6.description": {
+    "message": "ウォレットとADAの準備ができたら、Cardanoが提供するすべてを探索する準備が整いました。まずは人気アプリを見てみましょう。"
+  },
+  "whereToGetAda.hero.title": {
+    "message": "ADAの入手方法"
+  },
+  "whereToGetAda.hero.description": {
+    "message": "Cardanoブロックチェーンを利用するためのADAを入手する方法はたくさんあります。"
+  },
+  "whereToGetAda.meta.title": {
+    "message": "ADAの購入：Cardanoネイティブトークンの入手方法"
+  },
+  "whereToGetAda.meta.description": {
+    "message": "中央集権型・分散型の取引所でADAを購入する、ステーキング報酬として受け取る、直接送ってもらうなど、Cardanoのネイティブトークンを入手する最適な方法を見つけましょう。"
+  },
+  "whereToGetAda.divider.exchanges": {
+    "message": "取引所でADAを購入"
+  },
+  "whereToGetAda.cex.title": {
+    "message": "中央集権型取引所"
+  },
+  "whereToGetAda.cex.description": {
+    "message": "中央集権型取引所（CEX）は、暗号資産やその他のデジタル資産を取引するプラットフォームです。買い手と売り手の仲介役として、取引の促進に加え、カストディ（資産保管）、注文マッチング、規制対応などのサービスも提供しています。CEXでは、自分で管理する[ウォレット](/what-is-ada/#wallets)に送金するまで、[ADA](/what-is-ada/)やその他のネイティブトークンはCEXが管理しています。"
+  },
+  "whereToGetAda.cex.disclaimer": {
+    "message": "ここに掲載されていることは推奨を意味しません。このデータはコミュニティから提供されたものです。[ADA](/what-is-ada/)をサポートする取引所の完全なリストは[CoinMarketCap](https://coinmarketcap.com/currencies/cardano/#Markets)をご覧ください。"
+  },
+  "whereToGetAda.dex.title": {
+    "message": "分散型取引所"
+  },
+  "whereToGetAda.dex.description": {
+    "message": "分散型取引所（DEX）は、中央管理者なしに運営される暗号資産取引プラットフォームです。スマートコントラクトによる自動化されたプロセスを通じて、ユーザー同士が直接（ピアツーピアで）取引できます。このアプローチにより、中央集権型取引所に伴うハッキングやカストディの障害リスクを軽減し、セキュリティとプライバシーが向上します。"
+  },
+  "whereToGetAda.dex.disclaimer": {
+    "message": "DEXは初心者向けではありません。利用するにはすでに[ADA](/what-is-ada/)を持っている必要があります。ここへの掲載は推奨を意味しません。取引データは過去30日間に基づいています。"
+  },
+  "whereToGetAda.divider.receive": {
+    "message": "世界中の人からADAを受け取る"
+  },
+  "whereToGetAda.receive.title": {
+    "message": "ADAを受け取る"
+  },
+  "whereToGetAda.receive.description1": {
+    "message": "[ADA](/what-is-ada/)を受け取ったり購入したりする前に、[Cardanoウォレット](/what-is-ada/#wallets)を作成する必要があります。"
+  },
+  "whereToGetAda.receive.description2": {
+    "message": "[Cardanoウォレット](/what-is-ada/#wallets)があれば、アドレスを共有するだけで[ADA](/what-is-ada/)（およびその他のネイティブトークン）のピアツーピア送受信が始められます。"
+  },
+  "whereToGetAda.receive.description3": {
+    "message": "一部の[ウォレット](/what-is-ada/#wallets)では、デビット/クレジットカード、銀行振込、Apple Payで暗号資産を購入できます。利用可能かどうかはお住まいの地域によります。"
+  },
+  "whereToGetAda.divider.funding": {
+    "message": "ADAで資金を得る"
+  },
+  "whereToGetAda.funding.title": {
+    "message": "Project Catalyst"
+  },
+  "whereToGetAda.funding.description": {
+    "message": "画期的なプロジェクトやアイデアを支援するCardanoのイノベーションファンドを発見しましょう。参加することで、ビジョンを実現するための[ADA](/what-is-ada/)資金を受け取ることができます。[Project Catalyst](https://projectcatalyst.io)にアクセスして、提案の作成方法を学びましょう。"
+  },
+  "whereToGetAda.divider.rewards": {
+    "message": "ステーキング報酬"
+  },
+  "whereToGetAda.staking.title": {
+    "message": "ステーキング報酬"
+  },
+  "whereToGetAda.staking.description1": {
+    "message": "すでに[ADA](/what-is-ada/)をお持ちなら、[ステークプールにADAを委任する](/stake-pool-delegation/)ことで、さらにADAを獲得できます。これにより、ネットワークのプルーフ・オブ・ステーク・システムに参加して報酬を得ることができます。より多くの努力と技術的知識が必要ですが、[自分でステークプールを運営する](/stake-pool-operation/)こともでき、より大きな報酬が期待できます。"
+  },
+  "whereToGetAda.staking.description2": {
+    "message": "Cardanoのステーキングにはいくつかの利点があります。ステークに必要な[ADA](/what-is-ada/)の最低額はなく、スラッシング（ステークした[ADA](/what-is-ada/)の没収）のリスクもなく、ロック期間もありません。委任した[ADA](/what-is-ada/)の管理権は常に自分にあり、資産は安全で、いつでもアクセス可能です。さらに、報酬はプールではなくプロトコル自体が分配するため、公平で透明な分配プロセスが保証されます。"
+  },
+  "commonScams.hero.title": {
+    "message": "よくあるCardano詐欺"
+  },
+  "commonScams.hero.description": {
+    "message": "暗号資産の世界はチャンスに満ちていますが、詐欺師の活動の場でもあります。"
+  },
+  "commonScams.meta.title": {
+    "message": "Cardanoでよくある詐欺と安全対策"
+  },
+  "commonScams.meta.description": {
+    "message": "暗号資産の世界はチャンスに満ちていますが、詐欺師の活動の場でもあります。"
+  },
+  "commonScams.quiz.title": {
+    "message": "知識をテストしよう"
+  },
+  "commonScams.quiz.description": {
+    "message": "5問のクイズに挑戦して、ブロックチェーン詐欺の見分け方と回避方法を確認しましょう。"
+  },
+  "commonScams.quiz.buttonText": {
+    "message": "クイズを始める"
+  },
+  "commonScams.intro.title": {
+    "message": "詐欺からADAを守る"
+  },
+  "commonScams.intro.description1": {
+    "message": "暗号資産の世界はチャンスに満ちていますが、詐欺師の活動の場でもあります。最も人気のあるブロックチェーンの一つであるCardano（ADA）もこれらの脅威と無縁ではありません。偽のプレゼント企画からフィッシング攻撃まで、詐欺師は常にユーザーを騙す新しい手口を考案しています。人工知能の進歩に伴い、これらの詐欺もますます巧妙になっています。このページでは、Cardanoエコシステムにおける最も一般的な詐欺とその対策を紹介します。"
+  },
+  "commonScams.intro.description2": {
+    "message": "**覚えておいてください：** シードワード（リカバリーフレーズ）にアクセスされると、ウォレットの完全なコントロールを奪われます。送金パスワードでは守れません。ADAが盗まれたら、二度と取り戻すことはできません。"
+  },
+  "commonScams.divider.giveaway": {
+    "message": "プレゼント詐欺"
+  },
+  "commonScams.giveaway.title": {
+    "message": "ADAプレゼント詐欺"
+  },
+  "commonScams.giveaway.description1": {
+    "message": "Cardanoコミュニティを狙う最も有名な詐欺の一つが**ADAプレゼント詐欺**です。詐欺師は一定量のADAを送れば倍にして返すと約束します。多くの場合、Charles Hoskinsonや他の著名人の偽ライブストリームを使って正当に見せかけます。本物のイベントを模倣し、ADAを送るウォレットアドレスを含むことがあります。"
+  },
+  "commonScams.giveaway.howToProtect": {
+    "message": "身を守る方法："
+  },
+  "commonScams.giveaway.tip1": {
+    "message": "正当なプレゼント企画は**絶対に**先にお金を要求しません。"
+  },
+  "commonScams.giveaway.tip2": {
+    "message": "不審なメッセージやライブストリームのリンクをクリックしないでください。"
+  },
+  "commonScams.giveaway.tip3": {
+    "message": "送ったADAは二度と戻りません。"
+  },
+  "commonScams.giveaway.tip4": {
+    "message": "[Cardanoフォーラム](https://forum.cardano.org/c/english/report-a-scam/184)でユーザーからの報告や詐欺目撃情報を確認しましょう。"
+  },
+  "commonScams.divider.phishing": {
+    "message": "フィッシング"
+  },
+  "commonScams.phishing.title": {
+    "message": "フィッシング攻撃"
+  },
+  "commonScams.phishing.description": {
+    "message": "フィッシング詐欺は、ウォレットの認証情報やリカバリーフレーズ（シードワード）などの機密情報を盗むために設計された偽のウェブサイト、アプリ、メールを使います。これらの不正サイトは、[Typhon、VESPR、Eternl](/what-is-ada/#wallets)などの人気ウォレットを模倣することがよくあります。"
+  },
+  "commonScams.phishing.howToProtect": {
+    "message": "身を守る方法："
+  },
+  "commonScams.phishing.tip1": {
+    "message": "URLが実際のウォレットのウェブサイトと一致しているか再確認してください。"
+  },
+  "commonScams.phishing.tip2": {
+    "message": "「サポート」スタッフや「モデレーター」であっても、リカバリーフレーズは**絶対に**共有しないでください。"
+  },
+  "commonScams.phishing.tip3": {
+    "message": "ハードウェアウォレットの使用を検討してください。"
+  },
+  "commonScams.phishing.tip4": {
+    "message": "可能な限り二要素認証を使用してください。"
+  },
+  "commonScams.divider.investment": {
+    "message": "偽の投資"
+  },
+  "commonScams.investment.title": {
+    "message": "偽の投資機会"
+  },
+  "commonScams.investment.description": {
+    "message": "不正な投資スキームもよくある詐欺です。詐欺師は「Cardano公認」や「ADA専用」と称する偽プロジェクトを宣伝し、高いリターンを保証すると主張します。被害者はウォレットアドレスにADAや他の資金を送るよう促され、莫大な利益が約束されます。"
+  },
+  "commonScams.investment.howToProtect": {
+    "message": "身を守る方法："
+  },
+  "commonScams.investment.tip1": {
+    "message": "正当なプロジェクトは**絶対に**リターンを保証しません。"
+  },
+  "commonScams.investment.tip2": {
+    "message": "不審な投資提案には懐疑的になりましょう。"
+  },
+  "commonScams.investment.tip3": {
+    "message": "プロジェクトを徹底的に調査し、透明性と信頼できるチームを確認しましょう。"
+  },
+  "commonScams.divider.support": {
+    "message": "偽のサポート"
+  },
+  "commonScams.support.title": {
+    "message": "偽のテクニカルサポート"
+  },
+  "commonScams.support.description1": {
+    "message": "この詐欺では、詐欺師が「公式」のCardanoサポート担当者を装います。ソーシャルメディア、フォーラム、メールを通じて連絡してきて、ウォレットの修復や問題のトラブルシューティングができると主張します。実在のモデレーターのプロフィールをコピーし、「お手伝い」のためにリカバリーフレーズや秘密鍵を要求します。"
+  },
+  "commonScams.support.description2": {
+    "message": "この詐欺は、[新規ユーザーがチャンネルに参加して](/docs/communities)ウォレットについて質問したときによく見られます。詐欺師はすぐに応答し、公式サポートを装います。"
+  },
+  "commonScams.support.howToProtect": {
+    "message": "身を守る方法："
+  },
+  "commonScams.support.tip1": {
+    "message": "[フォーラムやチャンネル](/docs/communities)の正当なメンバーは、パスワード、リカバリーフレーズ、秘密鍵を**絶対に**要求しません。"
+  },
+  "commonScams.support.tip2": {
+    "message": "サポートを名乗る不審なメッセージには応じないでください。"
+  },
+  "commonScams.support.tip3": {
+    "message": "フォーラムやチャンネルの正当なメンバーは、プライベートメッセージで先に連絡してくることは**絶対に**ありません。"
+  },
+  "commonScams.divider.rug": {
+    "message": "ラグプル"
+  },
+  "commonScams.rug.title": {
+    "message": "Cardanoエコシステムのラグプル"
+  },
+  "commonScams.rug.description": {
+    "message": "Cardanoはパブリックでパーミッションレスなレイヤー1ブロックチェーンであり、誰でも利用できます。一部の不正プロジェクトがCardano上でローンチし、大きな約束と派手なマーケティングで注目を集めます。投資家から相当量のADAを集めた後、プロジェクトが消滅します。これが「ラグプル」です。"
+  },
+  "commonScams.rug.howToProtect": {
+    "message": "身を守る方法："
+  },
+  "commonScams.rug.tip1": {
+    "message": "プロジェクトチームの経歴と評判を調べましょう。"
+  },
+  "commonScams.rug.tip2": {
+    "message": "監査や透明なドキュメントがあるか確認しましょう。"
+  },
+  "commonScams.rug.tip3": {
+    "message": "匿名チームや非現実的な約束のプロジェクトは避けましょう。"
+  },
+  "commonScams.rug.tip4": {
+    "message": "ユーティリティトークンは、そのユーティリティを使う必要があるときにのみ入手しましょう。"
+  },
+  "commonScams.rug.tip5": {
+    "message": "[Cardanoフォーラム](https://forum.cardano.org/c/english/report-a-scam/184)で他の人がプロジェクトについてどう思っているか確認しましょう。"
+  },
+  "home.meta.title": {
+    "message": "ホーム | cardano.org"
+  },
+  "home.meta.description": {
+    "message": "経済的なアイデンティティを持たない数十億の人々に、分散型アプリケーションによるID管理・価値移転・ガバナンスの手段を提供するオープンプラットフォーム。"
+  },
+  "home.hero.title": {
+    "message": "すべての人のために、より良く機能する世界へ"
+  },
+  "home.hero.description": {
+    "message": "Cardanoは、最も安全で信頼性が高く、検閲耐性を備えたブロックチェーン。未来の経済と社会を動かすミッションクリティカルなアプリケーションを支えます。"
+  },
+  "home.hero.ctaWhatIsAda": {
+    "message": "ADAとは？"
+  },
+  "home.hero.ctaGetStarted": {
+    "message": "はじめる"
+  },
+  "home.featured.title": {
+    "message": "世界は変わりつつあります。共に、より良い方向へ変えていきましょう。"
+  },
+  "home.featured.description1": {
+    "message": "Cardanoはプルーフ・オブ・ステーク型のブロックチェーンプラットフォームです。[peer-reviewされた研究](/research)に基づき、エビデンスに基づく手法で開発された初のプラットフォームとして、最先端テクノロジーを組み合わせ、分散型アプリケーション・システム・社会に比類ない安全性と持続可能性を提供します。"
+  },
+  "home.featured.description2": {
+    "message": "優秀なエンジニアチームとともに、Cardanoは不透明な権力構造から個人へと力を再分配し、ポジティブな変化と進歩を実現する原動力となることを目指しています。"
+  },
+  "home.featured.quote1": {
+    "message": "不可能の歴史を、"
+  },
+  "home.featured.quote2": {
+    "message": "可能に変える"
+  },
+  "home.featured.buttonLabel": {
+    "message": "Cardanoアプリを使う"
+  },
+  "home.divider.benefits": {
+    "message": "メリット"
+  },
+  "home.quoteBox.description": {
+    "message": "Cardanoは科学の力でグローバルシステムに信頼を取り戻します。個人が安全に取引し、システムが効果的に機能し、企業が成長するための、より安全で透明性のある持続可能な基盤を構築します。"
+  },
+  "home.quoteBox.quote": {
+    "message": "Cardanoはテクノロジーに新たな基準をもたらします — オープンでインクルーシブ — 既存の常識に挑み、持続可能でグローバルに分散されたイノベーションの新時代を切り開きます。"
+  },
+  "home.benefits.ouroboros.label": {
+    "message": "プルーフ・オブ・ステークとOuroboros"
+  },
+  "home.benefits.ouroboros.category": {
+    "message": "プロトコル"
+  },
+  "home.benefits.ouroboros.title": {
+    "message": "プルーフ・オブ・ステークとOuroboros：最も環境に優しいブロックチェーンプロトコル"
+  },
+  "home.benefits.ouroboros.body": {
+    "message": "Ouroborosは、peer-reviewされ検証可能な安全性を持つ初のブロックチェーンプロトコルであり、Cardanoはそれを実装した最初のブロックチェーンです。セキュリティを犠牲にすることなく、グローバル規模での持続可能な分散化を実現します。<br /><br />このプロトコルは、より安全で透明性の高いグローバル決済システムを目指す基礎研究に基づく絶え間ない努力の成果です。権力と支配を公平に再分配する手段を提供します。"
+  },
+  "home.benefits.ouroboros.cta": {
+    "message": "Ouroborosについて"
+  },
+  "home.benefits.research.label": {
+    "message": "エビデンスに基づく開発"
+  },
+  "home.benefits.research.category": {
+    "message": "研究"
+  },
+  "home.benefits.research.title": {
+    "message": "科学に根ざした、最高水準の開発"
+  },
+  "home.benefits.research.body": {
+    "message": "Cardanoはエビデンスに基づく手法で開発されています。ミッションクリティカルなアプリケーションで使用される形式手法と、柔軟性を維持するアジャイル手法を独自に組み合わせた画期的なアプローチです。グローバルなアプリケーションやシステムをサポートするため、セキュリティの保証は選択肢ではなく必須要件と考えています。プロトコルの実装とプラットフォームの統合は、まず研究・検証・数学的モデリングとテストを経て仕様化されます。その仕様に基づく開発は独立監査を受けます。その結果、比類のない信頼性を持つコードベースが実現しています。"
+  },
+  "home.benefits.research.cta": {
+    "message": "研究を見る"
+  },
+  "home.benefits.secure.label": {
+    "message": "セキュア"
+  },
+  "home.benefits.secure.category": {
+    "message": "トランザクション"
+  },
+  "home.benefits.secure.title": {
+    "message": "比類ないセキュリティ — トラストレスな世界の実現"
+  },
+  "home.benefits.secure.body": {
+    "message": "Cardanoは、互いに面識がなく信頼関係もない当事者同士が安全にやり取りや取引を行うことを可能にします。信頼が自然には存在しない場面で信頼を構築するプラットフォームであり、まったく新しい市場と機会を切り開きます。Ouroborosにより、悪意ある攻撃やシビル攻撃に対して証明可能なセキュリティを実現しています。すべてのトランザクションは不変かつ透明に記録され、マルチシグネチャと革新的な拡張UTXOモデルによって安全に検証されます。"
+  },
+  "home.benefits.secure.cta": {
+    "message": "ロードマップを見る"
+  },
+  "home.benefits.participation.label": {
+    "message": "インセンティブ付きの参加"
+  },
+  "home.benefits.participation.category": {
+    "message": "オープン"
+  },
+  "home.benefits.participation.title": {
+    "message": "オープンでインセンティブに基づく参加"
+  },
+  "home.benefits.participation.body": {
+    "message": "熱心なコミュニティを核に、Cardanoはオープンな参加を通じて開発されるオープンソースプロジェクトです。ネットワークの長期的な健全性を確保するため、ステークプールオペレーターやステーク委任者として参加するユーザーに報酬を与えるインセンティブを備えています。プラットフォームは改善提案を通じて進化します。Cardanoのガバナンスはすべての人に民主的な発言権を与え、ADAホルダーはプラットフォームのアップグレードや開発方針に関する提案の提出・投票ができます。このガバナンスモデルにより、将来の成長に向けた独自の立ち位置を確立し、ユーザーニーズに合わせた新機能導入の手段を提供します。コミュニティが継続的にプラットフォームとエコシステムの改善に資金を提供し、意思決定できる仕組みです。"
+  },
+  "home.benefits.participation.cta": {
+    "message": "ガバナンスについて"
+  },
+  "home.benefits.scalable.label": {
+    "message": "スケーラブルで持続可能"
+  },
+  "home.benefits.scalable.category": {
+    "message": "エコシステム"
+  },
+  "home.benefits.scalable.title": {
+    "message": "高いスケーラビリティと環境への持続可能性"
+  },
+  "home.benefits.scalable.body": {
+    "message": "Ouroborosにより、Cardanoは最小限のエネルギー消費でグローバル規模にスケールできます。他のブロックチェーンとは異なり、パフォーマンスの向上やブロック追加に指数関数的なエネルギー増加を必要としません。パフォーマンスと持続可能性のバランスは、マルチレジャー、サイドチェーン、マルチパーティステートチャネルによる並列トランザクション処理など、革新的なアプローチの組み合わせで達成されています。<br /><br />ステークプール数の増加とともにネットワークは拡大し、各プールの魅力度を測るパラメータが設定・調整されます。参加に直接報酬を与えるネットワークです。Cardanoは、ネットワークの利益のために行動する者が自身の利益のためにも行動するよう設計されています。これにより、耐久性のある健全で堅牢なネットワークとエコシステムの発展が確保されます。持続可能性とスケーラビリティの組み合わせにより、金融・物流・アイデンティティ・社会に関わるグローバルシステムの進化する需要に対応するスループットを実現します。"
+  },
+  "home.benefits.scalable.cta": {
+    "message": "Hydraについて"
+  },
+  "home.vision.title1": {
+    "message": "あなたの可能性を定義しよう。"
+  },
+  "home.vision.title2": {
+    "message": "あなたの世界を変えよう。"
+  },
+  "home.divider.makeTheChange": {
+    "message": "変革を起こす"
+  },
+  "home.discover.title": {
+    "message": "Cardanoを知る"
+  },
+  "home.discover.description": {
+    "message": "Cardanoは、[peer-reviewされた研究](/research)に基づいて構築された初のブロックチェーンプラットフォームです。数十億のデータを守るセキュリティ、グローバルシステムに対応するスケーラビリティ、そして根本的な変革を支える堅牢性を兼ね備えています。"
+  },
+  "home.discover.people": {
+    "message": "人々"
+  },
+  "home.discover.purpose": {
+    "message": "目的"
+  },
+  "home.discover.research": {
+    "message": "研究"
+  },
+  "home.discover.technology": {
+    "message": "テクノロジー"
+  },
+  "home.discover.opportunity": {
+    "message": "機会"
+  },
+  "home.discover.quote1": {
+    "message": "私たちは科学を変えました。グローバルシステムの構築、持続可能な交換とガバナンスのモデルが意味するものを変えました。"
+  },
+  "home.discover.quote2": {
+    "message": "Cardano上で構築するコミュニティ・組織・企業とともに、新しい未来が形づくられています — 仲介者のいない分散型の未来、権力が個人に戻される未来です。"
+  },
+  "home.divider.entities": {
+    "message": "エンティティ"
+  },
+  "home.entities.description": {
+    "message": "複数の独立した組織が分散型のチームフレームワークの中で協力し、Cardanoの前進を推進しています。進化と発展を続けながらも、コアミッションとの一致を確保しています。以下はその一部です："
+  },
+  "home.follow.divider": {
+    "message": "ソーシャル"
+  },
+  "home.follow.title": {
+    "message": "参加しよう"
+  },
+  "navbar.mega.column.Get to know": {
+    "message": "知る",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.column.Take part": {
+    "message": "参加する",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.column.Research": {
+    "message": "リサーチ",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.column.Connect": {
+    "message": "つながる",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.column.Engage": {
+    "message": "関わる",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.column.Governance": {
+    "message": "ガバナンス",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.column.Get started": {
+    "message": "はじめる",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.column.Tools": {
+    "message": "ツール",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.column.For Enterprise": {
+    "message": "企業向け",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.column.Use Cases": {
+    "message": "ユースケース",
+    "description": "Mega menu column title"
+  },
+  "navbar.mega.label.What is ada?": {
+    "message": "ADAとは？",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Get started with Cardano": {
+    "message": "Cardanoをはじめよう",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Where to get ada?": {
+    "message": "ADAの入手方法",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Protect your ada": {
+    "message": "ADAを守る",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Delegate your ada": {
+    "message": "ADAを委任する",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Delegate your vote": {
+    "message": "投票の委任",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Use Cardano Apps": {
+    "message": "Cardanoアプリを使う",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Code of Conduct": {
+    "message": "行動規範",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Cardano Research": {
+    "message": "Cardanoリサーチ",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Cardano Insights": {
+    "message": "Cardanoインサイト",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Hard Forks": {
+    "message": "ハードフォーク",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.News": {
+    "message": "ニュース",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Newsletter": {
+    "message": "ニュースレター",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Online Communities": {
+    "message": "オンラインコミュニティ",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Ambassador Program": {
+    "message": "アンバサダープログラム",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Cardano Events": {
+    "message": "Cardanoイベント",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Cardano Forum": {
+    "message": "Cardanoフォーラム",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Get involved in cardano.org": {
+    "message": "cardano.orgに参加する",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Participate in governance": {
+    "message": "ガバナンスに参加する",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Governance Tools": {
+    "message": "ガバナンスツール",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Cardano Constitution": {
+    "message": "Cardano憲法",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Start building on Cardano": {
+    "message": "Cardanoで開発を始める",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Integrate Cardano": {
+    "message": "Cardanoを統合する",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Developer Portal": {
+    "message": "開発者ポータル",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Builder Tools": {
+    "message": "ビルダーツール",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Companies building on Cardano": {
+    "message": "Cardano上の企業",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Enterprise Solutions": {
+    "message": "エンタープライズソリューション",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Contact the Foundation": {
+    "message": "Cardano Foundationに連絡",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.All Use Cases": {
+    "message": "すべてのユースケース",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Identity": {
+    "message": "アイデンティティ",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.label.Supply Chain": {
+    "message": "サプライチェーン",
+    "description": "Mega menu item label"
+  },
+  "navbar.mega.description.What is ada?": {
+    "message": "Cardanoのネイティブトークン",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Get started with Cardano": {
+    "message": "基本を学んでCardanoを使い始めよう",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Where to get ada?": {
+    "message": "ADAを入手してCardanoを利用する",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Protect your ada": {
+    "message": "詐欺に騙されないために",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Delegate your ada": {
+    "message": "ネットワークに参加して報酬を得る",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Delegate your vote": {
+    "message": "あなたの投票権をDRepに託す",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Use Cardano Apps": {
+    "message": "厳選されたアプリケーションを探す",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Code of Conduct": {
+    "message": "コミュニティの基準と価値観",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Cardano Research": {
+    "message": "査読済みの研究と論文",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Cardano Insights": {
+    "message": "オンチェーンデータと定期更新情報",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Hard Forks": {
+    "message": "実施済みのアップグレード",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.News": {
+    "message": "Cardanoの最新ニュースとアップデート",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Newsletter": {
+    "message": "Cardanoの最新情報を受け取る",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Online Communities": {
+    "message": "おすすめのコミュニティチャンネル",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Ambassador Program": {
+    "message": "Cardanoアンバサダーに会う",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Cardano Events": {
+    "message": "Cardanoコミュニティイベントに参加する",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Cardano Forum": {
+    "message": "体系的なロングフォーマットのディスカッション",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Get involved in cardano.org": {
+    "message": "参加したい方はこちらから",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Participate in governance": {
+    "message": "Cardanoの未来を形作る",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Governance Tools": {
+    "message": "透明でコミュニティ主導の意思決定ツール",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Cardano Constitution": {
+    "message": "ガバナンスについて学ぶ",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Start building on Cardano": {
+    "message": "開発者向けリソースとツール",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Integrate Cardano": {
+    "message": "取引所・統合ガイド",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Developer Portal": {
+    "message": "Cardano開発者ポータルとドキュメント",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Builder Tools": {
+    "message": "Cardano上で開発するためのツール",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Companies building on Cardano": {
+    "message": "企業・団体・コラボレーション",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Enterprise Solutions": {
+    "message": "導入事例と実績",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Contact the Foundation": {
+    "message": "Cardano Foundationと連携する",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.All Use Cases": {
+    "message": "ブロックチェーン活用事例を探す",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Identity": {
+    "message": "認証と本人確認",
+    "description": "Mega menu item description"
+  },
+  "navbar.mega.description.Supply Chain": {
+    "message": "トレーサビリティと来歴証明",
+    "description": "Mega menu item description"
+  },
+  "solutions.data.dpp.title": {
+    "message": "デジタルプロダクトパスポート"
+  },
+  "solutions.data.dpp.description": {
+    "message": "透明性と持続可能性のためのEU準拠デジタルプロダクトパスポート。"
+  },
+  "solutions.data.category.supplyChain": {
+    "message": "サプライチェーン"
+  },
+  "solutions.data.traceability.title": {
+    "message": "トレーサビリティ"
+  },
+  "solutions.data.traceability.description": {
+    "message": "ブロックチェーンで実現するエンドツーエンドのサプライチェーントレーサビリティ。"
+  },
+  "solutions.data.authenticity.title": {
+    "message": "真正性"
+  },
+  "solutions.data.authenticity.description": {
+    "message": "ブロックチェーン検証による製品の真正性で偽造品に対抗。"
+  },
+  "solutions.data.sustainability.title": {
+    "message": "サステナビリティ"
+  },
+  "solutions.data.sustainability.description": {
+    "message": "不変の記録でサステナビリティの主張を追跡・検証。"
+  },
+  "solutions.data.storage.title": {
+    "message": "分散型ストレージ"
+  },
+  "solutions.data.storage.description": {
+    "message": "企業向けの安全な分散型データストレージソリューション。"
+  },
+  "solutions.data.category.dataTech": {
+    "message": "データ＆テクノロジー"
+  },
+  "solutions.data.navio.description": {
+    "message": "サプライチェーン管理のためのブロックチェーンベースのソリューション。"
+  },
+  "solutions.data.caseStudies.title": {
+    "message": "導入事例"
+  },
+  "solutions.data.caseStudies.description": {
+    "message": "Cardanoブロックチェーンソリューションの実際の導入事例を探索。"
+  },
+  "useCases.category.identity": {
+    "message": "アイデンティティ"
+  },
+  "useCases.card.education.title": {
+    "message": "教育"
+  },
+  "useCases.card.education.summary": {
+    "message": "ブロックチェーンで検証された学術資格"
+  },
+  "useCases.card.digitalIdentity.title": {
+    "message": "デジタルアイデンティティ"
+  },
+  "useCases.card.digitalIdentity.summary": {
+    "message": "自分のデジタルアイデンティティを管理"
+  },
+  "useCases.card.financeKyc.title": {
+    "message": "金融KYC"
+  },
+  "useCases.card.financeKyc.summary": {
+    "message": "効率的な本人確認"
+  },
+  "useCases.card.government.title": {
+    "message": "行政"
+  },
+  "useCases.card.government.summary": {
+    "message": "改ざん不可能な公式文書"
+  },
+  "useCases.category.finance": {
+    "message": "金融"
+  },
+  "useCases.card.defi.summary": {
+    "message": "分散型レンディングと取引所"
+  },
+  "useCases.card.payments.title": {
+    "message": "決済"
+  },
+  "useCases.card.payments.summary": {
+    "message": "高速・低コストの国際送金"
+  },
+  "useCases.category.supplyChain": {
+    "message": "サプライチェーン"
+  },
+  "useCases.card.agriculture.title": {
+    "message": "農業"
+  },
+  "useCases.card.agriculture.summary": {
+    "message": "農場から食卓へのトレーサビリティ"
+  },
+  "useCases.card.retail.title": {
+    "message": "小売"
+  },
+  "useCases.card.retail.summary": {
+    "message": "来歴証明で偽造品に対抗"
+  },
+  "useCases.card.logistics.title": {
+    "message": "物流"
+  },
+  "useCases.card.logistics.summary": {
+    "message": "リアルタイム追跡と検証"
+  },
+  "useCases.category.socialImpact": {
+    "message": "ソーシャルインパクト"
+  },
+  "useCases.card.socialPrograms.title": {
+    "message": "社会プログラム"
+  },
+  "useCases.card.socialPrograms.summary": {
+    "message": "透明な資金分配"
+  },
+  "useCases.category.dataTech": {
+    "message": "データ＆テクノロジー"
+  },
+  "useCases.card.dataStorage.title": {
+    "message": "データストレージ"
+  },
+  "useCases.card.dataStorage.summary": {
+    "message": "分散型の安全なストレージ"
+  },
+  "useCases.card.tokenizedAssets.title": {
+    "message": "トークン化資産"
+  },
+  "useCases.card.tokenizedAssets.summary": {
+    "message": "実物資産の分割所有"
+  },
+  "useCases.category.emerging": {
+    "message": "新興アプリケーション"
+  },
+  "useCases.card.votingSystems.title": {
+    "message": "投票システム"
+  },
+  "useCases.card.votingSystems.summary": {
+    "message": "安全で透明な選挙"
+  },
+  "useCases.card.healthcare.title": {
+    "message": "ヘルスケア"
+  },
+  "useCases.card.healthcare.summary": {
+    "message": "ポータブルで安全な健康記録"
+  },
+  "useCases.card.musicIp.title": {
+    "message": "音楽＆知的財産"
+  },
+  "useCases.card.musicIp.summary": {
+    "message": "アーティストへの直接ロイヤリティ支払い"
+  },
+  "ambassadors.hero.title": {
+    "message": "アンバサダー"
+  },
+  "ambassadors.hero.description": {
+    "message": "Cardanoアンバサダープログラムは、Cardanoエコシステムの拡大を推進するコミュニティリーダーを称えるプログラムです。2018年に設立され、Cardano Foundationによって継続的に改良され、献身的なコントリビューターがグローバルな影響を生み出す力を与えています。"
+  },
+  "ambassadors.layout.title": {
+    "message": "Cardanoアンバサダープログラム: コミュニティに参加しよう"
+  },
+  "ambassadors.layout.description": {
+    "message": "Cardanoアンバサダープログラムは、Cardanoの普及を促進するために教育、参加、意識向上を行うコミュニティリーダーを認定します。"
+  },
+  "ambassadors.cta.leftTitle": {
+    "message": "Cardanoアンバサダーになる"
+  },
+  "ambassadors.cta.leftText1": {
+    "message": "アンバサダーへの道は、献身、協力、意義ある貢献によって築かれます。アンバサダーは積極的に参加し、持続的な影響を生み出すことでコミュニティから自然に現れます。"
+  },
+  "ambassadors.cta.leftText2": {
+    "message": "最初のステップはCardano Forumから始まります。コラボレーション、ディスカッション、知識共有のためのダイナミックな場です。価値ある洞察を貢献し、会話に参加し、仲間のコミュニティメンバーをサポートすることで、信頼と影響力の強固な基盤を築きます。レベルが上がるにつれ、より深い関与とリーダーシップの新しい機会が開かれます。"
+  },
+  "ambassadors.cta.leftText3": {
+    "message": "アンバサダーシップは、コミットメントと貢献の反映です。コミュニティを積極的にサポートし、Cardanoの成長に貢献する人が自然とこの役割に就きます。"
+  },
+  "ambassadors.cta.rightButtonLabel": {
+    "message": "はじめる"
+  },
+  "brandAssets.hero.title": {
+    "message": "ブランドアセット"
+  },
+  "brandAssets.hero.description": {
+    "message": "ブランドは、私たちが創り出すすべてを映し出すものです。ブランドを構成する要素と、その使用方法をご紹介します。"
+  },
+  "brandAssets.layout.title": {
+    "message": "Cardanoブランドアセット：ロゴとガイドライン"
+  },
+  "brandAssets.layout.description": {
+    "message": "ブランドは、私たちが創り出すすべてを映し出すものです。ブランドを構成する要素と、その使用方法をご紹介します。"
+  },
+  "codeOfConduct.hero.title": {
+    "message": "コミュニティ行動規範"
+  },
+  "codeOfConduct.hero.description": {
+    "message": "Cardanoコミュニティは世界中の人々で構成されており、Cardanoの精神と未来を守り育てるために集まっています。"
+  },
+  "codeOfConduct.layout.title": {
+    "message": "Cardanoコミュニティ行動規範"
+  },
+  "codeOfConduct.layout.description": {
+    "message": "Cardanoコミュニティは世界中の人々で構成されており、Cardanoの精神と未来を守り育てるために集まっています。"
+  },
+  "codeOfConduct.intro.description": {
+    "message": "Cardanoコミュニティは世界中の人々で構成されており、Cardanoの精神と未来を守り育てるために集まっています。コミュニティのすべての参加者は、合法的、誠実、倫理的に、プロジェクトの最善の利益のために行動することが求められます。この行動規範は、コミュニティ内の判断を助け、プロジェクトについての文明的な公開議論の場を清潔で明るく保つためのルールとガイドラインを提供します。公式のCardanoコミュニティチャンネルに参加することで、この行動規範に同意したものとみなされます。"
+  },
+  "codeOfConduct.improveDiscussion.title": {
+    "message": "議論を改善する"
+  },
+  "codeOfConduct.improveDiscussion.description1": {
+    "message": "常に何らかの形で議論を改善することに努め、コミュニティを素晴らしいディスカッションの場にしましょう。投稿が会話に貢献するか確信が持てない場合は、言いたいことをよく考えて後で再試行してください。コミュニティで議論されるトピックは私たちにとって重要であり、あなたにとっても同様であってほしいと思います。"
+  },
+  "codeOfConduct.improveDiscussion.description2": {
+    "message": "議論を改善する一つの方法は、すでに進行中のものを発見することです。返信する前にコミュニティプラットフォームを検索する時間を取れば、同じ興味を持つ人に出会える可能性が高まります。常に価値を付加しましょう。議論は健全で有益であるべきで、メンバーはCardanoの発展に向けた意味のある貢献をすべきです。投稿されるコンテンツはコミュニティに関連するものにしてください。また、恐怖や疑念を煽る誤情報やフェイクニュースの投稿や拡散は控えてください。"
+  },
+  "codeOfConduct.improveDiscussion.description3": {
+    "message": "ADAやその他のトークン、商品、サービスの取引や宣伝も許可されていません。"
+  },
+  "codeOfConduct.beAgreeable.title": {
+    "message": "意見が合わなくても礼儀正しく"
+  },
+  "codeOfConduct.beAgreeable.description1": {
+    "message": "何かに反対意見を述べたいこともあるでしょう。それは構いません。ただし、人ではなくアイデアを批判してください。以下のことは避けてください："
+  },
+  "codeOfConduct.beAgreeable.list1": {
+    "message": "個人攻撃"
+  },
+  "codeOfConduct.beAgreeable.list2": {
+    "message": "人身攻撃"
+  },
+  "codeOfConduct.beAgreeable.list3": {
+    "message": "投稿の内容ではなくトーンに反応すること"
+  },
+  "codeOfConduct.beAgreeable.list4": {
+    "message": "感情的な反射反応"
+  },
+  "codeOfConduct.beAgreeable.list5": {
+    "message": "全角大文字の使用。電子的な叫びとみなされます"
+  },
+  "codeOfConduct.beAgreeable.description2": {
+    "message": "代わりに、会話を改善する理にかなった反論を提供してください。価値のある意味のある議論を加えるという上記のルールも覚えておいてください。Cardanoコミュニティチャンネルは、コミュニティメンバー間の個人的な紛争に使用すべきではありません。"
+  },
+  "codeOfConduct.participation.title": {
+    "message": "あなたの参加が大切"
+  },
+  "codeOfConduct.participation.description": {
+    "message": "コミュニティでの会話が、新しく参加する人すべてのトーンを決定します。このフォーラムを興味深い場所にするディスカッションに参加し、そうでないものは避けることで、コミュニティの未来に影響を与えましょう。"
+  },
+  "codeOfConduct.reportProblem.title": {
+    "message": "問題を見つけたら報告を"
+  },
+  "codeOfConduct.reportProblem.description1": {
+    "message": "モデレーターはコミュニティ内で特別な権限を持ち、メンバーがこの行動規範を守ることを確認する責任があります。しかし、あなたもそうです。あなたの協力があれば、モデレーターはコミュニティのファシリテーターになれます。悪い行動を見たら、返信しないでください。返信は悪い行動を認めることになり、あなたのエネルギーを消費し、皆の時間を無駄にします。報告してください！各チャンネルでの違反報告の具体的な方法を以下に示します。"
+  },
+  "codeOfConduct.reportProblem.list1": {
+    "message": "[Cardano Forum](https://forum.cardano.org)：行動規範に違反していると思う投稿を見つけたら、オプションボタンをクリックして不適切としてフラグを立てるか、モデレーターへの詳細メッセージを残してください。"
+  },
+  "codeOfConduct.reportProblem.list2": {
+    "message": "[Reddit](https://www.reddit.com/r/cardano)：すべての投稿の下にある「Report」ボタンをクリックして報告できます。どのルールや法律に違反しているかの詳細情報を提供する必要があります。Redditモデレーターがリクエストを確認します。"
+  },
+  "codeOfConduct.reportProblem.list3": {
+    "message": "[Telegram](https://t.me/CardanoAnnouncements)：メッセージを右クリックして報告できます。これはプラットフォームに送信されます。攻撃的なコンテンツや悪質なユーザーを報告するための[Report to Admin](https://t.me/CardanoReportToAdmin)チャンネルもあります。違反メッセージを管理者にDMで転送することもできます。"
+  },
+  "codeOfConduct.reportProblem.list4": {
+    "message": "[Facebook](https://www.facebook.com/groups/CardanoCommunity)：投稿の右上の矢印をクリックして「Report」を選択すると報告できます。これにより、モデレーターと管理者にレビューが通知されます。"
+  },
+  "codeOfConduct.reportProblem.list5": {
+    "message": "[Twitter](https://twitter.com/cardano)：ツイートのドロップダウンメニューをクリックして直接Twitterに報告できます。ツイートの報告はCardanoモデレーションチームではなくTwitterに直接送信されます。"
+  },
+  "codeOfConduct.reportProblem.description2": {
+    "message": "コミュニティを維持するために、モデレーターはいつでも理由を問わずコンテンツやユーザーアカウントを削除する権利を有します。モデレーターは新しい投稿をプレビューしません。モデレーターとサイト運営者は、コミュニティが投稿したコンテンツに対して一切の責任を負いません。"
+  },
+  "codeOfConduct.reportProblem.description3": {
+    "message": "一方、コンテンツが不正確に削除されたと感じる場合は、コミュニティチームがセカンドレビューを行うことができます。投稿の詳細をcommunity *at* cardano *dot* orgにお送りください。セカンドレビューへのエスカレーションは重大な懸念のみに限り、コミュニティチームの返答には時間がかかる場合があります。"
+  },
+  "codeOfConduct.beCivil.title": {
+    "message": "常に礼儀正しく"
+  },
+  "codeOfConduct.beCivil.description1": {
+    "message": "健全な会話を台無しにするものはありません。無礼な振る舞いほど："
+  },
+  "codeOfConduct.beCivil.list1": {
+    "message": "礼儀正しくしましょう。合理的な人が不快、侮辱的、またはヘイトスピーチと見なすような投稿はしないでください。"
+  },
+  "codeOfConduct.beCivil.list2": {
+    "message": "清潔に保ちましょう。わいせつまたは性的に露骨なものは投稿しないでください。"
+  },
+  "codeOfConduct.beCivil.list3": {
+    "message": "互いを尊重しましょう。嫌がらせや攻撃をしたり、なりすましたり、個人情報を公開したりしないでください。"
+  },
+  "codeOfConduct.beCivil.list4": {
+    "message": "コミュニティを尊重しましょう。スパムの投稿やフォーラムの破壊行為はしないでください。"
+  },
+  "codeOfConduct.beCivil.list5": {
+    "message": "ハラスメントを深刻に受け止めています。ハラスメントには、性別、年齢、性的指向、障害、外見、体型、人種、宗教に関する攻撃的な言葉だけでなく、意図的な脅迫、ストーキング、つきまとい、会話の持続的な妨害も含まれます。メンバー、管理者、モデレーターへのハラスメントは容認されません。"
+  },
+  "codeOfConduct.beCivil.list6": {
+    "message": "他のコミュニティメンバーの個人情報（名前、住所、電話番号、ソーシャルメディアアカウントを含むがこれに限定されない）を投稿しないでください。"
+  },
+  "codeOfConduct.beCivil.list7": {
+    "message": "削除された情報を再投稿しないでください。"
+  },
+  "codeOfConduct.beCivil.description2": {
+    "message": "これらは正確な定義を持つ具体的な用語ではありません。これらに見えるようなことも避けてください。確信が持てない場合は、自分の投稿が世界的なニュースサイトのトップページに掲載されたらどう感じるか考えてみてください。これは公開コミュニティであり、検索エンジンがこれらの議論をインデックスします。言語、リンク、画像は家族や友人にとっても安全なものにしてください。"
+  },
+  "codeOfConduct.keepTidy.title": {
+    "message": "整理整頓を心がけて"
+  },
+  "codeOfConduct.keepTidy.description": {
+    "message": "物事を適切な場所に置く努力をして、整理ではなくディスカッションにより多くの時間を費やせるようにしましょう。健全なコミュニティには会話が構造化されカテゴリ分けされていることが必要です。だから："
+  },
+  "codeOfConduct.keepTidy.list1": {
+    "message": "間違ったカテゴリやチャンネルで会話を始めないでください。"
+  },
+  "codeOfConduct.keepTidy.list2": {
+    "message": "同じ内容を複数のチャンネルにクロスポストしないでください。"
+  },
+  "codeOfConduct.postOwnStuff.title": {
+    "message": "自分のコンテンツだけを投稿"
+  },
+  "codeOfConduct.postOwnStuff.description": {
+    "message": "他人のものを許可なくデジタルで投稿することはできません。知的財産（ソフトウェア、動画、音声、画像）の窃取方法やその他の法律違反の方法の説明、リンク、手段を投稿することはできません。クレジットは常に元のコンテンツ制作者に帰属させるべきです。"
+  },
+  "codeOfConduct.multipleAccounts.title": {
+    "message": "複数アカウント"
+  },
+  "codeOfConduct.multipleAccounts.description": {
+    "message": "同一ユーザーによる複数アカウントは許可されません。これにより、オンラインの世界でより人間的な体験が促進され、スパムが制限されます。重複アカウントは調査され、削除される場合があります。"
+  },
+  "codeOfConduct.violation.title": {
+    "message": "ルール違反"
+  },
+  "codeOfConduct.violation.description1": {
+    "message": "ルールに違反した場合、モデレーターは以下の制裁を行います："
+  },
+  "codeOfConduct.violation.list1": {
+    "message": "初回：警告が与えられ、24時間アカウントが停止されます。"
+  },
+  "codeOfConduct.violation.list2": {
+    "message": "2回目：警告が与えられ、違反の深刻さに応じて最大1か月間アカウントが停止されます。"
+  },
+  "codeOfConduct.violation.list3": {
+    "message": "3回目（最終）：コミュニティルールに繰り返し違反し続ける場合、コミュニティプラットフォームからアカウントが永久追放されます。必要に応じて、すべてのコミュニティチャンネルにこのペナルティが適用される場合があります。"
+  },
+  "codeOfConduct.violation.description2": {
+    "message": "コミュニティチームは、Cardanoコミュニティ行動規範に違反した人の公式コミュニティチャンネルへのアクセスを拒否する権利を有します。"
+  },
+  "codeOfConduct.poweredByYou.title": {
+    "message": "あなたの力で"
+  },
+  "codeOfConduct.poweredByYou.description": {
+    "message": "このコミュニティはコミュニティスタッフとあなた、コミュニティによって運営されています。ここでの運営方法についてさらに質問がある場合は、フォーラムの[コミュニティフィードバックカテゴリ](https://forum.cardano.org/c/english/community-feedback/16)で新しいトピックを開いて議論しましょう！重要または緊急の問題がある場合は、community *at* cardano *dot* orgに直接ご連絡ください。"
+  },
+  "constitution.error.title": {
+    "message": "現在制定されている憲法"
+  },
+  "constitution.error.localCopy": {
+    "message": "（ローカルコピー）"
+  },
+  "constitution.error.fetchError": {
+    "message": "data.cardano.orgから取得できませんでした："
+  },
+  "constitution.error.showingLocal": {
+    "message": "以下にローカルコピーを表示します。"
+  },
+  "constitution.link.download": {
+    "message": "憲法をダウンロード"
+  },
+  "constitution.link.viewRawMarkdown": {
+    "message": "Raw Markdownを表示"
+  },
+  "constitution.loading.versions": {
+    "message": "憲法バージョンを読み込み中..."
+  },
+  "constitution.enacted.title": {
+    "message": "現在制定されているCardano憲法"
+  },
+  "constitution.enacted.description": {
+    "message": "Cardano憲法を探索しましょう：Cardanoブロックチェーンのガバナンスフレームワーク。現在制定されている憲章を読み、批准の経緯をたどり、IPFS経由で全文をダウンロードできます。"
+  },
+  "constitution.link.viewOnIPFS": {
+    "message": "IPFSで表示"
+  },
+  "constitution.error.loadDocument": {
+    "message": "憲法ドキュメントを読み込めませんでした："
+  },
+  "constitution.loading.document": {
+    "message": "ドキュメントを読み込み中..."
+  },
+  "constitution.history.title": {
+    "message": "憲法批准の履歴"
+  },
+  "constitution.history.description": {
+    "message": "以下でCardano憲法とその批准の履歴を確認できます。任意のバージョンをクリックして、IPFS上の全文を表示できます。"
+  },
+  "constitution.history.versionRatified": {
+    "message": "バージョンが批准されたエポック"
+  },
+  "constitution.history.enactedAtEpoch": {
+    "message": "制定されたエポック"
+  },
+  "constitution.history.hash": {
+    "message": "ハッシュ："
+  },
+  "constitution.link.viewOnIPFSHistory": {
+    "message": "この憲法をIPFSで表示"
+  },
+  "constitution.hero.title": {
+    "message": "Cardano憲法"
+  },
+  "constitution.hero.description": {
+    "message": "Cardano憲法を知る：Cardanoブロックチェーンのガバナンスフレームワーク。"
+  },
+  "constitution.layout.title": {
+    "message": "Cardano憲法：オンチェーンガバナンスの枠組み"
+  },
+  "constitution.layout.description": {
+    "message": "Cardano憲法を探索しましょう：Cardanoブロックチェーンのガバナンスフレームワーク。現在制定されている憲章を読み、批准の経緯をたどり、IPFS経由で全文をダウンロードできます。"
+  },
+  "constitution.history.unavailable": {
+    "message": "現在、批准履歴のライブデータを取得できません。",
+    "description": "Shown when the live API call for the ratification history fails"
+  },
+  "constitution.meta.enactedAt": {
+    "message": "制定エポック",
+    "description": "Label before the enacted epoch number in the constitution header"
+  },
+  "constitution.toc.title": {
+    "message": "目次",
+    "description": "Constitution table-of-contents heading"
+  },
+  "constitution.verify.match": {
+    "message": "現在のオンチェーン憲法と一致",
+    "description": "Badge shown when the displayed constitution matches the on-chain enacted version"
+  },
+  "constitution.verify.newer": {
+    "message": "オンチェーンでは新しいバージョン（エポック{epoch}）が制定されています。ここでは最後に公開された版を表示しています。",
+    "description": "Notice when a newer constitution version exists on-chain; {epoch} is replaced with the epoch number"
+  },
+  "contact.hero.title": {
+    "message": "お問い合わせ"
+  },
+  "contact.hero.description": {
+    "message": "CardanoはCardano Foundation、IOG、EMURGO、Intersect、PRAGMAなどによって支えられています。以下のフォームにご記入いただければ、最適なチームをご紹介します。"
+  },
+  "contact.intersect.title": {
+    "message": "Intersect - メンバーベースの組織"
+  },
+  "contact.intersect.description": {
+    "message": "Intersectは、Cardanoエコシステムの継続と将来の発展を担うメンバーベースの組織です。"
+  },
+  "contact.intersect.buttonLabel": {
+    "message": "Intersectに参加"
+  },
+  "contact.technicalIssue.title": {
+    "message": "技術的な問題を報告"
+  },
+  "contact.technicalIssue.description": {
+    "message": "以下のウォレットに関するサポートが必要な場合は、サポートチケットを作成してください。"
+  },
+  "contact.technicalIssue.buttonLabel": {
+    "message": "チケットを作成"
+  },
+  "contact.sponsorship.title": {
+    "message": "Cardano Summitスポンサーシップ"
+  },
+  "contact.sponsorship.description1": {
+    "message": "年次Cardano Summitのスポンサーシップにご関心をお寄せいただきありがとうございます。サミットの成功にはご支援が不可欠です。スポンサーシップの機会は大きな露出を提供し、組織のニーズや目標に合わせてカスタマイズできます。"
+  },
+  "contact.sponsorship.description2": {
+    "message": "以下のフォームにご記入いただき、ご関心をお寄せください。組織情報とスポンサーシップの希望をお知らせいただければ、チームが確認の上、スポンサーシップパッケージと最適な連携方法についてご連絡いたします。"
+  },
+  "contact.sponsorship.buttonLabel": {
+    "message": "スポンサーシップ申請"
+  },
+  "contact.meta.title": {
+    "message": "Cardanoへのお問い合わせ"
+  },
+  "contact.meta.description": {
+    "message": "Cardanoエコシステムへのお問い合わせはこちら。パートナーシップ、サポート、スポンサーシップに関するご相談は、Cardano Foundation、Intersect、IOG、EMURGOまでご連絡ください。"
+  },
+  "contact.divider.hereToHelp": {
+    "message": "お力になります"
+  },
+  "contact.helpSection.title": {
+    "message": "何かお手伝いできることはありますか？"
+  },
+  "contact.select.prefix": {
+    "message": "私は"
+  },
+  "contact.select.placeholder": {
+    "message": "まだ選択していません（選択してください）"
+  },
+  "contact.select.option.technicalIssue": {
+    "message": "Daedalus、Nami、Laceに技術的な問題がある"
+  },
+  "contact.select.option.intersect": {
+    "message": "Intersectに参加したい"
+  },
+  "contact.select.option.sponsor": {
+    "message": "Cardano Summitのスポンサーになりたい"
+  },
+  "contact.select.option.different": {
+    "message": "その他のお問い合わせ"
+  },
+  "artworkContest.hero.title": {
+    "message": "すべての人のために、より良く機能する世界へ"
+  },
+  "artworkContest.hero.description": {
+    "message": "Cardanoは変革者、イノベーター、ビジョナリーのためのブロックチェーンプラットフォームです。多くの人、そして少数の人にも可能性を生み出し、ポジティブなグローバル変化をもたらすためのツールとテクノロジーを備えています。"
+  },
+  "artworkContest.imagePreview.alt": {
+    "message": "プレビュー"
+  },
+  "artworkContest.layout.title": {
+    "message": "Cardanoアートワークコンテスト"
+  },
+  "artworkContest.layout.description": {
+    "message": "経済的アイデンティティを持たない数十億の人々に力を与えるために設計されたオープンプラットフォーム。アイデンティティ、価値、ガバナンスを管理するための分散型アプリケーションを提供します。"
+  },
+  "artworkContest.content.title": {
+    "message": "アートワークコンテスト テストページ"
+  },
+  "artworkContest.content.description1": {
+    "message": "ここに画像をアップロードして、どのように表示されるか確認しましょう。"
+  },
+  "artworkContest.content.description2": {
+    "message": "ダークモードに切り替えたりブラウザのサイズを変更して、適応の仕方を確認できます。"
+  },
+  "artworkContest.content.quote1": {
+    "message": "画像は送信されません。"
+  },
+  "artworkContest.content.quote2": {
+    "message": "すべてはあなたのマシン上でのみ行われます"
+  },
+  "developers.hero.title": {
+    "message": "Cardanoで開発を始めよう"
+  },
+  "developers.hero.description": {
+    "message": "Cardano上での開発を始めるためのリソースとエントリーポイントを厳選しました。"
+  },
+  "developers.meta.title": {
+    "message": "Cardanoで開発：開発者ツールとドキュメント"
+  },
+  "developers.meta.description": {
+    "message": "Cardanoでの開発を始めましょう。開発者ツール、スマートコントラクト言語、API、テストネット、チュートリアルを活用して、初めての分散型アプリケーションを立ち上げられます。"
+  },
+  "developers.divider.resources": {
+    "message": "開発者リソース"
+  },
+  "developers.documentation.title": {
+    "message": "ドキュメント"
+  },
+  "developers.documentation.text": {
+    "message": "Cardanoブロックチェーンの構築、統合、最新情報の入手に必要な基本リソースとアップデートにアクセスしましょう。以下には、開発者ポータル、詳細なドキュメント、統合ガイド、最新のコア開発アップデートへのリンクがあります。"
+  },
+  "developers.tools.title": {
+    "message": "開発者ツール"
+  },
+  "developers.tools.text": {
+    "message": "Cardanoエコシステムを形作るツール、プロジェクト、アップデートを探索しましょう。以下には、ビルダーツール、Cardano上に構築されたプロジェクトのショーケース、過去7日間のCardano開発関連リポジトリの全ブランチからコミットを集約した技術アップデートトラッカーへのリンクがあります。"
+  },
+  "developers.support.title": {
+    "message": "サポート"
+  },
+  "developers.support.text": {
+    "message": "さまざまなプラットフォームを通じて、活気あるCardano開発者コミュニティに参加しましょう。以下には、Cardano Stack Exchange、Cardano Forum、公式Telegramグループへのリンクがあります。分散型エコシステムで仲間の開発者とつながり、質問し、知見を共有しましょう。"
+  },
+  "developers.cta.title": {
+    "message": "Ready to start building?"
+  },
+  "developers.cta.buttonLabel": {
+    "message": "Visit Developer Portal"
+  },
+  "discoverCardano.hero.title": {
+    "message": "Cardanoを知る"
+  },
+  "discoverCardano.hero.description": {
+    "message": "Cardanoは5つの原則を結びつけます：人、目的、テクノロジー、研究、機会。この新しい知の星座を探索し、学びましょう。"
+  },
+  "discoverCardano.meta.title": {
+    "message": "Cardanoとは：持続可能性を追求したブロックチェーン"
+  },
+  "discoverCardano.meta.description": {
+    "message": "Cardanoが選ばれる理由を知りましょう。査読済みの科学研究に基づき、世界中のコミュニティに支えられ、持続可能で分散化された未来のために設計されています。"
+  },
+  "discoverCardano.people.title": {
+    "message": "人"
+  },
+  "discoverCardano.people.subtitle": {
+    "message": "共に歩めば、より多くの人のために、より多くを実現できる。"
+  },
+  "discoverCardano.people.text1": {
+    "message": "Cardanoは、科学者、エンジニア、思想的リーダーの分散型コミュニティによって構築されています。共通の目的のもとに集結した彼らは、世界が必要とするポジティブな変化を起こすテクノロジープラットフォームを創造しています。未来は過去に縛られるべきではなく、テクノロジーを通じてすべての人により多くの可能性を開くことができると信じています。"
+  },
+  "discoverCardano.people.text2": {
+    "message": "すべてのADA保有者はCardanoネットワークにステークを持っています。ウォレットに保管されたADAは、ステークプールに委任して報酬を得たり、ステークプールに誓約して報酬獲得の確率を高めたりできます。将来的には、Cardanoプラットフォーム上のさまざまなアプリケーションやサービスにもADAが利用できるようになります。"
+  },
+  "discoverCardano.purpose.title": {
+    "message": "目的"
+  },
+  "discoverCardano.purpose.subtitle": {
+    "message": "持続可能な未来のために構築されたプラットフォーム。人々がより良く協力し、互いを信頼し、グローバルな課題にグローバルな解決策を生み出すために。"
+  },
+  "discoverCardano.purpose.text1": {
+    "message": "Cardanoは分岐点です。私たちがいた場所から、向かうべき場所へと導きます。それは安全で透明、公正なグローバル社会であり、少数だけでなく多くの人に奉仕する社会です。かつての技術革命と同様に、個人、企業、社会として働き、交流し、創造する方法の新たなテンプレートを提示します。"
+  },
+  "discoverCardano.purpose.text2": {
+    "message": "Cardanoは仲介者のいない世界というビジョンから始まりました。権力が説明責任を負わない少数者に集中するのではなく、力を与えられた多数が持つ世界です。個人が自分のデータとやり取りの方法をコントロールし、企業が独占的で官僚的な権力構造から独立して成長でき、社会が真の民主主義を追求できる世界です。それがCardanoによって可能になる世界です。"
+  },
+  "discoverCardano.technology.title": {
+    "message": "テクノロジー"
+  },
+  "discoverCardano.technology.subtitle": {
+    "message": "Cardanoはテクノロジーに新しい基準をもたらします。オープンで包括的な基準が旧来のものに挑戦し、持続可能でグローバルに分散されたイノベーションの新時代を切り開きます。"
+  },
+  "discoverCardano.technology.text1": {
+    "message": "小さなことからグローバルなことまで、Cardanoは私たちのやり取り、取引、創造の方法を改善し、最終的にはグローバル社会としての運営方法を変革します。"
+  },
+  "discoverCardano.technology.text2": {
+    "message": "Cardanoは、画期的なOuroboros プルーフ・オブ・ステーク・コンセンサスプロトコル上に構築され、Haskellプログラミング言語で開発されたブロックチェーンプラットフォームです。関数型プログラミング言語であるHaskellにより、Cardanoはエビデンスに基づく開発を追求し、比類のないセキュリティと安定性を実現しています。"
+  },
+  "discoverCardano.technology.text3": {
+    "message": "私たちのテクノロジーは[研究](/research)に支えられています。科学的手法によるグローバルソフトウェアプラットフォームの構築において、その意味を再定義してきました。安全で持続可能で多くの人が統治できる、より良い未来を築くために、私たちはあえて困難な道を選びました。その結果、能力とパフォーマンスにおいて比類のないブロックチェーンプラットフォームが誕生し、真にグローバルなアプリケーション、システム、実際のビジネスユースケースをサポートできるようになりました。"
+  },
+  "discoverCardano.research.title": {
+    "message": "研究"
+  },
+  "discoverCardano.research.subtitle": {
+    "message": "先駆的なテクノロジーは、画期的な研究から始まる。"
+  },
+  "discoverCardano.research.text1": {
+    "message": "Cardanoは[研究](/research)から始まり、研究を通じて成長してきました。統合するすべてのテクノロジーは、開発される前に仕様化されます。そして仕様化される前に研究されます。その[研究](/research)はピアレビュー（査読）を受けています。これはブロックチェーンプラットフォームとしてユニークな成果であり、アイデアが検証される前に検証が行われます。"
+  },
+  "discoverCardano.research.text2": {
+    "message": "一流の学者が率いる[研究](/research)は、哲学、社会学、行動科学、ゲーム理論を探究しています。各成果を達成するために、私たちは見落とされがちな変数まで考慮します。それはグローバルで分散型のプラットフォームの整合性と持続可能性に最終的に影響を及ぼす可能性があるからです。"
+  },
+  "discoverCardano.opportunity.title": {
+    "message": "機会"
+  },
+  "discoverCardano.opportunity.subtitle": {
+    "message": "あらゆる新しい機会の出発点。Cardanoでビジネスを強化し、テクノロジーの未来を発見しましょう。"
+  },
+  "discoverCardano.opportunity.text1": {
+    "message": "Cardanoは新しいイノベーション時代のテンプレートとツールセットを提供します。個人、開発者、企業が新しい可能性を発見し、変化を実現し、生活を豊かにするための最先端のテクノロジー、モデル、方法論を導入します。"
+  },
+  "discoverCardano.opportunity.text2": {
+    "message": "ブロックチェーン技術は、金融、社会、テクノロジーを問わず、多くのレガシーな課題に対する答えを持っています。本質的な関係から仲介者を排除し、高コストな依存関係、制約的なパラダイム、非効率な取引・交換システムを軽減するために権力を再分配します。Cardanoはこの可能性の実現です。大規模な技術採用を加速し、持続的なエコシステムをサポートするために必要なセキュリティ、プライバシー、持続可能性、パフォーマンス基準を備えたプラットフォームです。"
+  },
+  "discoverCardano.opportunity.text3": {
+    "message": "Cardanoは新しく、よりセキュアで、グローバルにスケーラブルなソリューションを提供します。テクノロジーはエビデンスに基づく開発手法によって継続的に改善され、すべてのメンバーが発言権を持つ民主的な投票システムによって導かれています。Cardanoの可能性はあなたのユースケースに適応できます。それは新たな機会を絶えず生み出す機会です。"
+  },
+  "entities.hero.title": {
+    "message": "Cardanoを構築する組織"
+  },
+  "entities.hero.description": {
+    "message": "Cardano上で活発に開発を行う企業を含む多数の独立した組織が連携し、プラットフォームの発展とミッションとの整合性を維持しています。"
+  },
+  "entities.meta.title": {
+    "message": "Cardanoを築く組織"
+  },
+  "entities.meta.description": {
+    "message": "Cardano上で活発に開発を行う企業を含む多数の独立した組織が連携し、プラットフォームの発展とミッションとの整合性を維持しています。"
+  },
+  "entities.entitiesSection.divider": {
+    "message": "Cardanoを推進する組織"
+  },
+  "entities.companiesSection.divider": {
+    "message": "Cardano上で開発する企業・団体・コラボレーション"
+  },
+  "entities.companiesSection.description": {
+    "message": "Cardano上で開発を行う組織は増え続けています。以下はその一部です："
+  },
+  "entities.companiesSection.addCompanyLink": {
+    "message": "あなたの会社を追加"
+  },
+  "events.hero.title": {
+    "message": "Cardanoイベント"
+  },
+  "events.hero.description": {
+    "message": "今後のCardanoイベントをまとめてチェック。コミュニティとつながり、学び、共に成長するチャンスを見逃さないで。"
+  },
+  "events.meta.title": {
+    "message": "Cardanoのイベント・カンファレンス・ミートアップ"
+  },
+  "events.meta.description": {
+    "message": "今後のCardanoイベントをまとめてチェック。コミュニティとつながり、学び、共に成長するチャンスを見逃さないで。"
+  },
+  "events.platforms.luma": {
+    "message": "Luma.comのイベント"
+  },
+  "events.platforms.meetup": {
+    "message": "Meetup.comのイベント"
+  },
+  "events.filter.searchPlaceholder": {
+    "message": "イベント名・開催地・トピックで検索"
+  },
+  "events.filter.timeUpcoming": {
+    "message": "開催予定"
+  },
+  "events.filter.timePast": {
+    "message": "過去"
+  },
+  "events.filter.timeAll": {
+    "message": "すべて"
+  },
+  "events.filter.placeInPerson": {
+    "message": "対面"
+  },
+  "events.filter.placeOnline": {
+    "message": "オンライン"
+  },
+  "events.filter.topicGroup": {
+    "message": "トピック"
+  },
+  "events.filter.allTopics": {
+    "message": "すべてのトピック"
+  },
+  "events.featured.title": {
+    "message": "注目の開催予定イベント"
+  },
+  "events.featured.thisWeek": {
+    "message": "今週"
+  },
+  "events.recaps.title": {
+    "message": "最近のイベントレポート"
+  },
+  "events.recaps.watch": {
+    "message": "レポートを見る"
+  },
+  "events.carousel.prev": {
+    "message": "前へ"
+  },
+  "events.carousel.next": {
+    "message": "次へ"
+  },
+  "events.view.list": {
+    "message": "リスト"
+  },
+  "events.view.calendar": {
+    "message": "カレンダー"
+  },
+  "events.divider.calendar": {
+    "message": "イベントカレンダー"
+  },
+  "events.calendar.today": {
+    "message": "今日"
+  },
+  "events.calendar.upcoming": {
+    "message": "開催予定のイベント"
+  },
+  "events.calendar.tzNote": {
+    "message": "日時はUTC表記です。内容は変更される場合がありますので、最新情報は各イベントページでご確認ください。"
+  },
+  "events.card.register": {
+    "message": "イベントを見る"
+  },
+  "events.card.online": {
+    "message": "オンライン"
+  },
+  "events.card.recurring": {
+    "message": "定期開催"
+  },
+  "events.divider.upcoming": {
+    "message": "開催予定のイベント"
+  },
+  "events.divider.all": {
+    "message": "すべてのイベント"
+  },
+  "events.divider.past": {
+    "message": "過去のイベントとレポート"
+  },
+  "events.empty.upcoming": {
+    "message": "現在、条件に一致する開催予定のイベントはありません。最新情報は下記のCardanoカレンダーをご覧ください。"
+  },
+  "events.empty.past": {
+    "message": "条件に一致する過去のイベントはありません。"
+  },
+  "events.divider.discover": {
+    "message": "世界各地のCardanoイベントを探す"
+  },
+  "events.submit.title": {
+    "message": "Cardanoイベントを開催しませんか？"
+  },
+  "events.submit.description": {
+    "message": "あなたのイベントを申請して、cardano.orgに掲載しませんか。"
+  },
+  "events.submit.cta": {
+    "message": "イベントを申請"
+  },
+  "exchanges.hero.title": {
+    "message": "Cardanoを統合する"
+  },
+  "exchanges.hero.description": {
+    "message": "Cardanoとの簡単な統合。すべてのアップグレード。メンテナンス不要。"
+  },
+  "exchanges.layout.title": {
+    "message": "Cardanoの統合：取引所・ウォレット向けパートナーシップ"
+  },
+  "exchanges.layout.description": {
+    "message": "取引所、ウォレット、決済プラットフォームにCardanoを統合しましょう。ADA対応のためのドキュメント、リソース、パートナーシップの機会をご案内します。"
+  },
+  "exchanges.intro.description": {
+    "message": "Cardanoを[統合する方法](https://developers.cardano.org)はさまざまで、その一つがAdrestiaです。Adrestiaチームは、開発者と取引所がCardanoをリリースをまたいで簡単に統合・操作できるよう、ウォレットSDKとAPIセットを提供し、取引所と開発者の統合をサポートしています。"
+  },
+  "exchanges.whyAdrestia.divider": {
+    "message": "なぜAdrestia？"
+  },
+  "exchanges.whyAdrestia.leftText": {
+    "message": "ブロックチェーン、特にCardanoは急速に進化しています。リリースに追従し続けることはメンテナンスの課題になりえます。Cardanoとの開発と統合をできるだけ簡単にすることに尽力しています。Adrestiaを通じて、Cardanoはあなたのシステムと要件に適応します。"
+  },
+  "exchanges.whyAdrestia.rightText": {
+    "message": "Cardanoの改善が複雑さやリソースオーバーヘッドの増加を意味すべきではありません。利用可能になった改善はすぐに、必要に応じてイノベーションとデプロイを行いたいと考えています。ある月は少数のアップデート、次の月は多数ということもあるでしょう。Adrestiaは一貫したSDKとGraphQL APIセットで、開発者がアプリケーションを作成し、リリースをまたいでCardanoネットワークとのコア互換性と機能性を維持するのを容易にします。"
+  },
+  "exchanges.cta1.title": {
+    "message": "重要なことに集中を。残りは私たちにお任せください。"
+  },
+  "exchanges.cta1.buttonLabel": {
+    "message": "Adrestiaにアクセス"
+  },
+  "exchanges.accessAdrestia.divider": {
+    "message": "Adrestiaにアクセス"
+  },
+  "exchanges.whatMakesDifferent.title": {
+    "message": "Adrestiaの違いとは？"
+  },
+  "exchanges.whatMakesDifferent.description1": {
+    "message": "Cardanoのアーキテクチャはモジュール性と適応性のために構築されています。Adrestiaを通じて、開発者と取引所のメンテナンスオーバーヘッドを大幅に削減し、最も重要な時間を節約できます。"
+  },
+  "exchanges.whatMakesDifferent.description2": {
+    "message": "ほとんどのブロックチェーンAPIスイートとは異なり、Adrestiaは主要なサービスをCardanoコアノードから分離・分割します。新しいSDKとAPIはリリース間で一貫しており、開発者は各リリースごとにプラットフォームを学び直す必要がありません。Adrestiaは自己完結型のサービスと、クエリ、トランザクション、情報抽出のさまざまな方法を提供します。"
+  },
+  "exchanges.benefits.reduceTime.title": {
+    "message": "市場投入時間を短縮"
+  },
+  "exchanges.benefits.reduceTime.text": {
+    "message": "新しいリリースでコードが壊れる心配なく、Cardano向けアプリケーションを開発できます。"
+  },
+  "exchanges.benefits.reduceDowntime.title": {
+    "message": "ダウンタイムを削減"
+  },
+  "exchanges.benefits.reduceDowntime.text": {
+    "message": "下位互換性の問題が少ないため、ダウンタイムが大幅に削減されます。"
+  },
+  "exchanges.benefits.reduceMaintenance.title": {
+    "message": "メンテナンスコストを削減"
+  },
+  "exchanges.benefits.reduceMaintenance.text": {
+    "message": "リリース間のアプリケーション互換性の維持にかかる時間とリソースを節約できます。"
+  },
+  "exchanges.benefits.increaseProductivity.title": {
+    "message": "生産性を向上"
+  },
+  "exchanges.benefits.increaseProductivity.text": {
+    "message": "重要なこと（アプリケーションとウォレットの開発）に集中し、アップデートは私たちにお任せください。"
+  },
+  "exchanges.cta2.title": {
+    "message": "コンポーネントがCardanoコアノードとどのように連携するかを理解し、要件に合った最適なコンポーネントを選びましょう。"
+  },
+  "exchanges.cta2.buttonLabel": {
+    "message": "コアノードアーキテクチャを学ぶ"
+  },
+  "exchanges.learnArchitecture.divider": {
+    "message": "コアノードアーキテクチャを学ぶ"
+  },
+  "exchanges.howDoesItWork.title": {
+    "message": "仕組み"
+  },
+  "exchanges.howDoesItWork.description": {
+    "message": "Cardanoはユーザーと開発者とコアノードの間に追加レイヤーを導入します。このレイヤー内で、コードノードチームがプロトコル改善から生じる複雑な変更、潜在的な問題、ハードフォークを追跡・管理します。AdrestiaライブラリとAPI全体に必要なアップデートを実装し、メンテナンスを代行します。"
+  },
+  "exchanges.ctaTwoColumn.leftTitle": {
+    "message": "Adrestiaユーザーガイド"
+  },
+  "exchanges.ctaTwoColumn.leftText": {
+    "message": "Adrestiaとその可能性について詳しく学びましょう。ユーザーガイドは、いつどのアクションを取るべきかを判断するのに役立つ、わかりやすいリソースです。"
+  },
+  "exchanges.ctaTwoColumn.leftButtonLabel": {
+    "message": "Adrestiaにアクセス"
+  },
+  "exchanges.ctaTwoColumn.rightTitle": {
+    "message": "Adrestiaコンポーネント概要＆フローチャートガイド"
+  },
+  "exchanges.ctaTwoColumn.rightText": {
+    "message": "自己完結型のライブラリとAPIセットを確認し、最適なものを見つけましょう。"
+  },
+  "exchanges.ctaTwoColumn.rightButtonLabel": {
+    "message": "詳しく見る"
+  },
+  "genesis.hero.title": {
+    "message": "ジェネシス"
+  },
+  "genesis.hero.description": {
+    "message": "Cardano決済レイヤーの一部であるADAトークンバウチャーの配布は、2015年10月から2017年1月にかけてアジアで4段階にわたって行われました。"
+  },
+  "genesis.layout.title": {
+    "message": "Cardanoジェネシス分配：ADAの初期配分"
+  },
+  "genesis.layout.description": {
+    "message": "Cardano決済レイヤーの一部であるADAトークンバウチャーの配布は、2015年10月から2017年1月にかけてアジアで4段階にわたって行われました。"
+  },
+  "genesis.divider.distribution": {
+    "message": "ジェネシス配布"
+  },
+  "genesis.distribution.title": {
+    "message": "配布"
+  },
+  "genesis.distribution.paragraph1": {
+    "message": "ADAの初期配布（実質的にはプレローンチ販売イベント）は、暗号資産業界で初めてKYC（本人確認）ガイドラインを設定し、配布プロセスの監査が実施されました。バウチャー配布の情報と統計は、以下のADAバウチャー配布統計セクションに詳述されています。"
+  },
+  "genesis.distribution.paragraph2": {
+    "message": "これらのADAに加えて、ジェネシスブロック配布には販売期間中に販売されたADAバウチャーの20%に相当する**5,185,414,108 ADA**が含まれています。これらは技術・ビジネス開発プールの一部であるCardanoエコシステムの3つのグループに生成・配布されました。IOHK、EMURGO、Cardano Foundationへの配布は以下の通りです："
+  },
+  "genesis.distribution.cardanoFoundation": {
+    "message": "Cardano Foundation（スイス）：**648,176,761 ADA**"
+  },
+  "genesis.distribution.emurgo": {
+    "message": "EMURGO：**2,074,165,644 ADA**"
+  },
+  "genesis.distribution.iohk": {
+    "message": "IOHK：**2,463,071,701 ADA**"
+  },
+  "genesis.distribution.totalAmount": {
+    "message": "公開販売の配布は**25,927,070,538 ADA**です。そのため、ローンチ時に利用可能なADAの総量は**31,112,484,646 ADA**でした。"
+  },
+  "genesis.distribution.supplyTracking": {
+    "message": "ジェネシスブロック以降、特にステーキング報酬のあるShelleyフェーズ以降、Cardanoトークンの配布と供給は継続的に拡大しています。これは[Supply Insightページ](/insights/supply)でエポックごとに追跡できます。"
+  },
+  "genesis.divider.proceeds": {
+    "message": "ジェネシス収益"
+  },
+  "genesis.proceeds.title": {
+    "message": "収益"
+  },
+  "genesis.proceeds.paragraph1": {
+    "message": "ADAバウチャーは日本の企業とその営業チームによって日本で販売され、総売上額は108,844.5 BTCでした。販売に関する詳細情報はこちらで確認できます。"
+  },
+  "genesis.proceeds.paragraph2": {
+    "message": "総売上収益の一部はCardano Foundationに以下の通り寄付されました："
+  },
+  "genesis.proceeds.isleOfMan": {
+    "message": "Cardano Foundation（マン島、前身）：**1,090.00 BTC**"
+  },
+  "genesis.proceeds.switzerland": {
+    "message": "Cardano Foundation（スイス）：**7,168.00 BTC**"
+  },
+  "governance.hero.title": {
+    "message": "Cardanoのガバナンス"
+  },
+  "governance.hero.description": {
+    "message": "Cardanoは安全な分散型システムで運営されており、ADA保有者がプラットフォームの開発を形作り、エコシステムの方向性に影響を与えます。"
+  },
+  "governance.meta.title": {
+    "message": "Cardanoガバナンス：コミュニティ主導の意思決定"
+  },
+  "governance.meta.description": {
+    "message": "Cardanoのガバナンスは、すべてのADA保有者に発言権を与えます。DRepへの委任、提案への投票、あるいは自らDRepとして登録して、ネットワークの未来を形づくりましょう。"
+  },
+  "governance.divider.withinCardano": {
+    "message": "Cardanoにおけるガバナンス"
+  },
+  "governance.withinCardano.text1": {
+    "message": "Cardanoはコミュニティによって定義されています。そのガバナンスモデルは、個人が役割を果たすインセンティブを持ち、投票が不変に記録される真の民主主義が可能であることを示しています。トークン保有者がプラットフォームの未来を決定し、コミュニティがCardanoトレジャリー資金の使途を決定する方法です。"
+  },
+  "governance.withinCardano.text2": {
+    "message": "このモデルとそれを支える先駆的なテクノロジーは、あらゆるアプリケーション、システム、さらには社会にも適用できます。少数だけでなく多くの人によって決定される変化の設計図であり、仲介者を排除して権力を再分配し、すべての人の生活を改善します。"
+  },
+  "governance.withinCardano.quote": {
+    "message": "変化は一つの声から始まる。しかし、多くの声の組み合わせで実現する。"
+  },
+  "governance.withinCardano.buttonText": {
+    "message": "最新情報を受け取る"
+  },
+  "governance.divider.delegateVoting": {
+    "message": "投票権を委任する"
+  },
+  "governance.delegateVoting.text": {
+    "message": "委任とは、ウォレット内のADA残高に相当する投票権を、あなたの代わりに投票するDRep（委任代表者）に貸し出す行為です。議会の代表者のように機能します。または、自動投票オプションを使って、すべての提案に棄権や「不信任」を表明することもできます。"
+  },
+  "governance.delegateVoting.buttonText": {
+    "message": "DRepを見つける"
+  },
+  "governance.divider.becomeDRep": {
+    "message": "CardanoのDRepになる"
+  },
+  "governance.becomeDRep.text1": {
+    "message": "DRepはCardanoネットワークのガバナンスにおける重要な参加者です。ガバナンスに積極的に関与し、他のCardanoメンバーを代表します。DRepは賢明な判断を下すために、ガバナンスアクションについて常に情報を得ている必要があります。"
+  },
+  "governance.becomeDRep.text2": {
+    "message": "Cardanoのガバナンスに貢献する時間と意欲があるなら、DRepとして登録しましょう。500 ADAの返金可能なデポジットが必要で、退任時に返還されます。"
+  },
+  "governance.becomeDRep.buttonText": {
+    "message": "DRepになる"
+  },
+  "governance.divider.viewActions": {
+    "message": "Cardanoのガバナンスアクションを見る"
+  },
+  "governance.viewActions.text": {
+    "message": "Cardanoの分散型ガバナンスについて情報を得て参加しましょう。最近提出、承認、制定、期限切れ、却下されたものを含む、すべてのオンチェーンアクションを確認できます。進行中の提案に参加し、進捗を追跡し、ネットワークへの影響を理解しましょう。あなたの参加がCardanoの未来を形作ります。"
+  },
+  "governance.viewActions.buttonText": {
+    "message": "ガバナンスアクション"
+  },
+  "governance.divider.whyVoltaire": {
+    "message": "なぜVoltaire"
+  },
+  "governance.divider.actionCharts": {
+    "message": "ガバナンスアクションチャート"
+  },
+  "governance.actionCharts.text": {
+    "message": "各ガバナンスアクションを図解するインタラクティブなチャートセットで、Cardanoガバナンスの仕組みを理解しましょう。プロセス、ルール、閾値を一目で把握でき、ビジュアルな説明で素早く実用的に探索できます。"
+  },
+  "governance.actionCharts.buttonText": {
+    "message": "ガバナンスアクションチャート"
+  },
+  "hardforks.timeline.byron.description": {
+    "message": "Cardanoメインネットの立ち上げとADA暗号資産の導入。"
+  },
+  "hardforks.timeline.label.epoch": {
+    "message": "エポック"
+  },
+  "hardforks.timeline.label.protocolVersion": {
+    "message": "プロトコルバージョン"
+  },
+  "hardforks.timeline.label.transactionId": {
+    "message": "トランザクションID"
+  },
+  "hardforks.timeline.shelley.description": {
+    "message": "ステーキングと分散化機能を導入し、フェデレーテッドシステムから分散型システムへの移行を実現。"
+  },
+  "hardforks.timeline.allegra.description": {
+    "message": "スマートコントラクト機能の前提条件となるトークンロック機能を追加。"
+  },
+  "hardforks.timeline.mary.description": {
+    "message": "Cardanoにネイティブトークン機能を導入し、カスタムトークンの作成と取引を可能に。"
+  },
+  "hardforks.timeline.alonzo.description": {
+    "message": "Plutusを使用したスマートコントラクト機能を導入し、分散型アプリケーション（dApps）のデプロイを可能に。"
+  },
+  "hardforks.timeline.vasil.description": {
+    "message": "ネットワークのスケーラビリティとパフォーマンスを向上。Cardanoコミュニティメンバーのヴァシル・ダボフにちなんで命名。"
+  },
+  "hardforks.timeline.label.transactionIds": {
+    "message": "トランザクションID"
+  },
+  "hardforks.timeline.valentine.description": {
+    "message": "Plutusスマートコントラクト機能とネットワーク全体のパフォーマンスにさらなる改善を導入。"
+  },
+  "hardforks.timeline.chang1.description": {
+    "message": "CIP-1694の分散型ガバナンス機能の第一弾を導入。パラメータ変更とハードフォーク開始のみを有効化。"
+  },
+  "hardforks.timeline.plomin.description": {
+    "message": "CIP-1694の分散型ガバナンス機能の第二弾を導入。ガバナンスアクションの全セットとDRepロールを有効化。"
+  },
+  "hardforks.hero.title": {
+    "message": "ハードフォーク"
+  },
+  "hardforks.hero.description": {
+    "message": "どのようなハードフォークが実施され、どのような機能が導入されたのか？"
+  },
+  "hardforks.layout.title": {
+    "message": "Cardanoハードフォーク：ネットワークアップグレードの歴史"
+  },
+  "hardforks.layout.description": {
+    "message": "ByronからVan Rossemまで、Cardanoのハードフォークの歩みをたどる完全なタイムライン。各ネットワークアップグレードの内容と、プロトコルの進化を紹介します。"
+  },
+  "hardforks.content.title": {
+    "message": "Cardanoのハードフォーク"
+  },
+  "hardforks.content.description": {
+    "message": "Cardanoのハードフォークは、エコシステム内の分裂や不一致を意味しません。むしろ、すべてのノードが現在のエラから新しいエラに切り替わり、新しい機能、検証ルール、パラメータ値を適用する特定の集合的に合意された正確な時間（スロット）を定義します。すべてのステークプールオペレーターはアップグレードをインストールする必要があり、同意する必要もあります。Cardanoのハードフォークは分離ではなく、正確な集合的進化です。"
+  },
+  "hardforks.divider.timeline": {
+    "message": "タイムライン"
+  },
+  "hardforks.loading": {
+    "message": "読み込み中..."
+  },
+  "hardforks.divider.transactionIds": {
+    "message": "ハードフォーク トランザクションID"
+  },
+  "hardforks.transactionIds.description": {
+    "message": "一部のハードフォーク（特にByronとShelley）は一連のアップデートを経て移行したため、単一の特定のトランザクションIDが関連付けられていない場合があります。その他については、提供されたトランザクションIDはハードフォークにつながる重要なパラメータ更新に対応しています。"
+  },
+  "learn.hero.title": {
+    "message": "学ぶ"
+  },
+  "learn.hero.description": {
+    "message": "未来のデジタルアーキテクトを育てる"
+  },
+  "learn.layout.title": {
+    "message": "Cardanoを学ぶ：ガイド・チュートリアル・リソース"
+  },
+  "learn.layout.description": {
+    "message": "プルーフオブステークのコンセンサスやスマートコントラクトから、ステーキング、ガバナンス、分散型アプリケーション開発まで、Cardanoの仕組みを学べます。"
+  },
+  "newsletter.hero.title": {
+    "message": "最新情報を入手"
+  },
+  "newsletter.hero.description": {
+    "message": "Cardanoの最新ニュースとコンテンツ、エコシステムで話題のトピックにアクセスしましょう。"
+  },
+  "newsletter.layout.title": {
+    "message": "Cardanoコミュニティダイジェスト：週刊ニュースとアップデート"
+  },
+  "newsletter.layout.description": {
+    "message": "Cardanoの最新ニュースとコンテンツ、エコシステムで話題のトピックにアクセスしましょう。"
+  },
+  "newsletter.divider.text": {
+    "message": "最新情報を入手"
+  },
+  "newsletter.content.title": {
+    "message": "Cardanoコミュニティダイジェスト"
+  },
+  "newsletter.content.description": {
+    "message": "隔週で最新の注目トピック、開発アップデート、今後のミートアップ一覧、委任戦略の更新、Cardanoアンバサダーの活動などをお届けします。"
+  },
+  "ouroboros.hero.title": {
+    "message": "Ouroboros"
+  },
+  "ouroboros.hero.description": {
+    "message": "環境に配慮し、検証可能なセキュリティを備えた、厳格なセキュリティ保証を持つプルーフ・オブ・ステーク・プロトコル。"
+  },
+  "ouroboros.meta.title": {
+    "message": "Ouroboros：Cardanoのプルーフオブステークプロトコル"
+  },
+  "ouroboros.meta.description": {
+    "message": "Ouroborosは、査読を経て安全性が証明された世界初のプルーフオブステーク・コンセンサスプロトコル。最小限のエネルギーでCardanoブロックチェーンを支える仕組みを解説します。"
+  },
+  "ouroboros.divider.vision": {
+    "message": "ビジョン"
+  },
+  "ouroboros.vision.title": {
+    "message": "ブロックチェーン革命はBitcoinで始まった。今、Ouroborosで続く："
+  },
+  "ouroboros.vision.description": {
+    "message": "プルーフ・オブ・ワークのセキュリティ保証を維持しながら、そのエネルギーコストのごく一部で改善を実現するプルーフ・オブ・ステーク・プロトコルです。Ouroborosは暗号学、組合せ論、数学的ゲーム理論を適用して、プロトコルとそれに依存する分散型ネットワークの整合性、長寿、パフォーマンスを保証します。"
+  },
+  "ouroboros.whatIs.title": {
+    "message": "Ouroborosとは？"
+  },
+  "ouroboros.whatIs.description1": {
+    "message": "Ouroborosは、初の証明可能に安全なプルーフ・オブ・ステーク・プロトコルであり、査読済み研究に基づく初のブロックチェーンプロトコルです。独自のテクノロジーと数学的に検証されたメカニズム（行動心理学と経済哲学を組み合わせた）を統合し、それに依存するブロックチェーンのセキュリティと持続可能性を保証します。その結果、最小限のエネルギー要件でグローバルなパーミッションレスネットワークの伝播を促進できる、証明されたセキュリティ保証を持つプロトコルが生まれました。Cardanoがその最初の例です。"
+  },
+  "ouroboros.whatIs.description2": {
+    "message": "Ouroborosの中核には無限の概念があります。グローバルネットワークは持続的かつ倫理的に成長できなければなりません。世界を守りながら、より大きな機会を提供する必要があります。これがOuroborosで可能になります。"
+  },
+  "ouroboros.whatIs.description3": {
+    "message": "Ouroborosは、新しい市場を持続的にサポートできる、分散型でパーミッションレスなネットワークの構築と実現を促進します。"
+  },
+  "ouroboros.whatIs.quote": {
+    "message": "Ouroborosは新しい世界のパラメータを定義するために存在します。これまでのどれよりも安全で、スケーラブルで、エネルギー効率の高いプロトコルです。"
+  },
+  "ouroboros.whatIs.buttonLabel": {
+    "message": "研究を探索"
+  },
+  "ouroboros.divider.features": {
+    "message": "特徴"
+  },
+  "ouroboros.features.provablySecure.title": {
+    "message": "証明可能なセキュリティ"
+  },
+  "ouroboros.features.provablySecure.text1": {
+    "message": "Ouroborosは攻撃者に対する数学的に検証可能なセキュリティを備えています。"
+  },
+  "ouroboros.features.provablySecure.text2": {
+    "message": "プロトコルは、ステークの51%（Cardanoの場合はADA）が正直な参加者によって保持されている限り、安全であることが保証されています。これはランダムなリーダー選出などの新しい概念によって達成されます。プロトコルは新しいイテレーションと厳格なセキュリティ分析を通じて継続的に進化しています。"
+  },
+  "ouroboros.features.incentivesRewards.title": {
+    "message": "インセンティブと報酬"
+  },
+  "ouroboros.features.incentivesRewards.text1": {
+    "message": "Ouroborosを使用するブロックチェーンネットワークの持続可能性を確保するために、プロトコルにはネットワーク参加者の参加に報いるインセンティブメカニズムが組み込まれています。"
+  },
+  "ouroboros.features.incentivesRewards.text2": {
+    "message": "これはステークプールの運営、またはADAのステークをステークプールに委任することで可能です。いずれの活動を行っても、報酬（ADAの形で）を得ることができます。"
+  },
+  "ouroboros.features.stakeDelegation.title": {
+    "message": "ステーク委任とステークプール"
+  },
+  "ouroboros.features.stakeDelegation.text1": {
+    "message": "Ouroborosはプルーフ・オブ・ステーク・プロトコルです。ネットワークの安定した信頼性の高い接続を確保するために必要なインフラを持つノードオペレーターであるステークプールにネットワーク制御を分配します。"
+  },
+  "ouroboros.features.stakeDelegation.text2": {
+    "message": "各スロットでステークプールがスロットリーダーとして割り当てられ、チェーンにブロックを追加することで報酬が与えられます。ADA保有者は特定のステークプールにステークを委任して、スロットリーダーに選ばれる確率を高め、ステークプールの報酬を分配できます。"
+  },
+  "ouroboros.features.energyEfficient.title": {
+    "message": "エネルギー効率"
+  },
+  "ouroboros.features.energyEfficient.text1": {
+    "message": "Ouroborosは既存のブロックチェーンが直面する最大の課題を解決します。コンセンサスを達成するためにますます多くのエネルギーが必要になるという問題です。Ouroborosにより、Cardanoは[Bitcoinの最大400万倍のエネルギー効率](https://iohk.io/en/blog/posts/2020/03/23/from-classic-to-hydra-the-implementations-of-ouroboros-explained/)で、安全かつ持続的、倫理的にスケールできます。"
+  },
+  "ouroboros.cta.title": {
+    "message": "プロトコルを攻撃するか、ブロックチェーンをフォークするか。このインタラクティブシミュレーションでOuroborosプロトコルを直接体験しましょう。"
+  },
+  "ouroboros.cta.buttonLabel": {
+    "message": "ゲームをプレイ"
+  },
+  "research.hero.title": {
+    "message": "リサーチ"
+  },
+  "research.hero.description": {
+    "message": "Cardanoに関連する研究論文と仕様。"
+  },
+  "research.meta.title": {
+    "message": "Cardanoの研究：査読済みブロックチェーン科学"
+  },
+  "research.meta.description": {
+    "message": "暗号学、コンセンサス、スマートコントラクト、ガバナンスに及ぶ、Cardanoブロックチェーンを支える査読済み論文と形式仕様をご覧ください。"
+  },
+  "signalGovernance.layout.title": {
+    "message": "Cardanoガバナンスへの関心を登録"
+  },
+  "signalGovernance.layout.description": {
+    "message": "DRep、提案、参加方法について最新情報をお届けします。"
+  },
+  "signalGovernance.openGraph.title": {
+    "message": "ガバナンスへの関心を表明する"
+  },
+  "signalGovernance.openGraph.description": {
+    "message": "DRep、提案、参加方法について最新情報をお届けします。"
+  },
+  "signalGovernance.hero.title": {
+    "message": "ガバナンスへの関心を表明する"
+  },
+  "signalGovernance.hero.description": {
+    "message": "DRep、提案、参加方法について最新情報をお届けします。"
+  },
+  "signalGovernance.divider.text": {
+    "message": "ガバナンス"
+  },
+  "signalOperator.layout.title": {
+    "message": "Cardanoステークプール運営への関心を登録"
+  },
+  "signalOperator.layout.description": {
+    "message": "ステークプール運営と技術アップデートに関するすべての最新情報をお届けします。"
+  },
+  "signalOperator.openGraph.title": {
+    "message": "ステークプール運営への関心を表明する"
+  },
+  "signalOperator.openGraph.description": {
+    "message": "ステークプール運営と技術アップデートに関するすべての最新情報をお届けします。"
+  },
+  "signalOperator.hero.title": {
+    "message": "ステークプール運営への関心を表明する"
+  },
+  "signalOperator.hero.description": {
+    "message": "ステークプール運営と技術アップデートに関するすべての最新情報をお届けします。"
+  },
+  "signalOperator.divider.text": {
+    "message": "オペレーター"
+  },
+  "signal.layout.title": {
+    "message": "Cardanoへの関心を登録"
+  },
+  "signal.layout.description": {
+    "message": "ガバナンス、ステークプール運営、開発に関するCardanoの最新情報を受け取りましょう。あなたにとって大切なテーマの情報をお届けします。"
+  },
+  "signal.openGraph.title": {
+    "message": "関心を表明する"
+  },
+  "signal.openGraph.description": {
+    "message": "必要な情報だけを受け取る"
+  },
+  "signal.hero.title": {
+    "message": "関心を表明する"
+  },
+  "signal.hero.description": {
+    "message": "利用可能なトピックを見て、必要な情報だけを受け取りましょう"
+  },
+  "signal.topics.title": {
+    "message": "利用可能なトピック"
+  },
+  "solutions.hero.title": {
+    "message": "エンタープライズソリューション"
+  },
+  "solutions.hero.description": {
+    "message": "サプライチェーン、アイデンティティなどの実証済みブロックチェーンソリューション。"
+  },
+  "solutions.layout.title": {
+    "message": "Cardanoエンタープライズソリューション：ビジネスのためのブロックチェーン"
+  },
+  "solutions.layout.description": {
+    "message": "Cardano上に構築された実証済みエンタープライズブロックチェーンソリューションを発見しましょう。サプライチェーンのトレーサビリティからデジタルプロダクトパスポートまで、実際の導入事例を探索できます。"
+  },
+  "solutions.intro.description": {
+    "message": "Cardanoは業界をまたいだエンタープライズソリューションを提供し、ブロックチェーンのセキュリティと透明性を実用的なビジネスアプリケーションと組み合わせています。実証済みの導入により、組織がサプライチェーン管理、製品認証、サステナビリティトラッキングに分散型テクノロジーを活用する方法を示しています。"
+  },
+  "solutions.divider.explore": {
+    "message": "ユースケースを探索"
+  },
+  "solutions.explore.description": {
+    "message": "特定のブロックチェーンアプリケーションをお探しですか？アイデンティティ、金融、サプライチェーンなどを網羅するユースケースライブラリを探索しましょう。"
+  },
+  "solutions.explore.button": {
+    "message": "すべてのユースケースを見る"
+  },
+  "solutions.cta.title": {
+    "message": "Cardanoで開発する準備はできましたか？Cardano Foundationに連絡してパートナーシップの機会を探りましょう。"
+  },
+  "solutions.cta.button": {
+    "message": "お問い合わせ"
+  },
+  "delegation.faq.q1": {
+    "message": "ステークプールとは？"
+  },
+  "delegation.faq.a1.p1": {
+    "message": "ステークプールはステークプールオペレーターによって運営されています。オペレーターは、ノードの安定した稼働を確保するスキルを持つネットワーク参加者で、Ouroborosプロトコルとネットワーク全体の成功に不可欠です。"
+  },
+  "delegation.faq.a1.p2": {
+    "message": "プロトコルは確率的なメカニズムを使って各スロットのリーダーを選出します。選ばれたリーダーはチェーンに次のブロックを作成します。ステークプールがスロットリーダーに選ばれる確率は、そのノードに委任されたステーク量に比例して高くなります。ステークプールが選ばれてブロックを正常に作成すると報酬を受け取り、その報酬は各メンバーの委任量に応じてプール内で分配されます。ステークプールオペレーターは、報酬のADAから運営費を差し引き、サービス提供のための利益率を設定できます。"
+  },
+  "delegation.faq.q2": {
+    "message": "別のプールにステークを再委任できますか？"
+  },
+  "delegation.faq.a2.p1": {
+    "message": "委任したステークはいつでも別のプールに再委任できます。再委任されたステークは、再委任のポイントから次の次のエポックの終わりまで現在のプールに残ります。その後、委任の設定がチェーン上で更新され、ステークが新しいステークプールに移動します。報酬は各エポック終了時に分配されるため、新しい委任設定が適用されるまでの2エポック間は、元のステークプールからの報酬を受け続けます。"
+  },
+  "delegation.faq.q3": {
+    "message": "複数のステークプールに委任できますか？"
+  },
+  "delegation.faq.a3.p1": {
+    "message": "一部のウォレットでは、複数のステークプールに同時に委任するためのソリューションを提供しています。[ウォレットを見る](/what-is-ada#wallets)。"
+  },
+  "delegation.faq.q4": {
+    "message": "ステークプールのパフォーマンスとは？"
+  },
+  "delegation.faq.a4.p1": {
+    "message": "パフォーマンス指標は、ステークプールの動作がどれだけ良好かを示します。スロットリーダーの選出プロセスは非公開のため、実際に生成されたブロック数に基づいて、ステークプールがどの程度の頻度で選ばれるべきかを推定することしかできません。ステーク量に基づいて期待より多く指名されるプールもあります。例えば、指名されたブロック数の半分しか生成しないプールのパフォーマンス評価は50%になります。これは、ネットワーク接続が不安定であったり、オペレーターがオフにしている場合に起こりえます。"
+  },
+  "delegation.faq.a4.p2": {
+    "message": "パフォーマンス評価は、より長い期間で見ると意味があります。プールが現在のエポックでまだブロック生成に選ばれていない場合、後でブロックを生成する可能性があっても、パフォーマンスは0%になります。プールが指名された数よりも多くのブロックを生成した場合、100%を超えるパフォーマンス評価も可能です。"
+  },
+  "delegation.faq.q5": {
+    "message": "ステークプールの飽和とは？"
+  },
+  "delegation.faq.a5.p1": {
+    "message": "飽和とは、特定のステークプールにネットワークにとって理想的な量以上のステークが委任されている状態を示す用語です。プールが飽和点に達すると、報酬が減少します。飽和メカニズムは、委任者が異なるプールに委任し、オペレーターが代替プールを設立して最大報酬を獲得し続けるインセンティブを与えることで、中央集権化を防ぐために設計されました。"
+  },
+  "delegation.faq.a5.p2": {
+    "message": "目標は、単一のプールが大きくなりすぎて他のプールへの委任を阻害し、報酬の不均衡な分配を受けることを回避することです。ネットワークの健全性は、多数のアクティブなステークプールにバランスの取れたステークが委任されていることで部分的に決まります。プールの数が多く地理的に多様であるほど良いです。"
+  },
+  "delegation.faq.q6": {
+    "message": "ステークプールのデザイラビリティとは？"
+  },
+  "delegation.faq.a6.p1": {
+    "message": "デザイラビリティは、ステークを委任したいADA保有者にとってステークプールがどれだけ魅力的かを測定します。マージン、手数料、パフォーマンス、現在のエポックの利用可能な報酬総額、飽和率など、多くの要因に影響され、ステークプールのランキング決定に寄与します。"
+  },
+  "delegation.faq.q7": {
+    "message": "ステークプールはどのようにランク付けされますか？"
+  },
+  "delegation.faq.a7.p1": {
+    "message": "ステークプールのランク付けは、デザイラビリティとパフォーマンスの組み合わせに加えて、その他の要因を考慮して行われます。なお、ウォレット開発者がそれぞれのウォレットでこの決定を行います。[ウォレットを見る](/what-is-ada#wallets)。"
+  },
+  "delegation.faq.q8": {
+    "message": "ステークプールの選び方は？"
+  },
+  "delegation.faq.a8.p1": {
+    "message": "ステークプールの選択には、十分な情報に基づいた判断をするためにいくつかの要素を考慮する必要があります。いわゆる[プールツール](/apps?tags=pooltool)がステークプール選びに役立ちます。考慮すべきポイント："
+  },
+  "delegation.faq.a8.p2": {
+    "message": "**パフォーマンス：** プールの過去のパフォーマンスを確認しましょう。ブロック生成の成功率を反映しています。一貫して高いパフォーマンスは、プールの信頼性と効果的な運営の良い指標です。"
+  },
+  "delegation.faq.a8.p3": {
+    "message": "**稼働率：** プールが高い稼働率を持っていることを確認しましょう。プールのサーバーが中断なく稼働していることを意味し、ブロック生成に選ばれる確率が高まります。"
+  },
+  "delegation.faq.a8.p4": {
+    "message": "**マージン手数料：** ステークプールは獲得した報酬に対してパーセンテージの手数料を課します。手数料が低いほど報酬が多くなる可能性がありますが、低手数料と高パフォーマンスのバランスを考慮してください。"
+  },
+  "delegation.faq.a8.p5": {
+    "message": "**固定手数料：** プロトコルによって設定された最低固定手数料があります。プールが課す固定手数料を確認しましょう。"
+  },
+  "delegation.faq.a8.p6": {
+    "message": "**飽和点：** プールがプロトコルの定める最適なステーク量を超えると飽和状態になります。飽和したプールでステーキングすると報酬が減少する可能性があるため、この閾値以下のプールを選ぶことをお勧めします。"
+  },
+  "delegation.faq.a8.p7": {
+    "message": "**コミュニティへの参加：** Cardanoコミュニティに積極的に参加しているプールを探しましょう。教育コンテンツ、コミュニティサポート、Cardanoエコシステムへの貢献を通じてその姿勢が見えるでしょう。"
+  },
+  "delegation.faq.a8.p8": {
+    "message": "**ミッション駆動型プール：** 一部のプールは手数料の一部を慈善活動に寄付したり、環境の持続可能性や教育などの特定のミッションに特化しています。これがあなたの価値観に合うなら、選択の参考にしてみてください。"
+  },
+  "delegation.faq.q9": {
+    "message": "報酬はどのくらい得られますか？"
+  },
+  "delegation.faq.a9.p1": {
+    "message": "[報酬計算機](/calculator)を使って、獲得できる報酬の目安を確認できます。計算機は推定値のみを提供するものであり、報酬額を保証するものではないことに注意してください。将来的には、報酬マージンに影響を与える異なるパラメータのテストを行う可能性があります。"
+  },
+  "delegation.faq.q10": {
+    "message": "対応しているウォレットとその入手先は？"
+  },
+  "delegation.faq.a10.p1": {
+    "message": "選択できるウォレットはさまざまです。信頼できるサイトからのみダウンロードしてください。[ウォレットを見る](/what-is-ada#wallets)。"
+  },
+  "delegation.faq.q11": {
+    "message": "ハードウェアウォレットからADA残高を復元できますか？"
+  },
+  "delegation.faq.a11.p1": {
+    "message": "はい。Daedalusを使用してハードウェアウォレットからADA残高を復元できます。ただし、注意が必要です。Daedalusにハードウェアウォレットのリカバリーフレーズを入力すると、秘密鍵がセキュリティリスクにさらされる可能性があります。セキュリティ上の問題を最小限に抑えるための推奨事項は、ハードウェアウォレットの復元プロセス中にDaedalus内で案内されます。"
+  },
+  "delegation.faq.q12": {
+    "message": "獲得したADA報酬は委任中のステークに加算されますか？"
+  },
+  "delegation.faq.a12.p1": {
+    "message": "はい。獲得した報酬は元のステークに加算されます。報酬を受け取ると、報酬アカウントの残高が増加し、それに伴い委任されたステークも増加します。"
+  },
+  "stakePoolDelegation.hero.title": {
+    "message": "ステークを委任する"
+  },
+  "stakePoolDelegation.hero.description": {
+    "message": "ネットワークを構築し、報酬を獲得し、Cardanoの旅に参加しましょう。"
+  },
+  "stakePoolDelegation.meta.title": {
+    "message": "ADAの委任：Cardanoステーキングをかんたんに"
+  },
+  "stakePoolDelegation.meta.description": {
+    "message": "ステークを委任して、ネットワークを構築し、報酬を獲得し、Cardanoの旅に参加しましょう。"
+  },
+  "stakePoolDelegation.whatIsStake.divider": {
+    "message": "ステークとは？"
+  },
+  "stakePoolDelegation.whatIsStake.text1": {
+    "message": "Cardanoネットワーク上で保有されるADAはネットワークにおけるステークを表し、ステークのサイズは保有するADAの量に比例します。ステークを委任または誓約する能力は、Cardanoの仕組みの基本です。"
+  },
+  "stakePoolDelegation.whatIsStake.text2": {
+    "message": "ADA保有者が報酬を得る方法は2つあります。他者が運営するステークプールにステークを委任する方法と、自分でステークプールを運営する方法です。特定のステークプールに委任されたステーク量は、Ouroborosプロトコルがブロックチェーンに次のブロックを追加し金銭的報酬を受け取るべきノードを選択する主な基準です。"
+  },
+  "stakePoolDelegation.whatIsStake.text3": {
+    "message": "ステークプールに委任されたステークが多いほど（一定のポイントまで）、次のブロックを作成する可能性が高くなり、報酬はそのプールにステークを委任した全員で分配されます。"
+  },
+  "stakePoolDelegation.whatIsDelegation.divider": {
+    "message": "ステーク委任とは？"
+  },
+  "stakePoolDelegation.whatIsDelegation.text": {
+    "message": "委任とは、ADA保有者がADAに関連するステークをステークプールに委任するプロセスです。ノードを運営するスキルや意欲のないADA保有者がプロトコルに参加し、委任量に応じた報酬を得ることを可能にします。"
+  },
+  "stakePoolDelegation.whyIncentives.divider": {
+    "message": "なぜインセンティブ？"
+  },
+  "stakePoolDelegation.whyIncentives.text": {
+    "message": "インセンティブは、Cardanoネットワークとエコシステムの長寿と健全性を確保するために使用されます。インセンティブメカニズムは、数学、経済理論、ゲーム理論を組み合わせた科学的研究に基づいています。"
+  },
+  "stakePoolDelegation.walletsCta.title": {
+    "message": "Cardanoウォレット"
+  },
+  "stakePoolDelegation.walletsCta.text": {
+    "message": "Cardanoエコシステムとのやり取りを容易にする多様なウォレットを見つけましょう。"
+  },
+  "stakePoolDelegation.walletsCta.buttonLabel": {
+    "message": "今すぐ見る"
+  },
+  "stakePoolDelegation.calculatorCta.title": {
+    "message": "ステーキング計算機を使って、ステークプールに委任した場合にどのくらいのADAが獲得できるか確認してみましょう。"
+  },
+  "stakePoolDelegation.calculatorCta.buttonLabel": {
+    "message": "試してみる"
+  },
+  "stakePoolOperation.hero.title1": {
+    "message": "大規模参加のために設計"
+  },
+  "stakePoolOperation.hero.title2": {
+    "message": "安全な分散化のために構築"
+  },
+  "stakePoolOperation.hero.description": {
+    "message": "ステークプールオペレーターになり、ADAを獲得し、Cardanoネットワークの分散化に貢献しましょう。"
+  },
+  "stakePoolOperation.meta.title": {
+    "message": "Cardanoステークプールの運営：セットアップと要件"
+  },
+  "stakePoolOperation.meta.description": {
+    "message": "ステークプールオペレーターになり、ADAを獲得し、Cardanoネットワークの分散化に貢献しましょう。"
+  },
+  "stakePoolOperation.whatIsStaking.divider": {
+    "message": "ステーキングとは？"
+  },
+  "stakePoolOperation.whatIsStaking.leftText": {
+    "message": "Cardanoネットワーク上で保有されるADAはネットワークにおけるステークを表し、ステークのサイズは保有するADAの量に比例します。ステークを委任または誓約する能力は、Cardanoの仕組みの基本です。"
+  },
+  "stakePoolOperation.whatIsStaking.rightText1": {
+    "message": "ADA保有者が報酬を得る方法は2つあります。他者が運営するステークプールにステークを委任する方法と、自分でステークプールを運営する方法です。"
+  },
+  "stakePoolOperation.whatIsStaking.rightText2": {
+    "message": "特定のステークプールに委任されたステーク量は、Ouroborosプロトコルがブロックチェーンに次のブロックを追加し金銭的報酬を受け取るべきノードを選択する主な基準です。"
+  },
+  "stakePoolOperation.whatIsStaking.rightText3": {
+    "message": "ステークプールに委任されたステークが多いほど（一定のポイントまで）、次のブロックを作成する可能性が高くなり、報酬はそのプールにステークを委任した全員で分配されます。"
+  },
+  "stakePoolOperation.whatIsStakePool.divider": {
+    "message": "ステークプールとは？"
+  },
+  "stakePoolOperation.whatIsStakePool.text1": {
+    "message": "ステークプールにはパブリックとプライベートがあります。パブリックステークプールは公開アドレスを持つCardanoネットワークノードで、他のユーザーが委任して報酬を受け取れます。プライベートステークプールはオーナーのみに報酬を配布します。"
+  },
+  "stakePoolOperation.whatIsStakePool.text2": {
+    "message": "ステークプールは信頼できるオペレーター（ノードを安定的に稼働させる知識とリソースを持つ個人または企業）によって運営されます。ADA保有者はプロトコルに参加して報酬を得たいが、自分でCardanoネットワークノードを運営したくない場合、パブリックステークプールに委任できます。"
+  },
+  "stakePoolOperation.whatIsStakePool.text3": {
+    "message": "ステークプールに委任されたステークが多いほど、スロットリーダーに選ばれる可能性が高くなります。選ばれてブロックを生成しブロックチェーンに承認されるたびに報酬を受け取り、その報酬はステークプールオペレーターと委任者の間で分配されます。"
+  },
+  "stakePoolOperation.whatIsStakePool.text4": {
+    "message": "公平で競争力のある市場を確保し、参加を比例的にインセンティブ化し、時間・エネルギー・リソースの投資に報いるために、広範な研究開発が行われてきました。ステークプールと受け取る報酬に影響を与える主な技術パラメータは以下の通りです："
+  },
+  "stakePoolOperation.pledging.title": {
+    "message": "誓約メカニズム"
+  },
+  "stakePoolOperation.pledging.text": {
+    "message": "必須の最低誓約額はありませんが、プールオペレーターは任意で自分のステークの一部または全部をプールに誓約し、プールの魅力を高めることができます。誓約するADAの額が多いほど、プールが受け取る報酬が増え、より多くの委任を引き付けます。a0プロトコルパラメータが、プール報酬に対する誓約の影響度を定義します。"
+  },
+  "stakePoolOperation.desirability.title": {
+    "message": "デザイラビリティインデックス"
+  },
+  "stakePoolOperation.desirability.text": {
+    "message": "プールのデザイラビリティは、誓約されたオーナーのステーク、コスト、マージンを考慮し、飽和度とプールパフォーマンスの影響を組み合わせて計算されます。この数値はウォレット内でプールをランク付けするために使用され、潜在的な委任者にとってプールがどれだけ「望ましい」または「魅力的」かを示します。"
+  },
+  "stakePoolOperation.saturation.title": {
+    "message": "飽和パラメータ（K）"
+  },
+  "stakePoolOperation.saturation.text": {
+    "message": "飽和とは、特定のステークプールにネットワークにとって理想的な量以上のステークが委任されている状態を示す用語であり、kは目標とする望ましいプール数です。プールが飽和点に達すると、報酬は減少します。飽和メカニズムは、委任者が異なるプールに委任するよう促し、オペレーターが最大報酬を獲得し続けるために代替プールを設立するインセンティブを与えることで、中央集権化を防ぐために設計されました。したがって、飽和はADA保有者とオペレーターの双方の利益を保護し、単一のプールが大きくなりすぎるのを防ぐために存在します。"
+  },
+  "stakePoolOperation.setupCta.title": {
+    "message": "ステークプールの設定方法は？"
+  },
+  "stakePoolOperation.setupCta.text1": {
+    "message": "ステークプールオペレーターの役割を忘れないでください。ネットワークノードの24時間365日の信頼性の高い稼働を保証することです。ステークプールオペレーターとして、委任者であるADA保有者に対してだけでなく、ネットワーク自体の健全性に対しても責任があります。これには安定した信頼性の高いネットワークインフラが必要であり、システム運用やサーバー管理のスキルに加え、開発と運用の経験があることが理想的です。"
+  },
+  "stakePoolOperation.setupCta.text2": {
+    "message": "誰でもステークプールの運営方法を学べますが、ある程度の技術的な知識が必要です。"
+  },
+  "stakePoolOperation.setupCta.buttonLabel": {
+    "message": "方法を学ぶ"
+  },
+  "stakePoolOperation.calculatorCta.title": {
+    "message": "ステーキング計算機を使って、ステークプールを運営した場合にどのくらいのADAが獲得できるか確認してみましょう。"
+  },
+  "stakePoolOperation.calculatorCta.buttonLabel": {
+    "message": "試してみる"
+  },
+  "useCases.hero.title": {
+    "message": "ユースケース"
+  },
+  "useCases.hero.description": {
+    "message": "Cardanoブロックチェーンが業界をまたいで現実世界の問題を解決する方法。"
+  },
+  "useCases.layout.title": {
+    "message": "Cardanoエンタープライズソリューションと実世界のユースケース"
+  },
+  "useCases.layout.description": {
+    "message": "サプライチェーン、アイデンティティ、金融、教育など、Cardanoの実世界での活用例を紹介。企業が透明性と効率化のためにブロックチェーンをどう活かしているかをご覧ください。"
+  },
+  "useCases.intro.description": {
+    "message": "アイデンティティ検証からサプライチェーントラッキングまで、業界をまたいだブロックチェーンアプリケーションを探索しましょう。Cardanoは現実世界の課題に対する安全でスケーラブルなソリューションを提供します。"
+  },
+  "useCases.divider.enterprise": {
+    "message": "エンタープライズソリューション"
+  },
+  "useCases.enterprise.description": {
+    "message": "実証済みのエンタープライズ導入をお探しですか？Cardano Foundationとパートナーによる導入事例と実際の実装を探索しましょう。"
+  },
+  "useCases.enterprise.button": {
+    "message": "エンタープライズソリューションを見る"
+  },
+  "why.hero.title": {
+    "message": "なぜCardano？"
+  },
+  "why.hero.description": {
+    "message": "Cardanoの動機について知りたいですか？"
+  },
+  "why.meta.title": {
+    "message": "Cardanoを選ぶ理由：他と何が違うのか"
+  },
+  "why.meta.description": {
+    "message": "Cardanoは、査読済みの研究、形式検証、プルーフオブステークプロトコルを組み合わせ、安全で持続可能かつスケーラブルなブロックチェーンプラットフォームを実現しています。"
+  },
+  "why.divider.howItAllBegan": {
+    "message": "すべてはここから始まった"
+  },
+  "why.whatIsCardano.title": {
+    "message": "Cardanoとは？"
+  },
+  "why.whatIsCardano.text1": {
+    "message": "Cardanoは2015年に始まったブロックチェーンプラットフォームであり暗号資産プロジェクトです。暗号資産の設計と開発の方法を見直し、利用者と連携するシステムにとってより均衡のとれた持続可能なエコシステムを提供することを目標に創られました。[Cardanoプラットフォームの暗号資産はADA](/what-is-ada)と呼ばれます。簡単に言えば、Cardanoはインターネット上で価値、アイデンティティ、ガバナンスを管理・交換できる技術です。"
+  },
+  "why.whatIsCardano.text2": {
+    "message": "Cardanoは第三世代ブロックチェーンと呼ばれることがあります。Bitcoinが第一世代（デジタルマネーに焦点）、Ethereumが第二世代（スマートコントラクトを追加）であるのに対し、Cardanoは以前のネットワークが直面するスケーラビリティ、相互運用性、持続可能性の課題を解決する次のステップを目指しています。オープンソースプロジェクトであり、コードは公開されていて、単一企業ではなく幅広いエンジニアと研究者のコミュニティによって開発されています。"
+  },
+  "why.whyCreated.title": {
+    "message": "なぜCardanoが作られたのか？"
+  },
+  "why.whyCreated.intro": {
+    "message": "Cardanoの創設者たちは、Bitcoinや他の暗号資産の成功にもかかわらず、主流への普及と長期的な実用性を妨げる大きな課題があることを認識していました。Cardanoの開発は、これらの問題を特定し、それを解決するための原則を設定することから始まりました。"
+  },
+  "why.whyCreated.list.sustainability": {
+    "message": "**持続可能性の欠如：** 多くの暗号プロジェクトは初期資金（ICOなど）に依存し、将来の改善を資金化する仕組みを持っていません。これは停滞につながる可能性があります。長期的な開発を支援する持続可能な資金メカニズムを確立することが目標でした。これがトレジャリーシステム（コミュニティが管理する、ネットワークのアップグレードと継続的なメンテナンスに資金を提供するファンド）のアイデアにつながりました。"
+  },
+  "why.whyCreated.list.governance": {
+    "message": "**ガバナンスと進化：** 初期のブロックチェーンには、変更やアップグレードについてユーザーが合意する明確な方法がありませんでした（Bitcoin対Bitcoin Cash、Ethereum対Ethereum Classicのような紛争や分裂につながりました）。Cardanoのビジョンは、ADA保有者が提案や変更に投票でき、システムが壊れることなく自らアップグレードできるようにすることです。これにより、ニーズの変化に適応できる自己進化型のシステムになります。"
+  },
+  "why.whyCreated.list.scalability": {
+    "message": "**スケーラビリティ：** BitcoinとEthereumは、グローバルなスケールを想定して設計されていなかったため、利用者が増えると遅く高コストになります。例えば、ノードを追加しても処理速度は上がりません。すべてのノードがすべてのトランザクションを処理する必要があるためです。Cardanoは数百万、さらには数十億のユーザーにスケールすることを目指しています。"
+  },
+  "why.whyCreated.list.security": {
+    "message": "**セキュリティと学術的厳密さ：** 暗号空間では、過去の研究や潜在的な欠陥を十分に調べないまま新機能を追加することがありました。Cardanoのチームは異なるアプローチを取りました：科学（暗号学、分散システム）を研究し、構築する前にピアレビュー済みの研究を活用します。Cardanoは[査読済みの論文集](/research)と形式手法に基づいて構築されています。"
+  },
+  "why.whyCreated.list.interoperability": {
+    "message": "**相互運用性：** 何千もの暗号資産が存在しますが、互いにまたはレガシーシステムとやり取りできないことが多いです。Cardanoの目標は、異なるブロックチェーンと従来の金融システムの接続を容易にすることです。例えば、Cardanoはサイドチェーン技術を探求し、Cardanoと他のブロックチェーン間で価値とデータの移動を可能にしています。また、銀行や規制当局と通信できるよう標準のサポートも構築していますが、ブロックチェーンの核となる原則は損なわれません。"
+  },
+  "why.whyCreated.list.realWorld": {
+    "message": "**現実世界のニーズへの対応：** Cardanoのミッションは技術の進歩そのものだけではありません。「これがすべて何のためにあるのか？」というより深い問いを投げかけます。その答えは、金融サービスへのアクセスがない人々にサービスを提供することにあります。多くの途上国では、銀行、法的身分証明、信用、保険なしに生活しています。送金、不動産記録、身分証明、信用などの基本的なサービスを、基本的なスマートフォンで動作する一つのセキュアなプラットフォームに統合することが目標です。"
+  },
+  "why.cta.title": {
+    "message": "Cardanoブロックチェーンの背景、哲学、インスピレーションをまとめた2017年のオリジナルエッセイ。Charles Hoskinson著。"
+  },
+  "why.cta.buttonLabel": {
+    "message": "エッセイを読む"
+  },
+  "apps.hero.title": {
+    "message": "CardanoのアプリとdApps"
+  },
+  "apps.hero.description": {
+    "message": "Cardanoメインネットで今すぐ使える厳選アプリが見つかります。ウォレット、DEX、NFT、レンディングなど盛りだくさんです。"
+  },
+  "apps.seo.title": {
+    "message": "Cardanoアプリディレクトリ：ウォレット・DEX・NFTほか"
+  },
+  "apps.seo.description": {
+    "message": "メインネットで稼働中の厳選Cardanoアプリ{count}件を掲載。ウォレット、DEX、NFTマーケットプレイス、レンディング、ガバナンス、ゲームまで。カテゴリーやアクティビティで絞り込めます。"
+  },
+  "apps.cta": {
+    "message": "₳プロジェクトを追加"
+  },
+  "apps.filters.title": {
+    "message": "フィルター"
+  },
+  "apps.filters.projectCount.singular": {
+    "message": "1件のプロジェクト"
+  },
+  "apps.filters.projectCount.plural": {
+    "message": "{count}件のプロジェクト"
+  },
+  "apps.filters.clearButton": {
+    "message": "フィルターをクリア"
+  },
+  "apps.filters.showLess": {
+    "message": "フィルターを表示を減らす"
+  },
+  "apps.filters.showMore": {
+    "message": "さらに{count}件のフィルターを表示"
+  },
+  "apps.noResult": {
+    "message": "結果なし"
+  },
+  "apps.maintainerPicks": {
+    "message": "メンテナーのおすすめ"
+  },
+  "apps.maintainerPicks.subtitle": {
+    "message": "最初の一歩にぴったりのアプリを、ページのメンテナーが厳選しました。選定基準は /docs/get-involved/maintainer-picks をご覧ください。"
+  },
+  "apps.allProjects": {
+    "message": "すべてのプロジェクト"
+  },
+  "apps.searchPlaceholder": {
+    "message": "アプリを検索..."
+  },
+  "apps.intent.title": {
+    "message": "目的からアプリを探す"
+  },
+  "apps.intent.stake": {
+    "message": "ADAをステーキング"
+  },
+  "apps.intent.trade": {
+    "message": "取引する"
+  },
+  "apps.intent.vote": {
+    "message": "投票する"
+  },
+  "apps.intent.build": {
+    "message": "開発する"
+  },
+  "apps.intent.mintNfts": {
+    "message": "NFTを発行"
+  },
+  "apps.intent.play": {
+    "message": "ゲームで遊ぶ"
+  },
+  "apps.intent.useWallet": {
+    "message": "ウォレットを使う"
+  },
+  "apps.sort.label": {
+    "message": "並び替え"
+  },
+  "apps.sort.featured": {
+    "message": "おすすめ順"
+  },
+  "apps.sort.alphabetical": {
+    "message": "ABC順"
+  },
+  "apps.sort.mostActive": {
+    "message": "アクティブ順"
+  },
+  "apps.submit.title": {
+    "message": "Cardanoで何かを作りましたか？"
+  },
+  "apps.submit.description": {
+    "message": "あなたのアプリをこのページに掲載しませんか。申請手続きはオープンで簡単です。"
+  },
+  "apps.submit.button": {
+    "message": "アプリを掲載申請"
+  },
+  "apps.mostActive.title": {
+    "message": "最もアクティブ"
+  },
+  "apps.mostActive.subtitle": {
+    "message": "過去30日間のオンチェーントランザクション数による上位アプリです。スナップショットは{date}時点です。"
+  },
+  "apps.card.activity.unit": {
+    "message": "tx・30日"
+  },
+  "apps.card.activity.tooltip": {
+    "message": "過去30日間のトランザクション数"
+  },
+  "apps.detail.backToApps": {
+    "message": "アプリ一覧に戻る"
+  },
+  "apps.detail.maintainerPick": {
+    "message": "メンテナーのおすすめ"
+  },
+  "apps.detail.visit": {
+    "message": "{title}のサイトへ"
+  },
+  "apps.detail.viewSource": {
+    "message": "ソースコードを見る"
+  },
+  "apps.detail.viewOnX.aria": {
+    "message": "{title}をX（Twitter）で見る"
+  },
+  "apps.detail.activity": {
+    "message": "アクティビティ"
+  },
+  "apps.detail.activityBody": {
+    "message": "過去30日間のオンチェーントランザクションは{count}件です（スナップショット: {date}）。"
+  },
+  "apps.detail.related": {
+    "message": "同じカテゴリーのアプリ"
+  },
+  "apps.detail.editLink": {
+    "message": "GitHubでこの掲載情報を改善する"
+  },
+  "apps.detail.spotlight.label": {
+    "message": "Developer Spotlight"
+  },
+  "apps.detail.spotlight.aria": {
+    "message": "developers.cardano.orgのDeveloper Spotlightを開く"
+  },
+  "apps.intent.label": {
+    "message": "やりたいこと"
+  },
+  "apps.allApps.title": {
+    "message": "すべてのアプリ"
+  },
+  "apps.allApps.titleScoped": {
+    "message": "すべての{label}"
+  },
+  "apps.allApps.titleMore": {
+    "message": "その他の{label}アプリ"
+  },
+  "apps.mostActive.titleScoped": {
+    "message": "最もアクティブな{label}"
+  },
+  "apps.allApps.tracked": {
+    "message": "うち{count}件はライブトラッキング対応"
+  },
+  "apps.browseByCategory.title": {
+    "message": "カテゴリーからアプリを探す"
+  },
+  "apps.browseByCategory.subtitle": {
+    "message": "各カテゴリーをひと足先にご紹介。トラッキング上位のアプリ、メンテナーのおすすめ、残りからのランダム表示の順に並んでいます。"
+  },
+  "apps.toolsAndInsights.title": {
+    "message": "カテゴリーからツールを探す"
+  },
+  "apps.toolsAndInsights.subtitle": {
+    "message": "トラッキングや分析に役立つユーティリティ、ダッシュボード、エクスプローラー。"
+  },
+  "apps.allApps.show": {
+    "message": "全{count}件のアプリをABC順で見る"
+  },
+  "apps.allApps.heading": {
+    "message": "全{count}件のアプリ（A〜Z順）"
+  },
+  "apps.maintainerPicks.subtitleShort": {
+    "message": "cardano.orgのメンテナーが選定"
+  },
+  "apps.highlights.title": {
+    "message": "新着アプリ"
+  },
+  "apps.highlights.subtitle": {
+    "message": "ショーケースに加わったばかりのアプリ"
+  },
+  "apps.carousel.prev": {
+    "message": "前へ"
+  },
+  "apps.carousel.next": {
+    "message": "次へ"
+  },
+  "apps.mostActive.leaderboardLink": {
+    "message": "トランザクションリーダーボードのライブデータ"
+  },
+  "apps.filter.button": {
+    "message": "絞り込み"
+  },
+  "apps.filter.activeCount": {
+    "message": "絞り込み（{count}）"
+  },
+  "apps.filter.categoriesHeading": {
+    "message": "カテゴリー"
+  },
+  "apps.filter.propertiesHeading": {
+    "message": "属性"
+  },
+  "apps.filter.clearAll": {
+    "message": "フィルターをすべて解除"
+  },
+  "apps.guidedPaths.label": {
+    "message": "ステップガイド"
+  },
+  "apps.guidedPaths.subtitle": {
+    "message": "cardano.orgで手順を追って学べます"
+  },
+  "apps.guidedPaths.getStarted": {
+    "message": "ADAの第一歩"
+  },
+  "apps.guidedPaths.governance": {
+    "message": "Cardanoの意思決定に参加"
+  },
+  "apps.guidedPaths.developers": {
+    "message": "Cardanoでビルド"
+  },
+  "apps.submit.enableTracking": {
+    "message": "トラッキングを有効化"
+  },
+  "apps.new": {
+    "message": "NEW"
+  },
+  "apps.activity.unit": {
+    "message": "tx"
+  },
+  "insights.card.openInsight": {
+    "message": "インサイトを開く"
+  },
+  "insights.layout.title": {
+    "message": "Insights"
+  },
+  "insights.layout.description": {
+    "message": "ガバナンス、ステーキング、コンセンサス、経済などのインタラクティブなCardanoインサイトを探索。"
+  },
+  "insights.hero.title": {
+    "message": "インサイト"
+  },
+  "insights.hero.description": {
+    "message": "オンチェーンデータとビジュアルチャートでCardanoのトピックを探索。"
+  },
+  "insights.search.placeholder": {
+    "message": "検索またはタグでフィルター..."
+  },
+  "insights.search.ariaLabel": {
+    "message": "インサイトを検索"
+  },
+  "insights.filter.label": {
+    "message": "トピックでフィルター"
+  },
+  "insights.filter.clear": {
+    "message": "クリア"
+  },
+  "insights.pagination.prevAriaLabel": {
+    "message": "前のページ"
+  },
+  "insights.pagination.prev": {
+    "message": "前へ"
+  },
+  "insights.pagination.pageOf": {
+    "message": "{total}ページ中{current}ページ"
+  },
+  "insights.pagination.nextAriaLabel": {
+    "message": "次のページ"
+  },
+  "insights.pagination.next": {
+    "message": "次へ"
+  },
+  "insights.noResults": {
+    "message": "フィルター条件に一致するインサイトがありません。"
+  },
+  "ambassadors.roles.contentCreation.title": {
+    "message": "コンテンツ制作"
+  },
+  "ambassadors.roles.contentCreation.description": {
+    "message": "記事、動画、ポッドキャストの制作と多言語への翻訳"
+  },
+  "ambassadors.roles.meetups.title": {
+    "message": "イベントとミートアップ"
+  },
+  "ambassadors.roles.meetups.description": {
+    "message": "地域のミートアップ、ワークショップ、ハッカソン、カンファレンスの開催"
+  },
+  "ambassadors.roles.education.title": {
+    "message": "教育＆アドボカシー"
+  },
+  "ambassadors.roles.education.description": {
+    "message": "教育活動、新規ユーザーのオンボーディング、認知の向上"
+  },
+  "ambassadors.roles.business.title": {
+    "message": "ビジネス開発"
+  },
+  "ambassadors.roles.business.description": {
+    "message": "パートナーシップの拡大と実社会での採用推進"
+  },
+  "ambassadors.roles.software.title": {
+    "message": "開発"
+  },
+  "ambassadors.roles.software.description": {
+    "message": "ツール開発、オープンソースや技術ドキュメントへの貢献"
+  },
+  "ambassadors.roles.moderation.title": {
+    "message": "モデレーション"
+  },
+  "ambassadors.roles.moderation.description": {
+    "message": "安全で居心地がよく、役立つコミュニティスペースづくり"
+  },
+  "ambassadors.hero.eyebrow": {
+    "message": "2018年から"
+  },
+  "ambassadors.hero.titleNew": {
+    "message": "Cardanoアンバサダー"
+  },
+  "ambassadors.hero.titleAccent": {
+    "message": "活動の最前線"
+  },
+  "ambassadors.hero.lede": {
+    "message": "教育、イベント運営、モデレーション、開発、サポートを通じて、世界中でCardanoを支えるコミュニティリーダーたちのグローバルネットワークです。"
+  },
+  "ambassadors.hero.cta.directory": {
+    "message": "ディレクトリを見る"
+  },
+  "ambassadors.hero.cta.join": {
+    "message": "アンバサダーになる"
+  },
+  "ambassadors.hero.featured.blurb": {
+    "message": "スペイン語のコンテンツ、ミートアップ、教育活動を通じて、ラテンアメリカ全域でCardanoの普及を牽引しています。"
+  },
+  "ambassadors.hero.featured.cta": {
+    "message": "プロフィールを見る"
+  },
+  "ambassadors.map.aria": {
+    "message": "各国のCardanoアンバサダーの分布を示す世界地図"
+  },
+  "ambassadors.stats.ambassadors.label": {
+    "message": "アンバサダー"
+  },
+  "ambassadors.stats.ambassadors.caption": {
+    "message": "世界のコミュニティリーダー"
+  },
+  "ambassadors.stats.countries.label": {
+    "message": "国"
+  },
+  "ambassadors.stats.countries.caption": {
+    "message": "世界各地から参加"
+  },
+  "ambassadors.stats.languages.label": {
+    "message": "言語"
+  },
+  "ambassadors.stats.languages.caption": {
+    "message": "Cardanoをもっと身近に"
+  },
+  "ambassadors.stats.channels.label": {
+    "message": "モデレーション中のチャンネル"
+  },
+  "ambassadors.stats.channels.caption": {
+    "message": "{platforms}のプラットフォームで"
+  },
+  "ambassadors.impact.divider": {
+    "message": "インパクト概要"
+  },
+  "ambassadors.impact.period": {
+    "message": "過去12か月"
+  },
+  "ambassadors.impact.title": {
+    "message": "インパクト概要"
+  },
+  "ambassadors.impact.description": {
+    "message": "Cardanoアンバサダーが世界にもたらすインパクトを数字で紹介します。"
+  },
+  "ambassadors.impact.content.label": {
+    "message": "作成コンテンツ"
+  },
+  "ambassadors.impact.content.caption": {
+    "message": "記事、動画、ポッドキャスト、スレッド"
+  },
+  "ambassadors.impact.events.label": {
+    "message": "開催イベント"
+  },
+  "ambassadors.impact.events.caption": {
+    "message": "ミートアップ、ワークショップ、ハッカソン"
+  },
+  "ambassadors.impact.translations.label": {
+    "message": "翻訳"
+  },
+  "ambassadors.impact.translations.caption": {
+    "message": "17言語に翻訳されたコンテンツ"
+  },
+  "ambassadors.impact.channels.label": {
+    "message": "モデレーション中のチャンネル"
+  },
+  "ambassadors.impact.channels.caption": {
+    "message": "9つのプラットフォームにわたるコミュニティチャンネル"
+  },
+  "ambassadors.impact.openSource.label": {
+    "message": "オープンソース貢献"
+  },
+  "ambassadors.impact.openSource.caption": {
+    "message": "プロジェクト、ツール、コード貢献"
+  },
+  "ambassadors.impact.moderation.label": {
+    "message": "モデレーション"
+  },
+  "ambassadors.impact.moderation.caption": {
+    "message": "各プラットフォームでモデレーションしたチャンネル"
+  },
+  "ambassadors.impact.education.label": {
+    "message": "教育"
+  },
+  "ambassadors.impact.education.caption": {
+    "message": "教育、オンボーディング、認知向上"
+  },
+  "ambassadors.impact.meetups.label": {
+    "message": "開催イベント"
+  },
+  "ambassadors.impact.meetups.caption": {
+    "message": "ミートアップ、ワークショップ、ハッカソン"
+  },
+  "ambassadors.impact.developerSoftware.label": {
+    "message": "オープンソース"
+  },
+  "ambassadors.impact.developerSoftware.caption": {
+    "message": "プロジェクト、ツール、コード貢献"
+  },
+  "ambassadors.contributions.title": {
+    "message": "アンバサダーの活動"
+  },
+  "ambassadors.contributions.description": {
+    "message": "アンバサダーは、Cardanoのミッションを支え、エコシステムを育てるために、さまざまな形で貢献しています。"
+  },
+  "ambassadors.milestones.divider": {
+    "message": "注目の実績"
+  },
+  "ambassadors.milestones.title": {
+    "message": "実績"
+  },
+  "ambassadors.milestones.description": {
+    "message": "2018年以降のアンバサダーの実績を厳選して振り返るタイムラインです。"
+  },
+  "ambassadors.milestones.creditPrefix": {
+    "message": "主導:"
+  },
+  "ambassadors.milestone.catalyst-reviewers.title": {
+    "message": "LVL2 Catalystレビュアー"
+  },
+  "ambassadors.milestone.catalyst-reviewers.body": {
+    "message": "複数のCatalystファンドで最高水準の提案レビューを続け、コミュニティ資金の配分のあり方を形づくっています。"
+  },
+  "ambassadors.milestone.catalyst-reviewers.credit": {
+    "message": "アンバサダー20名以上"
+  },
+  "ambassadors.milestone.catalyst-reviewers.linkLabel": {
+    "message": "レビュアーレベル"
+  },
+  "ambassadors.milestone.ledger-live.title": {
+    "message": "Ledger Live統合"
+  },
+  "ambassadors.milestone.ledger-live.body": {
+    "message": "アンバサダー主導のCatalyst提案が実を結び、Ledgerの主力アプリで安全なADA管理が可能になりました。"
+  },
+  "ambassadors.milestone.ledger-live.credit": {
+    "message": "アンバサダーギルド"
+  },
+  "ambassadors.milestone.ledger-live.linkLabel": {
+    "message": "Ledgerの発表"
+  },
+  "ambassadors.milestone.summit-events.title": {
+    "message": "30を超えるCardanoサミットコミュニティイベント"
+  },
+  "ambassadors.milestone.summit-events.body": {
+    "message": "コミュニティ主導のサミットイベントが世界各地で開かれ、公式プログラムを各大陸へと広げています。"
+  },
+  "ambassadors.milestone.summit-events.credit": {
+    "message": "アンバサダー15名以上"
+  },
+  "ambassadors.milestone.summit-events.linkLabel": {
+    "message": "フォーラムのレポート"
+  },
+  "ambassadors.milestone.petrobras.title": {
+    "message": "Petrobrasとの教育パートナーシップ"
+  },
+  "ambassadors.milestone.petrobras.body": {
+    "message": "世界最大級のエネルギー企業との画期的な教育パートナーシップにより、Petrobrasのエンジニアがブロックチェーン研修を受けられるようになりました。"
+  },
+  "ambassadors.milestone.petrobras.credit": {
+    "message": "Thiago Nunes"
+  },
+  "ambassadors.milestone.petrobras.linkLabel": {
+    "message": "財団ブログ"
+  },
+  "ambassadors.milestone.utn.title": {
+    "message": "UTNブエノスアイレスとのパートナーシップ"
+  },
+  "ambassadors.milestone.utn.body": {
+    "message": "アルゼンチン最大の工科大学が公式教育パートナーとなり、Cardanoがキャンパスに進出しました。"
+  },
+  "ambassadors.milestone.utn.credit": {
+    "message": "Jose Iadiccico"
+  },
+  "ambassadors.milestone.utn.linkLabel": {
+    "message": "財団ブログ"
+  },
+  "ambassadors.milestone.alba-node.title": {
+    "message": "ラテンアメリカの大学初のCardanoノード"
+  },
+  "ambassadors.milestone.alba-node.body": {
+    "message": "ALBA（ADA Labs for Blockchain Applications）が、ラテンアメリカ初となる大学運営のCardanoノードを稼働させました。"
+  },
+  "ambassadors.milestone.alba-node.credit": {
+    "message": "Jose Iadiccico · Martin Ungar"
+  },
+  "ambassadors.milestone.alba-node.linkLabel": {
+    "message": "発表"
+  },
+  "ambassadors.milestone.buidler-fest.title": {
+    "message": "Buidler Fest（ブエノスアイレス）"
+  },
+  "ambassadors.milestone.buidler-fest.body": {
+    "message": "現地のアンバサダーコミュニティが企画・運営した、ラテンアメリカを代表する開発者イベントです。"
+  },
+  "ambassadors.milestone.buidler-fest.credit": {
+    "message": "アンバサダー9名"
+  },
+  "ambassadors.milestone.buidler-fest.linkLabel": {
+    "message": "イベント発表"
+  },
+  "ambassadors.milestone.org-translation.title": {
+    "message": "cardano.orgコミュニティ翻訳"
+  },
+  "ambassadors.milestone.org-translation.body": {
+    "message": "アンバサダーがcardano.orgを多言語化し、英語圏以外の人々にもプロジェクトを届けられるようにしました。"
+  },
+  "ambassadors.milestone.org-translation.credit": {
+    "message": "アンバサダー5名"
+  },
+  "ambassadors.milestone.org-translation.linkLabel": {
+    "message": "翻訳ページ"
+  },
+  "ambassadors.directory.divider": {
+    "message": "アンバサダーディレクトリ"
+  },
+  "ambassadors.directory.title": {
+    "message": "世界のアンバサダーネットワークを検索・絞り込み"
+  },
+  "ambassadors.directory.intro": {
+    "message": "{countries}か国を代表する{count}名のCardanoアンバサダーのプロフィールをご覧いただけます。"
+  },
+  "ambassadors.directory.searchPlaceholder": {
+    "message": "名前で検索…"
+  },
+  "ambassadors.directory.searchAria": {
+    "message": "アンバサダーを名前で検索"
+  },
+  "ambassadors.directory.countryAria": {
+    "message": "国で絞り込む"
+  },
+  "ambassadors.directory.languageAria": {
+    "message": "言語で絞り込む"
+  },
+  "ambassadors.directory.contributionAria": {
+    "message": "貢献分野で絞り込む"
+  },
+  "ambassadors.directory.allCountries": {
+    "message": "すべての国"
+  },
+  "ambassadors.directory.allLanguages": {
+    "message": "すべての言語"
+  },
+  "ambassadors.directory.allContributions": {
+    "message": "すべての貢献分野"
+  },
+  "ambassadors.cta.bannerTitle": {
+    "message": "インパクトを生み出す準備はできていますか？"
+  },
+  "ambassadors.cta.bannerBody": {
+    "message": "あなたのコミュニティでCardanoを広めませんか。まずはCardanoフォーラムで活動を始めて、世界に広がるアンバサダープログラムの一員になりましょう。"
+  },
+  "ambassadors.cta.bannerForumLabel": {
+    "message": "フォーラムで始める"
+  },
+  "ambassadors.cta.bannerJoinLabel": {
+    "message": "参加方法を見る"
+  },
+  "ambassadors.contributions.learnMore": {
+    "message": "プログラムの詳細を見る"
+  },
+  "ambassadors.hero.titlePrefix": {
+    "message": "Cardano"
+  },
+  "ambassadors.hero.titleHighlight": {
+    "message": "アンバサダー"
+  },
+  "ambassadors.hero.featured.viewProfile": {
+    "message": "プロフィールを見る"
+  },
+  "ambassadors.hero.featured.aria": {
+    "message": "注目のアンバサダー"
+  },
+  "ambassadors.hero.featured.dismiss": {
+    "message": "注目のアンバサダーを閉じる"
+  },
+  "ambassadors.directory.resultMeta": {
+    "message": "{total}名中{shown}名のアンバサダーを表示中"
+  },
+  "ambassadors.directory.empty": {
+    "message": "条件に一致するアンバサダーは見つかりませんでした。"
+  },
+  "ambassadors.directory.clear": {
+    "message": "フィルターをクリア"
+  },
+  "ambassadors.directory.loadMore": {
+    "message": "さらに表示"
+  },
+  "ambassadors.directory.socialAria.forum": {
+    "message": "フォーラムのプロフィール"
+  },
+  "ambassadors.directory.socialAria.x": {
+    "message": "Xのプロフィール"
+  },
+  "ambassadors.directory.socialAria.linkedin": {
+    "message": "LinkedInのプロフィール"
+  },
+  "ambassadors.directory.socialAria.youtube": {
+    "message": "YouTubeチャンネル"
+  },
+  "ambassadors.directory.socialAria.github": {
+    "message": "GitHubのプロフィール"
+  },
+  "ambassadors.stories.divider": {
+    "message": "インパクトストーリー"
+  },
+  "ambassadors.stories.title": {
+    "message": "変化を生み出すアンバサダーたちのリアルストーリー"
+  },
+  "ambassadors.stories.readMore": {
+    "message": "ストーリーを読む"
+  },
+  "ambassadors.stories.byPrefix": {
+    "message": "執筆:"
+  },
+  "ambassadors.story.story-latam.tag": {
+    "message": "イベント"
+  },
+  "ambassadors.story.story-latam.title": {
+    "message": "ラテンアメリカで花開くCardanoコミュニティ"
+  },
+  "ambassadors.story.story-latam.excerpt": {
+    "message": "地域のミートアップと教育活動が普及を加速させ、何千もの人々に力を与えています。"
+  },
+  "ambassadors.story.story-asia.tag": {
+    "message": "教育"
+  },
+  "ambassadors.story.story-asia.title": {
+    "message": "次世代に伝えるブロックチェーン教育"
+  },
+  "ambassadors.story.story-asia.excerpt": {
+    "message": "教室でのワークショップから、インドネシア全土の大学プログラムへ。"
+  },
+  "ambassadors.story.story-translations.tag": {
+    "message": "翻訳"
+  },
+  "ambassadors.story.story-translations.title": {
+    "message": "言葉の壁を越えて、世界中に届ける"
+  },
+  "ambassadors.story.story-translations.excerpt": {
+    "message": "世界最大級のADAコミュニティのために、Cardanoコンテンツを日本語へローカライズ。"
+  },
+  "ambassadors.story.story-development.tag": {
+    "message": "開発"
+  },
+  "ambassadors.story.story-development.title": {
+    "message": "より良いエコシステムのためのツールづくり"
+  },
+  "ambassadors.story.story-development.excerpt": {
+    "message": "世界中の開発者にとってCardanoをもっと使いやすくするオープンソース貢献。"
+  },
+  "enterprise.label.solutions": {
+    "message": "ソリューション"
+  },
+  "enterprise.label.products": {
+    "message": "プロダクト"
+  },
+  "enterprise.learnMore": {
+    "message": "詳しく見る"
+  },
+  "governance.blue.title": {
+    "message": "誰も排除せず、すべての人に力を与えるモデル。"
+  },
+  "governance.blue.text": {
+    "message": "現在のシステムは誰にとっても機能しているわけではありません。より良い、よりポジティブな未来は可能です。世界が多くの人に奉仕するためには、多くの人の合意が必要です。コンセンサスが進歩を推進し、意見の相違がある場合には、創造的な解決策を生み出す原動力となるべきです。"
+  },
+  "governanceCharts.searchPlaceholder": {
+    "message": "チャートやパラメータを検索..."
+  },
+  "governanceCharts.parametersButton": {
+    "message": "パラメータ ▼"
+  },
+  "governanceCharts.availableParameters": {
+    "message": "利用可能なパラメータ："
+  },
+  "governanceCharts.clearAll": {
+    "message": "すべてクリア"
+  },
+  "governanceCharts.selectCategory": {
+    "message": "カテゴリを選択："
+  },
+  "governanceCharts.searchAndParamResults": {
+    "message": "検索結果＆パラメータフィルターチャート："
+  },
+  "governanceCharts.searchResults": {
+    "message": "検索結果："
+  },
+  "governanceCharts.paramFilteredCharts": {
+    "message": "パラメータフィルターチャート："
+  },
+  "governanceCharts.parameterDetails": {
+    "message": "パラメータ詳細"
+  },
+  "governanceCharts.noResults.searchAndParams": {
+    "message": "「{searchTerm}」と選択したパラメータに一致するチャートが見つかりません。"
+  },
+  "governanceCharts.noResults.search": {
+    "message": "「{searchTerm}」に一致するチャートが見つかりません"
+  },
+  "governanceCharts.noResults.params": {
+    "message": "選択したパラメータに一致するチャートが見つかりません。"
+  },
+  "governanceCharts.selectChart": {
+    "message": "チャートを選択："
+  },
+  "governanceCharts.emptyState": {
+    "message": "このカテゴリにはまだチャートがありません。"
+  },
+  "governanceCharts.initialPrompt": {
+    "message": "カテゴリを選択してガバナンスチャートを表示するか、検索を使って特定のチャートを探してください。"
+  },
+  "governanceGraphs.fallback.unavailable": {
+    "message": "グラフの可視化は利用できません"
+  },
+  "governanceGraphs.fallback.preview": {
+    "message": "データプレビュー："
+  },
+  "governanceGraphs.downloading": {
+    "message": "ダウンロード中..."
+  },
+  "governanceGraphs.downloadImage": {
+    "message": "画像をダウンロード"
+  },
+  "governance.voltaire.text1": {
+    "message": "分散化はテクノロジー（Shelley）から始まりますが、単一の組織がコントロールしない状態になって初めて真に達成されます。分散化の基本原則は、コントロールの再分配です。中央からではなく、すべての参加者によって定義されるグローバルネットワーク。これがVoltaireの目的です。"
+  },
+  "governance.voltaire.text2": {
+    "message": "Voltaireは、Cardanoコミュニティがソフトウェアアップデート、技術的改善、資金決定について影響力のある決定を行う能力を加えます。"
+  },
+  "governance.voltaire.text2b": {
+    "message": "により、Cardanoの未来はコミュニティによって決定され、プラットフォームのトレジャリーから資金が提供されます。"
+  },
+  "governance.voltaire.text3": {
+    "message": "このエラでは、分散型ガバナンス、民主主義と同意のダイナミクスなどのトピックについて一連の実験も行われ、Voltaireを研究から現実へと進化させます。Shelleyが中央権限のないグローバルに調整されたネットワークの基盤であったなら、Voltaireは共同意思決定の仕組み、つまり分散化の言語を探求します。"
+  },
+  "governance.voltaire.buttonText": {
+    "message": "研究を読む"
+  },
+  "governance.delegate.layout.title": {
+    "message": "DRepに委任する - Cardanoガバナンス"
+  },
+  "governance.delegate.layout.description": {
+    "message": "cardano.orgから直接、Cardanoの投票力をDRep（Delegated Representative）に委任できます。ウォレットを接続して、厳選されたアクティブなDRepから選びましょう。"
+  },
+  "governance.delegate.og.title": {
+    "message": "あなたの声を委任しよう"
+  },
+  "governance.delegate.og.description": {
+    "message": "ウォレットを接続し、1回のトランザクションでCardanoの投票力をDRepに委任できます。"
+  },
+  "governance.delegate.hero.title": {
+    "message": "あなたの声を委任しよう"
+  },
+  "governance.delegate.hero.description": {
+    "message": "ウォレットを接続してDRep（Delegated Representative）を選び、あなたの投票力を託しましょう。ノンカストディアルでロックアップもなく、ADAがウォレットから出ることはありません。"
+  },
+  "governance.delegate.loading": {
+    "message": "委任ツールを読み込んでいます…"
+  },
+  "governance.delegate.loadingDReps": {
+    "message": "アクティブなDRepを読み込んでいます…"
+  },
+  "governance.delegate.error.fetch": {
+    "message": "DRepを読み込めませんでした。しばらくしてから再読み込みしてください。"
+  },
+  "governance.delegate.noResults": {
+    "message": "現在、対象範囲に該当するDRepがありません。下記の代替ツールをお試しください。"
+  },
+  "governance.delegate.poolIntro": {
+    "message": "中規模の投票力を持つアクティブなDRepを{count}件表示しています。更新すると別の候補に入れ替わります。"
+  },
+  "governance.delegate.shuffle": {
+    "message": "DRepをシャッフル"
+  },
+  "governance.delegate.card.cta": {
+    "message": "委任する"
+  },
+  "governance.delegate.wallet.heading": {
+    "message": "ウォレットを接続して委任する"
+  },
+  "governance.delegate.wallet.connected": {
+    "message": "接続中：{name} · {addr}"
+  },
+  "governance.delegate.wallet.delegationLoading": {
+    "message": "現在の委任状況を確認しています…"
+  },
+  "governance.delegate.wallet.delegationNone": {
+    "message": "未委任"
+  },
+  "governance.delegate.wallet.delegationAbstain": {
+    "message": "委任先：常に棄権"
+  },
+  "governance.delegate.wallet.delegationNoConfidence": {
+    "message": "委任先：常に不信任"
+  },
+  "governance.delegate.wallet.delegationNamed": {
+    "message": "{name}に委任中"
+  },
+  "governance.delegate.wallet.delegationIdOnly": {
+    "message": "{id}に委任中"
+  },
+  "governance.delegate.wallet.disconnect": {
+    "message": "切断"
+  },
+  "governance.delegate.wallet.error": {
+    "message": "ウォレットエラー：{error}"
+  },
+  "governance.delegate.wallet.empty": {
+    "message": "Cardanoウォレットが見つかりません。Eternl、Typhon、BeginなどのCIP-30対応ウォレットをインストールしてください。"
+  },
+  "governance.delegate.networkWarning": {
+    "message": "ウォレットのネットワークが違います。委任するにはメインネットに切り替えてください。"
+  },
+  "governance.delegate.tx.building": {
+    "message": "{target}への委任を準備しています。ウォレットで承認してください…"
+  },
+  "governance.delegate.tx.success": {
+    "message": "{target}への委任を送信しました。"
+  },
+  "governance.delegate.tx.viewOnExplorer": {
+    "message": "エクスプローラーで見る"
+  },
+  "governance.delegate.error.stakeNotRegistered": {
+    "message": "ステークキーがまだ登録されていません。いずれかのステークプールに一度委任して登録を済ませてから、あらためて投票の委任を行ってください。"
+  },
+  "governance.delegate.error.generic": {
+    "message": "委任に失敗しました：{error}"
+  },
+  "governance.delegate.error.wrongNetwork": {
+    "message": "ウォレットのネットワークが違います。メインネットに切り替えてからもう一度お試しください。"
+  },
+  "governance.delegate.custom.heading": {
+    "message": "委任したいDRepが決まっている場合"
+  },
+  "governance.delegate.custom.placeholder": {
+    "message": "drep1…または16進数のDRep ID"
+  },
+  "governance.delegate.custom.label": {
+    "message": "DRep IDを直接入力"
+  },
+  "governance.delegate.custom.cta": {
+    "message": "委任する"
+  },
+  "governance.delegate.special.heading": {
+    "message": "またはプロトコルの選択肢から選ぶ"
+  },
+  "governance.delegate.abstain.label": {
+    "message": "棄権"
+  },
+  "governance.delegate.abstain.help": {
+    "message": "常に棄権します。あなたのステークは投票率には反映されますが、どの提案についても賛否のいずれにも数えられません。"
+  },
+  "governance.delegate.noConfidence.label": {
+    "message": "不信任"
+  },
+  "governance.delegate.noConfidence.help": {
+    "message": "現在の憲法委員会に対して、常に不信任票を投じます。"
+  },
+  "governance.delegate.alt.heading": {
+    "message": "別のツールを使いたい場合"
+  },
+  "governance.delegate.alt.intro": {
+    "message": "こちらのコミュニティツールでも、DRepへの投票力の委任に対応しています。"
+  },
+  "governance.accountability.hero.title": {
+    "message": "コミュニティが期待すること"
+  },
+  "governance.accountability.hero.description": {
+    "message": "DRep、憲法委員会、ステークプールオペレーター、トレジャリー資金による活動。Cardanoが権限を委ねるこれらの役割に求められる基準と期待、そして健全性を示すシグナル。"
+  },
+  "governance.accountability.meta.title": {
+    "message": "ガバナンスの説明責任 - Cardano"
+  },
+  "governance.accountability.meta.description": {
+    "message": "CardanoのDRep、憲法委員会、SPO、トレジャリー資金による活動に関するコミュニティの基準・期待と、オンチェーン全体の集計ベンチマーク。"
+  },
+  "governance.accountability.intro": {
+    "message": "Cardanoはコミュニティによって運営されています。このページでは、憲法と確立されたルールに基づいて各役割がすでに負っている基準をまとめ、ネットワーク全体の健全性指標を示します。あくまで既存ルールの整理と集計であり、新しいルールを定めたり個人を採点したりするものではありません。"
+  },
+  "governance.accountability.neutralityNote": {
+    "message": "ここに示すベンチマークはエコシステム全体の数値です。個別のDRep、委員会メンバー、プールのデータは、リンク先のツールで確認してください。"
+  },
+  "governance.accountability.roles.title": {
+    "message": "Cardanoガバナンスの説明責任を支えるのは誰か"
+  },
+  "governance.accountability.roles.subtitle": {
+    "message": "役割を選んで、その権限と責任、そしてコミュニティがその活動をどう検証できるかを確認しましょう。"
+  },
+  "governance.accountability.divider.roles": {
+    "message": "役割ごとの基準"
+  },
+  "governance.accountability.stat.dreps": {
+    "message": "アクティブなDRep"
+  },
+  "governance.accountability.stat.committee": {
+    "message": "委員会メンバー"
+  },
+  "governance.accountability.stat.spos": {
+    "message": "アクティブなステークプール"
+  },
+  "governance.accountability.stat.treasury": {
+    "message": "トレジャリー"
+  },
+  "governance.accountability.label.accountableFor": {
+    "message": "責任を負う範囲"
+  },
+  "governance.accountability.label.goodLooksLike": {
+    "message": "望ましい姿"
+  },
+  "governance.accountability.label.verifyAndAct": {
+    "message": "確認して行動する"
+  },
+  "governance.accountability.label.evidence": {
+    "message": "確認できる記録"
+  },
+  "governance.accountability.label.benchmark": {
+    "message": "ベンチマーク"
+  },
+  "governance.accountability.label.groundedIn": {
+    "message": "{groundedIn}に基づいています。"
+  },
+  "governance.accountability.dreps.title": {
+    "message": "DRep（Delegated Representative）"
+  },
+  "governance.accountability.dreps.teaser": {
+    "message": "ADA保有者を代表"
+  },
+  "governance.accountability.dreps.evidence": {
+    "message": "投票履歴"
+  },
+  "governance.accountability.dreps.groundedIn": {
+    "message": "憲法第2条第2節・第4節"
+  },
+  "governance.accountability.dreps.power": {
+    "message": "自身に委任するADA保有者を代表して、ガバナンスアクションに投票します。"
+  },
+  "governance.accountability.dreps.obl.1": {
+    "message": "DRepとして受け取った報酬は速やかに公開し、委任や投票の見返りとしてADA保有者に対価を支払うことは決してしません。DRepは、自身に委任するADA保有者の利益のために行動することができます。"
+  },
+  "governance.accountability.dreps.obl.1.src": {
+    "message": "憲法第2条第2節・第4節"
+  },
+  "governance.accountability.dreps.obl.2": {
+    "message": "Cardanoの基本原則（Tenets）とガードレール（Guardrails）の範囲内で行動します。"
+  },
+  "governance.accountability.dreps.obl.2.src": {
+    "message": "憲法第1条"
+  },
+  "governance.accountability.dreps.exp.1": {
+    "message": "投票の理由を公開しています。"
+  },
+  "governance.accountability.dreps.exp.2": {
+    "message": "公開プロフィールを常に最新に保っています。"
+  },
+  "governance.accountability.dreps.exp.3": {
+    "message": "一貫して投票に参加し、利益相反を開示しています。"
+  },
+  "governance.accountability.dreps.curated.1.label": {
+    "message": "直近のアクションへの参加状況"
+  },
+  "governance.accountability.dreps.curated.1.value": {
+    "message": "ガバナンスツールを見る"
+  },
+  "governance.accountability.dreps.check": {
+    "message": "DRepを調べるツールを探す"
+  },
+  "governance.accountability.dreps.act.1": {
+    "message": "DRepを選ぶ・変更する"
+  },
+  "governance.accountability.committee.title": {
+    "message": "憲法委員会"
+  },
+  "governance.accountability.committee.teaser": {
+    "message": "合憲性をチェック"
+  },
+  "governance.accountability.committee.evidence": {
+    "message": "公開された決定"
+  },
+  "governance.accountability.committee.groundedIn": {
+    "message": "憲法第3条第1節・第3節・第4節"
+  },
+  "governance.accountability.committee.power": {
+    "message": "ガバナンスアクションが合憲かどうかを判断します。ほとんどのアクションは、委員会の承認なしにはオンチェーンで発効しません。"
+  },
+  "governance.accountability.committee.obl.1": {
+    "message": "ガバナンスアクションは合憲かどうかのみを基準に判断し、オンチェーンで施行される内容が憲法と整合し続けるようにします。"
+  },
+  "governance.accountability.committee.obl.1.src": {
+    "message": "憲法第3条第1節"
+  },
+  "governance.accountability.committee.obl.2": {
+    "message": "透明性をもって活動し、すべての決定を公開します。アクションを違憲とする票を投じる場合は、その根拠となる憲法の該当箇所を明示します。"
+  },
+  "governance.accountability.committee.obl.2.src": {
+    "message": "憲法第3条第4節"
+  },
+  "governance.accountability.committee.obl.3": {
+    "message": "委員会の活動に対して受け取った報酬は、速やかに開示します。"
+  },
+  "governance.accountability.committee.obl.3.src": {
+    "message": "憲法第3条第4節"
+  },
+  "governance.accountability.committee.exp.1": {
+    "message": "合憲性に関する各判断について、その理由を説明しています。"
+  },
+  "governance.accountability.committee.exp.2": {
+    "message": "自らのプロセスについて、コミュニティとオープンに対話しています。"
+  },
+  "governance.accountability.committee.exp.3": {
+    "message": "メンバーは利益相反の可能性を開示しています。"
+  },
+  "governance.accountability.committee.curated.1.label": {
+    "message": "公開された決定と投票"
+  },
+  "governance.accountability.committee.curated.1.value": {
+    "message": "ガバナンスツールを見る"
+  },
+  "governance.accountability.committee.check": {
+    "message": "ガバナンスツールを探す"
+  },
+  "governance.accountability.committee.act.1": {
+    "message": "不信任と罷免"
+  },
+  "governance.accountability.spos.title": {
+    "message": "ステークプールオペレーター"
+  },
+  "governance.accountability.spos.teaser": {
+    "message": "ネットワークを守り、投票する"
+  },
+  "governance.accountability.spos.evidence": {
+    "message": "プールの実績"
+  },
+  "governance.accountability.spos.groundedIn": {
+    "message": "憲法第1条・第2条"
+  },
+  "governance.accountability.spos.power": {
+    "message": "ネットワークを守るブロック生成ノードを運用し、ステークプールに投票権のあるガバナンスアクションに投票します。"
+  },
+  "governance.accountability.spos.obl.1": {
+    "message": "ステークプールに投票権のあるアクション、すなわち不信任、委員会の更新、ハードフォークの開始、セキュリティに関わるパラメータ変更、情報アクションに投票します。"
+  },
+  "governance.accountability.spos.obl.1.src": {
+    "message": "憲法第2条第5節"
+  },
+  "governance.accountability.spos.obl.2": {
+    "message": "セキュリティに関わる変更に投票する際は、Cardanoのガードレール（Guardrails）の範囲内にとどまります。"
+  },
+  "governance.accountability.spos.obl.2.src": {
+    "message": "憲法第1条第2節"
+  },
+  "governance.accountability.spos.exp.1": {
+    "message": "高い稼働率で、信頼性が高く適切に構成されたインフラを運用しています。"
+  },
+  "governance.accountability.spos.exp.2": {
+    "message": "連絡先を公開し、プールのメタデータを最新に保っています。"
+  },
+  "governance.accountability.spos.exp.3": {
+    "message": "ステークプールが参加できる投票に加わり、票を投じるだけでなく、論点や理由も共有しています。"
+  },
+  "governance.accountability.spos.exp.4": {
+    "message": "オンラインインフラの運用と、Cardanoのパラメータや仕組みを理解しています。"
+  },
+  "governance.accountability.spos.curated.1.label": {
+    "message": "アクティブなステークプール"
+  },
+  "governance.accountability.spos.curated.1.value": {
+    "message": "プール関連ツールを見る"
+  },
+  "governance.accountability.spos.check": {
+    "message": "プール関連ツールを探す"
+  },
+  "governance.accountability.spos.act.1": {
+    "message": "ステークプールを選ぶ・変更する"
+  },
+  "governance.accountability.funding.title": {
+    "message": "トレジャリー資金による活動"
+  },
+  "governance.accountability.funding.teaser": {
+    "message": "公共の価値を提供"
+  },
+  "governance.accountability.funding.evidence": {
+    "message": "マイルストーンと報告"
+  },
+  "governance.accountability.funding.groundedIn": {
+    "message": "憲法第2条第6節・第7節"
+  },
+  "governance.accountability.funding.power": {
+    "message": "オンチェーンで承認された条件のもと、CardanoトレジャリーからADAを受け取り、エコシステムのための活動を行います。"
+  },
+  "governance.accountability.funding.obl.1": {
+    "message": "資金申請は標準化された透明な形式で提出し、誰でも確認できる恒久的な根拠文書を添えます。"
+  },
+  "governance.accountability.funding.obl.1.src": {
+    "message": "憲法第2条第6節"
+  },
+  "governance.accountability.funding.obl.2": {
+    "message": "引き出しの目的、スケジュール、費用、返金条件を明記し、過去24か月間に受け取ったトレジャリー資金を開示します。"
+  },
+  "governance.accountability.funding.obl.2.src": {
+    "message": "憲法第2条第7節"
+  },
+  "governance.accountability.funding.obl.3": {
+    "message": "独立した監査の費用を負担し、ADAの使途と成果物の達成状況を追跡する管理者を指名します。"
+  },
+  "governance.accountability.funding.obl.3.src": {
+    "message": "憲法第2条第7節"
+  },
+  "governance.accountability.funding.obl.4": {
+    "message": "トレジャリーのネットチェンジリミット（Net Change Limit）、すなわち一定期間にトレジャリーから流出できるADAの上限を守ります。"
+  },
+  "governance.accountability.funding.obl.4.src": {
+    "message": "憲法第2条第7節"
+  },
+  "governance.accountability.funding.exp.1": {
+    "message": "マイルストーンに対する進捗をオープンに報告しています。"
+  },
+  "governance.accountability.funding.exp.2": {
+    "message": "資金の使途を公開しています。"
+  },
+  "governance.accountability.funding.exp.3": {
+    "message": "提案どおりの成果を届け、未使用の資金は該当する場合に返還しています。"
+  },
+  "governance.accountability.funding.curated.1.label": {
+    "message": "オンチェーンで施行されたトレジャリー引き出し"
+  },
+  "governance.accountability.funding.curated.1.value": {
+    "message": "ガバナンスツールを見る"
+  },
+  "governance.accountability.funding.check": {
+    "message": "トレジャリーの残高と流出"
+  },
+  "governance.accountability.funding.act.1": {
+    "message": "引き出しはどのように正当化されるか"
+  },
+  "governance.accountability.link.expectations": {
+    "message": "何が期待されているか"
+  },
+  "governance.accountability.link.plainLanguage": {
+    "message": "これらの義務をわかりやすい言葉で読む"
+  },
+  "governance.accountability.link.judgeDrep": {
+    "message": "DRepの見極め方"
+  },
+  "governance.accountability.out.constitution": {
+    "message": "憲法の全文を読む"
+  },
+  "governance.accountability.out.delegate": {
+    "message": "DRepを選ぶ・変更する"
+  },
+  "governance.accountability.out.charts": {
+    "message": "ガバナンスアクションのチャートを見る"
+  },
+  "quiz.ui.noQuestions": {
+    "message": "クイズの質問がありません。"
+  },
+  "quiz.ui.greatJob": {
+    "message": "よくできました！"
+  },
+  "quiz.ui.keepLearning": {
+    "message": "学び続けましょう！"
+  },
+  "quiz.ui.scoreText": {
+    "message": "{totalQuestions}問中{score}問正解"
+  },
+  "quiz.ui.tryAgain": {
+    "message": "もう一度挑戦"
+  },
+  "quiz.ui.correct": {
+    "message": "正解！"
+  },
+  "quiz.ui.incorrect": {
+    "message": "不正解"
+  },
+  "quiz.ui.explanation": {
+    "message": "解説"
+  },
+  "quiz.ui.checkAnswer": {
+    "message": "回答を確認"
+  },
+  "quiz.ui.nextQuestion": {
+    "message": "次の質問"
+  },
+  "quiz.ui.finishQuiz": {
+    "message": "クイズ完了"
+  },
+  "research.headings.papers": {
+    "message": "論文"
+  },
+  "research.headings.specifications": {
+    "message": "仕様"
+  },
+  "research.byron.subtitle": {
+    "message": "基盤"
+  },
+  "research.byron.description": {
+    "message": "フェデレーテッドネットワークの基盤を構築し、ADAの購入・売却を可能にした期間。ネットワークはプルーフ・オブ・ステークのOuroborosコンセンサスプロトコルで稼働しました。"
+  },
+  "research.shelley.subtitle": {
+    "message": "分散化"
+  },
+  "research.shelley.description": {
+    "message": "ネットワークの成長と発展が進み、より大きな分散化に焦点を当てた期間。このフェーズでは、ノードの大部分がネットワーク参加者によって運営されるようになり、セキュリティが強化され、より堅牢な環境が実現しました。"
+  },
+  "research.goguen.subtitle": {
+    "message": "スマートコントラクト"
+  },
+  "research.goguen.description": {
+    "message": "Goguenエラではスマートコントラクト機能が導入され、分散型アプリケーションの構築が可能になり、多機能資産、ファンジブルトークン、非代替性トークン（NFT）規格がサポートされました。"
+  },
+  "research.basho.subtitle": {
+    "message": "スケーリング"
+  },
+  "research.basho.description": {
+    "message": "最適化のエラ。ネットワークのスケーラビリティと相互運用性を向上させます。Bashoではサイドチェーン（メインのCardanoチェーンと相互運用可能な新しいブロックチェーン）が導入され、ネットワークの機能を拡張する大きな可能性を持っています。"
+  },
+  "research.voltaire.subtitle": {
+    "message": "ガバナンス"
+  },
+  "research.voltaire.description": {
+    "message": "現在の開発エラは、Cardanoネットワークを自立型システムにすることを目指しています。Voltaireでは、ネットワーク参加者がステークと投票権を使ってブロックチェーンの将来の開発に影響を与えることができる投票・トレジャリーシステムが導入されています。"
+  },
+  "solutions.card.learnMore": {
+    "message": "詳しく見る"
+  },
+  "solutions.section.title": {
+    "message": "エンタープライズソリューション"
+  },
+  "termExplainer.divider": {
+    "message": "{category}の知っておくべき用語"
+  },
+  "apps.stickyButton": {
+    "message": "アプリを追加"
+  },
+  "insightsGovernance.meta.pageTitle": {
+    "message": "Cardanoガバナンスアクションチャート"
+  },
+  "insightsGovernance.meta.pageDescription": {
+    "message": "Cardanoガバナンスアクションプロセスフローのビジュアル表示。"
+  },
+  "insightsGovernance.meta.title": {
+    "message": "Cardanoガバナンスアクション"
+  },
+  "insightsGovernance.og.title": {
+    "message": "Cardanoガバナンスアクション"
+  },
+  "insightsGovernance.og.description": {
+    "message": "Cardanoガバナンスアクションのフローロジックを探索。"
+  },
+  "insightsGovernance.page.title": {
+    "message": "Cardanoガバナンスアクションチャート"
+  },
+  "insightsGovernance.page.description": {
+    "message": "Cardanoガバナンスアクションフローをビジュアルチャートで探索"
+  },
+  "insightsGovernance.page.keywords": {
+    "message": "Cardano, ガバナンス, アクション, DRep, SPO, 投票, 閾値"
+  },
+  "insightsGovernance.intro.paragraph1": {
+    "message": "**ガバナンスアクションインサイト**は、7つのCardanoガバナンスアクションタイプをフローチャートで可視化します。各チャートはライフサイクル（提出 → 批准 → 制定）、投票者（DRep、SPO、憲法委員会）、閾値を示します。ほとんどのアクションは**3つの機関のうち少なくとも2つ**の承認が必要です。一部は**3つすべて**が必要です。定義と完全な閾値については、[Developer Portal: Governance Actions](https://developers.cardano.org/docs/governance/cardano-governance/governance-actions/)を参照してください。"
+  },
+  "insightsGovernance.intro.paragraph2": {
+    "message": "**カテゴリ**（一般、情報アクション、プロトコルパラメータ変更、重要パラメータ変更）を選び、**チャート**を選択してください。ノードをたどると、**紫のボックス**が閾値と制定順序を示します。図は**ダウンロード**できます。**URLを共有**するだけでもOKです。アドレスバーは表示中のチャートに更新されます。正式な根拠については、**Cardano憲法 – 付録I: ガードレール** [constitution](/constitution)を参照してください。"
+  },
+  "insightsGovernance.intro.paragraph3": {
+    "message": "**プロトコルパラメータ変更**のチャートは、通常の更新（通常は**DRep + CC**）と**セキュリティ上重要なパラメータ**を区別しています。後者は**SPOの承認**も必要、つまり3つの機関すべてが必要です。付録Iに重要なパラメータとその許容範囲が記載されています。"
+  },
+  "insightsGovernance.divider.charts": {
+    "message": "ガバナンスアクションチャート"
+  },
+  "insightsSupply.meta.pageTitle": {
+    "message": "Cardano供給概要"
+  },
+  "insightsSupply.meta.pageDescription": {
+    "message": "Cardanoネットワークの主要カテゴリにわたるADA供給分布のビジュアル表示。"
+  },
+  "insightsSupply.meta.title": {
+    "message": "Cardano供給概要"
+  },
+  "insightsSupply.og.title": {
+    "message": "Cardano供給分布"
+  },
+  "insightsSupply.og.description": {
+    "message": "リザーブ、流通、トレジャリー、報酬にわたるADAの分布を探索。"
+  },
+  "insightsSupply.error.configTitle": {
+    "message": "設定が見つかりません"
+  },
+  "insightsSupply.error.configMessage": {
+    "message": "API URLが不足しています。"
+  },
+  "insightsSupply.error.invalidEpochTitle": {
+    "message": "無効なエポック"
+  },
+  "insightsSupply.error.invalidEpochMessage": {
+    "message": "エポックは{minEpoch}以上である必要があります。"
+  },
+  "insightsSupply.error.retrying": {
+    "message": "再試行中…"
+  },
+  "insightsSupply.error.retry": {
+    "message": "再試行"
+  },
+  "insightsSupply.loading.preparing": {
+    "message": "準備中…"
+  },
+  "insightsSupply.chart.circulation": {
+    "message": "流通量"
+  },
+  "insightsSupply.chart.circulationInfo": {
+    "message": "すべての流通UTxOの合計"
+  },
+  "insightsSupply.chart.treasury": {
+    "message": "トレジャリー"
+  },
+  "insightsSupply.chart.treasuryInfo": {
+    "message": "現在トレジャリーポットにあるすべてのADA"
+  },
+  "insightsSupply.chart.rewards": {
+    "message": "報酬"
+  },
+  "insightsSupply.chart.rewardsInfo": {
+    "message": "すべての未請求報酬"
+  },
+  "insightsSupply.chart.depositsStake": {
+    "message": "ステークデポジット"
+  },
+  "insightsSupply.chart.depositsStakeInfo": {
+    "message": "登録済みステークプールとステーキングアカウントのデポジットポット"
+  },
+  "insightsSupply.chart.depositsDRep": {
+    "message": "DRepデポジット"
+  },
+  "insightsSupply.chart.depositsDRepInfo": {
+    "message": "登録済みDRepのデポジットポット"
+  },
+  "insightsSupply.chart.depositsProposal": {
+    "message": "提案デポジット"
+  },
+  "insightsSupply.chart.depositsProposalInfo": {
+    "message": "アクティブなガバナンスアクションのデポジットポット"
+  },
+  "insightsSupply.chart.fees": {
+    "message": "手数料"
+  },
+  "insightsSupply.chart.feesInfo": {
+    "message": "徴収された手数料"
+  },
+  "insightsSupply.chart.totalSupply": {
+    "message": "総供給量"
+  },
+  "insightsSupply.chart.totalSupplyInfo": {
+    "message": "流通中のすべてのADA + 未請求報酬 + デポジット + 手数料 + トレジャリー"
+  },
+  "insightsSupply.chart.reserves": {
+    "message": "リザーブ"
+  },
+  "insightsSupply.chart.reservesInfo": {
+    "message": "最大供給量と総供給量の差"
+  },
+  "insightsSupply.chart.maximumSupply": {
+    "message": "最大供給量"
+  },
+  "insightsSupply.chart.maximumSupplyInfo": {
+    "message": "ジェネシスブロックの定義に基づく、これまでに存在できるADAの最大量。"
+  },
+  "insightsSupply.table.category": {
+    "message": "カテゴリ"
+  },
+  "insightsSupply.table.ada": {
+    "message": "ADA"
+  },
+  "insightsSupply.table.description": {
+    "message": "説明"
+  },
+  "insightsSupply.faq.heading": {
+    "message": "エポック{epoch}のファクト："
+  },
+  "insightsSupply.faq.q1.question": {
+    "message": "Q: 前のエポックと比較して、数値はどう変わりましたか？"
+  },
+  "insightsSupply.faq.q2.question": {
+    "message": "Q: トレジャリーにどれだけのADAが追加されましたか？"
+  },
+  "insightsSupply.faq.q3.question": {
+    "message": "Q: どれだけの手数料が徴収・分配されましたか？"
+  },
+  "insightsSupply.faq.q4.question": {
+    "message": "Q: エポック{epoch}でトレジャリーからの引き出しはありましたか？"
+  },
+  "insightsSupply.faq.q4.noWithdrawals": {
+    "message": "A: このエポック中のトレジャリー引き出しはありませんでした。"
+  },
+  "insightsSupply.faq.q5.question": {
+    "message": "Q: Cardanoメインネットの報酬計算についてもっと詳しく知るには？"
+  },
+  "insightsSupplySummary.meta.pageTitle": {
+    "message": "Cardano供給サマリー"
+  },
+  "insightsSupplySummary.meta.pageDescription": {
+    "message": "リザーブ、報酬、トレジャリー、デポジットにわたるCardano ADA供給分布の履歴分析。"
+  },
+  "insightsSupplySummary.meta.title": {
+    "message": "Cardano供給サマリー"
+  },
+  "insightsSupplySummary.og.title": {
+    "message": "Cardano供給サマリー"
+  },
+  "insightsSupplySummary.og.description": {
+    "message": "Cardano供給分布、リザーブ、報酬、トレジャリー、デポジットの履歴トレンドを探索。"
+  },
+  "insightsSupplySummary.intro.description": {
+    "message": "**Cardano ADA供給分布の履歴トレンドを探索**しましょう。リザーブ、報酬、トレジャリー、デポジットの推移を分析できます。エポック範囲を選択して、主要指標の時間的な変化を確認しましょう。"
+  },
+  "insightsSupplySummary.epochSelect.title": {
+    "message": "エポック範囲を選択"
+  },
+  "insightsSupplySummary.epochSelect.start": {
+    "message": "開始："
+  },
+  "insightsSupplySummary.epochSelect.end": {
+    "message": "終了："
+  },
+  "insightsSupplySummary.loading.initial": {
+    "message": "全エポックデータを読み込み中（少々お待ちください）..."
+  },
+  "insightsSupplySummary.loading.data": {
+    "message": "データを読み込み中..."
+  },
+  "insightsSupplySummary.loading.loaded": {
+    "message": "{count}エポックを読み込みました。スライダーで範囲を調整できます。"
+  },
+  "insightsSupplySummary.loading.currentEpoch": {
+    "message": "現在のエポックを読み込み中..."
+  },
+  "insightsSupplySummary.toc.title": {
+    "message": "目次"
+  },
+  "insightsSupplySummary.toc.reserves": {
+    "message": "リザーブの推移"
+  },
+  "insightsSupplySummary.toc.rewards": {
+    "message": "分配された報酬"
+  },
+  "insightsSupplySummary.toc.treasury": {
+    "message": "トレジャリーの推移"
+  },
+  "insightsSupplySummary.toc.deposits": {
+    "message": "デポジット"
+  },
+  "insightsSupplySummary.reserves.divider": {
+    "message": "リザーブの推移"
+  },
+  "insightsSupplySummary.rewards.divider": {
+    "message": "分配された報酬"
+  },
+  "insightsSupplySummary.treasury.divider": {
+    "message": "トレジャリーの推移"
+  },
+  "insightsSupplySummary.treasuryWithdrawals.divider": {
+    "message": "選択範囲内のトレジャリー引き出し"
+  },
+  "insightsSupplySummary.treasuryWithdrawals.table.epoch": {
+    "message": "エポック"
+  },
+  "insightsSupplySummary.treasuryWithdrawals.table.title": {
+    "message": "タイトル"
+  },
+  "insightsSupplySummary.treasuryWithdrawals.table.amount": {
+    "message": "金額（ADA）"
+  },
+  "insightsSupplySummary.treasuryWithdrawals.table.explorer": {
+    "message": "エクスプローラー"
+  },
+  "insightsSupplySummary.treasuryWithdrawals.table.view": {
+    "message": "表示"
+  },
+  "insightsSupplySummary.deposits.divider": {
+    "message": "デポジット"
+  },
+  "insightsTemplate.meta.pageTitle": {
+    "message": "Cardanoインサイトテンプレート"
+  },
+  "insightsTemplate.meta.pageDescription": {
+    "message": "インサイトテンプレート"
+  },
+  "insightsTemplate.meta.title": {
+    "message": "これはインサイトテンプレートです"
+  },
+  "insightsTemplate.og.title": {
+    "message": "これはインサイトテンプレートです | Cardano.org"
+  },
+  "insightsTemplate.og.description": {
+    "message": "Open Graphページの詳細な説明など。"
+  },
+  "insightsTemplate.page.keywords": {
+    "message": "Cardano, インサイト, テンプレート"
+  },
+  "insightsTemplate.content.paragraph1": {
+    "message": "TitleWithTextなどのコンポーネントを使う必要はありません。プレーンHTMLで構いません。"
+  },
+  "insightsTemplate.content.internalLinksLabel": {
+    "message": "内部リンクには以下を使用："
+  },
+  "insightsTemplate.content.internalLinkText": {
+    "message": "ADAの入手方法"
+  },
+  "insightsTemplate.content.externalLinksLabel": {
+    "message": "外部リンクには以下を使用："
+  },
+  "insightsTransactions.meta.pageTitle": {
+    "message": "Cardanoトランザクショントレンド"
+  },
+  "insightsTransactions.meta.pageDescription": {
+    "message": "エポックごとのCardanoトランザクション数、手数料、ブロック生成の履歴分析。"
+  },
+  "insightsTransactions.meta.title": {
+    "message": "Cardanoトランザクショントレンド"
+  },
+  "insightsTransactions.og.title": {
+    "message": "Cardanoトランザクショントレンド"
+  },
+  "insightsTransactions.og.description": {
+    "message": "Cardanoトランザクション、徴収された手数料、ブロック生成の履歴トレンドを探索。"
+  },
+  "insightsTransactions.intro.description": {
+    "message": "**Cardanoトランザクションの履歴トレンドを探索**しましょう。トランザクション数、徴収された手数料、ブロック生成などを含みます。エポック範囲を選択して、ネットワーク活動の時間的な変化を分析しましょう。"
+  },
+  "insightsTransactions.epochSelect.title": {
+    "message": "エポック範囲を選択"
+  },
+  "insightsTransactions.epochSelect.start": {
+    "message": "開始："
+  },
+  "insightsTransactions.epochSelect.epoch": {
+    "message": "エポック"
+  },
+  "insightsTransactions.epochSelect.end": {
+    "message": "終了："
+  },
+  "insightsTransactions.loading.initial": {
+    "message": "全エポックデータを読み込み中（少々お待ちください）..."
+  },
+  "insightsTransactions.loading.data": {
+    "message": "データを読み込み中..."
+  },
+  "insightsTransactions.loading.loaded": {
+    "message": "{count}エポックを読み込みました。スライダーで範囲を調整できます。"
+  },
+  "insightsTransactions.loading.currentEpoch": {
+    "message": "現在のエポックを読み込み中..."
+  },
+  "insightsTransactions.notice.inProgressTitle": {
+    "message": "現在のエポック進行中"
+  },
+  "insightsTransactions.notice.inProgressDescription": {
+    "message": "エポック{epoch}は現在進行中です。このエポックのデータは不完全で、完了したエポックよりも低く表示されます。最終的な値はエポック終了後に利用可能になります。進行中のデータポイントはチャート上でオレンジのインジケーターでマークされます。"
+  },
+  "insightsTransactions.toc.title": {
+    "message": "目次"
+  },
+  "insightsTransactions.toc.transactions": {
+    "message": "トランザクション量"
+  },
+  "insightsTransactions.toc.fees": {
+    "message": "トランザクション手数料"
+  },
+  "insightsTransactions.toc.avgFee": {
+    "message": "トランザクションあたりの平均手数料"
+  },
+  "insightsTransactions.toc.blocks": {
+    "message": "ブロック生成"
+  },
+  "insightsTransactions.toc.combined": {
+    "message": "トランザクション＆手数料（統合）"
+  },
+  "insightsTransactions.transactions.divider": {
+    "message": "トランザクション量"
+  },
+  "insightsTransactions.fees.divider": {
+    "message": "トランザクション手数料"
+  },
+  "insightsTransactions.avgFee.divider": {
+    "message": "トランザクションあたりの平均手数料"
+  },
+  "insightsTransactions.blocks.divider": {
+    "message": "ブロック生成"
+  },
+  "insightsTransactions.combined.divider": {
+    "message": "トランザクション＆手数料（統合）"
+  },
+  "insights.footer.text": {
+    "message": "最終更新：{lastUpdated}。チャートはリアルタイムデータを使用しています。"
+  },
+  "apps.card.getStarted": {
+    "message": "始める"
+  },
+  "apps.card.source": {
+    "message": "ソース"
+  },
+  "whatIsAWallet.meta.title": {
+    "message": "Cardanoウォレットとは？種類・鍵・セキュリティをやさしく解説",
+    "description": "Meta title for the wallet explainer page"
+  },
+  "whatIsAWallet.meta.description": {
+    "message": "Cardanoのウォレットとは何か。ホット・コールド、カストディアル・ノンカストディアルの違い、鍵とリカバリーフレーズの仕組み、ADAを安全に守る方法を解説します。",
+    "description": "Meta description for the wallet explainer page"
+  },
+  "whatIsAWallet.hero.title": {
+    "message": "ウォレットとは？",
+    "description": "Hero title"
+  },
+  "whatIsAWallet.hero.description": {
+    "message": "ウォレットはCardanoへの鍵です。ウォレットの仕組みと種類、そしてADAを安全に守る方法を学びましょう。",
+    "description": "Hero description"
+  },
+  "whatIsAWallet.intro.title": {
+    "message": "コインではなく、鍵を持ち歩く",
+    "description": "Intro section title"
+  },
+  "whatIsAWallet.intro.text1": {
+    "message": "実は、ウォレットにADAが保管されているわけではありません。コインはCardanoブロックチェーン上に存在します。ウォレットが保管しているのは、そのコインがあなたのものであることを証明し、使えるようにする**鍵**です。",
+    "description": "Intro paragraph 1"
+  },
+  "whatIsAWallet.intro.text2": {
+    "message": "どのウォレットにも、資産の受け取りに使う**公開鍵**と、トランザクションに署名して資産を使うための**秘密鍵**があります。公開鍵は口座番号のように他人に知らせて構いませんが、秘密鍵を握った者が資産を自由にできるため、秘密鍵は何よりも厳重に守らなければなりません。",
+    "description": "Intro paragraph 2"
+  },
+  "whatIsAWallet.types.divider": {
+    "message": "ウォレットの種類",
+    "description": "Divider label for wallet types"
+  },
+  "whatIsAWallet.hotcold.title": {
+    "message": "ホットウォレットとコールドウォレット",
+    "description": "Hot/cold section title"
+  },
+  "whatIsAWallet.hotcold.description": {
+    "message": "ウォレットは、インターネットに接続されているかどうかで分類できます。",
+    "description": "Hot/cold intro"
+  },
+  "whatIsAWallet.hotWallet.text": {
+    "message": "ホットウォレットはインターネットに接続されたウォレットで、必要な鍵があればいつでもアクセスできます。モバイルウォレットやソフトウェアウォレット、取引所に預けている資産がその例です。日常的な利用に便利です。",
+    "description": "Hot wallet explanation"
+  },
+  "whatIsAWallet.coldWallet.text": {
+    "message": "コールドウォレットはオフラインのウォレットです。インターネットに接続されておらず、頻繁に動かす必要のない資産を安全に保管するために使われます。秘密鍵を保管する専用デバイスであるハードウェアウォレットや、ペーパーウォレットがその例です。CardanoはLedger、Trezor、Keystoneなどのハードウェアウォレットに対応しています。",
+    "description": "Cold wallet explanation"
+  },
+  "whatIsAWallet.custody.title": {
+    "message": "カストディアルとノンカストディアル",
+    "description": "Custody section title"
+  },
+  "whatIsAWallet.custody.text1": {
+    "message": "**カストディアル**ウォレットでは、取引所などの第三者があなたに代わって秘密鍵を管理します。便利な反面、資産をその相手に預けて信頼することになります。",
+    "description": "Custodial paragraph"
+  },
+  "whatIsAWallet.custody.text2": {
+    "message": "**ノンカストディアル**ウォレットでは、鍵を持つのはあなただけです。企業に資産を凍結されたり失われたりする心配はありませんが、その代わり、誰にも復元してもらえません。「Not your keys, not your coins（鍵を持たない者はコインを持たない）」と言われる所以です。",
+    "description": "Non-custodial paragraph"
+  },
+  "whatIsAWallet.nodetype.title": {
+    "message": "ライトウォレットとフルノードウォレット",
+    "description": "Node type section title"
+  },
+  "whatIsAWallet.nodetype.text1": {
+    "message": "**ライト**ウォレットはリモートのサービスを介してブロックチェーンに接続します。そのためすぐにインストールでき、スマートフォンやブラウザでも動作します。",
+    "description": "Light wallet paragraph"
+  },
+  "whatIsAWallet.nodetype.text2": {
+    "message": "**フルノード**ウォレットはブロックチェーンのコピーを自らダウンロードして検証します。ディスク容量と時間は余分にかかりますが、チェーンの読み取りを第三者に頼る必要がありません。",
+    "description": "Full-node wallet paragraph"
+  },
+  "whatIsAWallet.keys.divider": {
+    "message": "鍵とリカバリー",
+    "description": "Divider label for keys"
+  },
+  "whatIsAWallet.recovery.title": {
+    "message": "リカバリーフレーズはマスターキー",
+    "description": "Recovery section title"
+  },
+  "whatIsAWallet.recovery.text1": {
+    "message": "ノンカストディアルウォレットを作成すると、12語、15語、または24語の単語リストが表示されます。これが**リカバリーフレーズ**（シードフレーズとも呼ばれます）で、秘密鍵を人が読める形にしたものです。",
+    "description": "Recovery paragraph 1"
+  },
+  "whatIsAWallet.recovery.text2": {
+    "message": "この単語列を知っている人は誰でも、どのデバイスからでもあなたのウォレットを復元し、資産を奪えます。フレーズは紙に書き留めてオフラインで保管しましょう。ウェブサイトに入力しない、写真やクラウドのメモに残さない、誰にも教えない。この3つを徹底してください。",
+    "description": "Recovery paragraph 2"
+  },
+  "whatIsAWallet.security.divider": {
+    "message": "安全を守るために",
+    "description": "Divider label for security"
+  },
+  "whatIsAWallet.security.title": {
+    "message": "セキュリティの基本",
+    "description": "Security section title"
+  },
+  "whatIsAWallet.security.item1": {
+    "message": "リカバリーフレーズは紙や金属プレートに記録し、複数の安全な場所にオフラインで保管しましょう。",
+    "description": "Security checklist item 1"
+  },
+  "whatIsAWallet.security.item2": {
+    "message": "大きな資産には、Ledger、Trezor、Keystoneなどのハードウェアウォレットを使いましょう。鍵がインターネットに接続された機器に触れることはありません。",
+    "description": "Security checklist item 2"
+  },
+  "whatIsAWallet.security.item3": {
+    "message": "正規のサポート担当者がリカバリーフレーズを尋ねることは絶対にありません。[よくある詐欺の手口を知っておきましょう。](/common-scams)",
+    "description": "Security checklist item 3, contains a link to the scams page"
+  },
+  "whatIsAWallet.dapps.divider": {
+    "message": "ウォレットとアプリ",
+    "description": "Divider label for dApps"
+  },
+  "whatIsAWallet.dapps.title": {
+    "message": "アプリとの接続",
+    "description": "dApps section title"
+  },
+  "whatIsAWallet.dapps.text1": {
+    "message": "Cardanoのウォレットの多くには**dAppコネクター**が搭載されています。これにより、ウェブサイトは秘密鍵に一切触れることなく、ウォレットにトランザクションへの署名を依頼できます。",
+    "description": "dApps paragraph 1"
+  },
+  "whatIsAWallet.dapps.text2": {
+    "message": "主導権は常にあなたにあります。ウォレットには承認しようとしている内容が正確に表示され、あなたが確定するまで何も実行されません。署名する前に、必ずサイトのアドレスを確認し、リクエストの内容をひとつずつチェックしましょう。",
+    "description": "dApps paragraph 2"
+  },
+  "whatIsAWallet.choose.title": {
+    "message": "ウォレットの選び方",
+    "description": "Choose section title"
+  },
+  "whatIsAWallet.choose.item1": {
+    "message": "ハードウェアウォレットに対応していますか？LedgerやTrezor、Keystoneといったデバイスを接続すれば、セキュリティをさらに強化できます。",
+    "description": "Choose checklist item 1"
+  },
+  "whatIsAWallet.choose.item2": {
+    "message": "オープンソースですか？コードが公開されていれば、コミュニティがウォレットの安全性を検証できます。",
+    "description": "Choose checklist item 2"
+  },
+  "whatIsAWallet.choose.item3": {
+    "message": "リリースからどれくらい経っていますか？長く使われてきたウォレットには、それだけ信頼性の実績があります。",
+    "description": "Choose checklist item 3"
+  },
+  "whatIsAWallet.choose.cta": {
+    "message": "ウォレットファインダーを開く",
+    "description": "CTA button to the wallet finder"
+  },
+  "whatIsAWallet.faq.q1": {
+    "message": "コインはウォレットの中に保管されているのですか？",
+    "description": "FAQ question 1"
+  },
+  "whatIsAWallet.faq.a1": {
+    "message": "いいえ。ADAはCardanoブロックチェーン上に存在します。ウォレットに保管されているのは、それにアクセスして使うための鍵です。",
+    "description": "FAQ answer 1"
+  },
+  "whatIsAWallet.faq.q2": {
+    "message": "リカバリーフレーズをなくしたらどうなりますか？",
+    "description": "FAQ question 2"
+  },
+  "whatIsAWallet.faq.a2": {
+    "message": "ノンカストディアルウォレットにはサポート窓口もリセット機能もありません。リカバリーフレーズとデバイスの両方を失えば、資産は永久に取り戻せません。フレーズは複数の場所にオフラインでバックアップしておきましょう。",
+    "description": "FAQ answer 2"
+  },
+  "whatIsAWallet.faq.q3": {
+    "message": "ウォレットを作るのにADAは必要ですか？",
+    "description": "FAQ question 3"
+  },
+  "whatIsAWallet.faq.a3": {
+    "message": "いいえ。ウォレットの作成は無料です。ADAが必要になるのは、実際にトランザクションを行うときだけです。",
+    "description": "FAQ answer 3"
+  },
+  "whatIsAWallet.faq.q4": {
+    "message": "ホットウォレットとコールドウォレット、どちらを使うべきですか？",
+    "description": "FAQ question 4"
+  },
+  "whatIsAWallet.faq.a4": {
+    "message": "日常的に使う少額にはホットウォレットを、めったに動かさない大きな資産にはコールドウォレットやハードウェアウォレットを使いましょう。両方を使い分けている人も多くいます。",
+    "description": "FAQ answer 4"
+  },
+  "whatIsAWallet.disclaimer": {
+    "message": "このページは教育目的の情報提供であり、金融やセキュリティに関する助言ではありません。必ずご自身で調査したうえで判断してください。",
+    "description": "Educational disclaimer at the bottom of the page"
+  },
+  "walletFinder.learnTeaser.text": {
+    "message": "ウォレットは初めてですか？仕組みや種類、安全な使い方を学びましょう。",
+    "description": "Teaser text on the wallet finder linking to the explainer"
+  },
+  "walletFinder.learnTeaser.cta": {
+    "message": "ウォレットとは？",
+    "description": "Teaser button on the wallet finder"
+  },
+  "getStarted.step1.walletLearnLink": {
+    "message": "ウォレットとは何かを学ぶ",
+    "description": "Get-started step 1 link to the wallet explainer"
+  }
+}

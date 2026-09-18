@@ -1,0 +1,310 @@
+---
+title: App Grid
+description: Render a grid of Cardano applications from src/data/apps.js filtered by category and ranked by transaction volume using the AppGrid component.
+---
+
+## AppGrid
+
+The `AppGrid` component displays a responsive grid of Cardano applications, with transaction statistics and rankings. It filters apps by their primary category (one or several) and sorts them by transaction volume.
+
+## Basic Usage
+
+```jsx
+import AppGrid from '@site/src/components/AppGrid';
+
+<AppGrid categories={['dex']} />
+```
+
+**Live Preview:**
+
+import AppGrid from '@site/src/components/AppGrid';
+
+<AppGrid categories={['dex']} limit={4} />
+
+---
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `categories` | `string[]` | `['dex']` | Array of category ids to filter apps. Apps whose primary category matches any of these are shown. |
+| `limit` | `number` | `null` | Maximum number of apps to display. Shows all if not specified. |
+| `showRank` | `boolean` | `true` | Whether to display rank badges (#1, #2, etc.) on app cards. The badge is part of the statistics block, so it only appears together with `showStats` and only on apps that have transaction data. |
+| `showStats` | `boolean` | `true` | Whether to display transaction statistics on app cards. `false` also hides the rank badges. |
+| `gridTitle` | `string` | `null` | Optional title to display above the grid. |
+| `ctaText` | `string` | `"Visit"` | Text for the call-to-action button on each card. |
+| `moreLink` | `string` | `null` | Custom link for the "More Apps" card. Defaults to `/apps?tags=...` |
+| `moreTitle` | `string` | `"More Apps"` | Title for the "More Apps" card. |
+| `excludeSlug` | `string` | `null` | Slug of an app to exclude from the grid (e.g. to omit the current app). |
+| `prioritizeMaintainerPicks` | `boolean` | `false` | When true, maintainer-picked apps are sorted ahead of others. |
+
+---
+
+## Features
+
+### Flexible Category Filtering
+Filter apps by any category or combination of categories:
+- Single category: `categories={['dex']}` or `categories={['lending']}`
+- Multiple categories: `categories={['dex', 'lending']}` (shows apps in ANY of these categories)
+
+### Automatic Ranking
+Apps are automatically ranked by their 30-day transaction volume:
+- **Top 3 apps** get highlighted rank badges
+- Ranking is based on real on-chain transaction data
+- Apps without transaction data appear after ranked ones (alphabetically)
+
+### Transaction Statistics
+Each app card displays:
+- 30-day transaction count
+- Visual rank badge for top performers
+- Bar chart icon for quick recognition
+
+### Responsive Grid
+- Desktop: Multi-column layout (auto-fills based on screen width)
+- Mobile: Single column for optimal readability
+- Cards maintain consistent height and spacing
+
+### Icon Support
+Apps can display custom logos via the `icon` field in `apps.js`:
+- Supports SVG, PNG, WebP, JPEG
+- Falls back to initial letter badge if no icon provided
+
+---
+
+## Examples
+
+### DEX Grid (Default)
+
+```jsx
+<AppGrid
+  categories={['dex']}
+  limit={4}
+  gridTitle="Top Cardano DEXs"
+  ctaText="Visit DEX"
+  moreTitle="More DEXes"
+/>
+```
+
+<AppGrid
+  categories={['dex']}
+  limit={4}
+  gridTitle="Top Cardano DEXs"
+  ctaText="Visit DEX"
+  moreTitle="More DEXes"
+/>
+
+---
+
+### Lending Platforms
+
+```jsx
+<AppGrid
+  categories={['lending']}
+  limit={4}
+  gridTitle="Lending Platforms"
+  ctaText="Visit Platform"
+  moreTitle="More Lending"
+/>
+```
+
+<AppGrid
+  categories={['lending']}
+  limit={4}
+  gridTitle="Lending Platforms"
+  ctaText="Visit Platform"
+  moreTitle="More Lending"
+/>
+
+---
+
+### Marketplaces
+
+```jsx
+<AppGrid
+  categories={['marketplace']}
+  limit={4}
+  gridTitle="Marketplaces"
+/>
+```
+
+<AppGrid
+  categories={['marketplace']}
+  limit={4}
+  gridTitle="Marketplaces"
+/>
+
+---
+
+### Without Rankings
+
+Useful for showcasing apps without emphasizing competitive ranking:
+
+```jsx
+<AppGrid
+  categories={['dex']}
+  limit={6}
+  showRank={false}
+/>
+```
+
+<AppGrid
+  categories={['dex']}
+  limit={6}
+  showRank={false}
+/>
+
+---
+
+### Without Statistics
+
+Clean display focusing only on app information:
+
+```jsx
+<AppGrid
+  categories={['wallet']}
+  limit={4}
+  showStats={false}
+/>
+```
+
+<AppGrid
+  categories={['wallet']}
+  limit={4}
+  showStats={false}
+/>
+
+---
+
+### Multiple Categories (DeFi)
+
+Show apps from multiple categories:
+
+```jsx
+<AppGrid
+  categories={['dex', 'lending']}
+  limit={6}
+  gridTitle="DeFi Apps"
+  ctaText="Open App"
+/>
+```
+
+<AppGrid
+  categories={['dex', 'lending']}
+  limit={6}
+  gridTitle="DeFi Apps"
+  ctaText="Open App"
+/>
+
+---
+
+## How It Works
+
+### Filtering & Sorting
+
+1. **Filters** all apps from `apps.js` whose primary `category` is one of the specified categories. Properties (`opensource`, `nft`, ...) are not considered
+2. **Sorts** by transaction count (descending), then by title. With `prioritizeMaintainerPicks`, maintainer picks come first regardless of their count
+3. **Assigns** category-specific ranks (1, 2, 3, etc.) in that order
+4. **Applies** limit if specified
+5. **Displays** "More Apps" card when limited
+
+### Transaction Data Matching
+
+The component uses the `statsLabel` field from `apps.js` to match apps with their transaction data:
+
+```javascript
+{
+  title: "Minswap Dex",
+  icon: "/img/app-icons/minswap.svg",
+  statsLabel: "minswap",  // Matches label in tx-stats.json
+  category: "dex",        // exactly one, this is what AppGrid filters on
+  properties: ["opensource"],
+  // ...
+}
+```
+
+See the [Transaction Rankings Guide](/docs/get-involved/tx-rankings) for details on how transaction data is collected and how to get your app tracked.
+
+---
+
+## Customization
+
+### Adding App Icons
+
+1. Place your logo in `/static/img/app-icons/`
+2. Add the `icon` field to your app in `apps.js`:
+   ```javascript
+   icon: "/img/app-icons/your-app.svg"
+   ```
+
+### Transaction Data
+
+To display transaction statistics for your app:
+
+1. Add the `statsLabel` field to your app entry
+2. Ensure the label matches your entry in `/src/data/tx-stats.json`
+3. See [Transaction Rankings Guide](/docs/get-involved/tx-rankings)
+
+---
+
+## "More Apps" Card
+
+When using the `limit` prop, a special card appears at the end of the grid:
+
+- Shows the count of remaining apps not displayed
+- Links to `/apps?tags=...` by default (customizable via `moreLink`)
+- Matches the design of app cards for consistency
+
+---
+
+## Mobile Optimization
+
+The grid automatically adjusts for mobile devices:
+
+- **Desktop**: Multi-column grid (minimum 280px per card)
+- **Tablet**: 2-3 columns depending on screen width
+- **Mobile**: Single column for optimal readability
+- Cards maintain consistent padding and spacing across all breakpoints
+
+---
+
+## Integration Example
+
+Using AppGrid on a custom page:
+
+```jsx
+---
+title: Cardano DeFi Ecosystem
+---
+
+import AppGrid from '@site/src/components/AppGrid';
+
+## Decentralized Finance on Cardano
+
+Explore the growing DeFi ecosystem on Cardano, ranked by real transaction volume.
+
+<AppGrid
+  categories={['dex', 'lending']}
+  limit={8}
+  gridTitle="Top DeFi Apps by Volume"
+  ctaText="Open App"
+/>
+
+[View All Apps](/apps)
+```
+
+---
+
+## Related Components
+
+- **[AppList](/docs/get-involved/components/app-list)** - Compact list component for categorized apps
+- **Apps Page** - Full app directory with filtering
+
+---
+
+## Technical Notes
+
+- Component sources apps from `/src/data/apps.js`
+- Transaction data from `/src/data/tx-stats.json`
+- Ranking is category-specific (not global app ranking)
+- Handles missing icons gracefully with fallback badges
+- Supports both `require()` and string URL paths for icons

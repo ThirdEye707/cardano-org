@@ -1,0 +1,41 @@
+---
+title: DeFi
+description: Cardano上の分散型金融アプリケーションは、透明性とアクセシビリティを備えた金融サービスを提供します
+sidebar_label: DeFi
+sidebar_position: 6
+---
+
+# 分散型金融（DeFi）
+
+## 課題
+
+従来の金融システムでは、世界中で数十億人が銀行サービスを利用できずにいます。利用できる人にとっても、高い手数料、不透明な条件、資産の凍結やサービス拒否を一方的に行える中央集権的な管理が問題となっています。 Even for those with access, financial services often come with high fees, opaque terms, and centralized control that can freeze assets or deny services arbitrarily.
+
+The 2008 financial crisis demonstrated the risks of centralized financial systems, where failures at major institutions can cascade through the entire economy. Users have little visibility into how their deposits are used or what risks they're exposed to.
+
+## ブロックチェーンによる解決策
+
+Cardano上の分散型金融は、インターネット接続さえあれば誰でも利用できる、オープンで透明な金融サービスを提供します。
+
+- **パーミッションレスなアクセス**: 中央管理者の承認なしに誰でも参加可能
+- **透明な運用**: すべての取引とスマートコントラクトのロジックを公開監査可能
+- **ユーザー自身による資産管理**: 仲介者に頼ることなく自分の資産を管理
+- **コンポーザビリティ**: DeFiプロトコルを組み合わせて新しい金融商品を構築可能
+- **24時間365日稼働**: 営業時間やダウンタイムなく常時サービスを提供
+
+CardanoのDeFiエコシステムには、分散型取引所（DEX）、レンディング・借入プラットフォーム、ステーブルコイン、イールド最適化プロトコルなどがあり、すべて安全で監査済みのスマートコントラクト上で稼働しています。
+
+## Cardanoが選ばれる理由
+
+- **予測可能な手数料**：拡張UTXOモデルにより正確なコスト計画が可能
+- **形式検証**：スマートコントラクトの動作に対する数学的な保証
+- **ネイティブアセット**：トークン操作の複雑さと攻撃対象を軽減
+- **サステナビリティ**：プルーフ・オブ・ステークによる長期的な価値創造
+- **強力なコミュニティ**：革新的な金融アプリケーションを構築する開発者の集まり
+
+## はじめよう
+
+- [CardanoのDeFiアプリを探す](/apps/?operator=OR&tags=lending&tags=dex)
+- [Cardanoウォレットを入手する](/apps/?tags=wallet)
+- [Cardano開発者向けリソース](https://developers.cardano.org)
+- [エンタープライズソリューションを見る](/solutions)

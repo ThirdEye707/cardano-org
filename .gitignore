@@ -7,6 +7,11 @@
 # Generated files
 .docusaurus
 .cache-loader
+src/data/recentNews.json
+src/data/apps-metadata.json
+static/apps.llms.txt
+static/img/app-screenshots/
+static/img/news-thumbs/
 
 # Misc
 .DS_Store
@@ -35,8 +40,8 @@ yarn-error.log*
 # intellij
 .idea
 
-# (only check in yarn.lock when deliberately establishing a software baseline)
-yarn.lock
-
 # Temporary files that sometimes get checked in by accident
 .yarn/**
+
+# Prevent folks from committing package-lock.json
+package-lock.json

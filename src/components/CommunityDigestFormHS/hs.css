@@ -1,7 +1,7 @@
 
 :root {
-  --ifm-button-background-color: #0538AF;  
-  --ifm-button-border-color: #0538AF;  
+  --ifm-button-background-color: #0033AD;  
+  --ifm-button-border-color: #0033AD;  
   --ifm-button-border-radius: calc(0.4rem * 1);
   --ifm-button-border-width: 1px;
   --ifm-button-color: #fff;
@@ -14,7 +14,7 @@
 }
 
 .hs-form {
-  font-family: Chivo Medium, sans-serif !important;
+  font-family: Chivo, sans-serif !important;
 }
 
 .hs-button {
@@ -151,7 +151,7 @@ textarea {
 
 .submitted-message {
    margin-top: 13px;
-   font-family: Chivo Medium, sans-serif !important;
+   font-family: Chivo, sans-serif !important;
 }
 
 

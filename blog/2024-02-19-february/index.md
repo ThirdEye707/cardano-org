@@ -2,7 +2,7 @@
 slug: 2024-02-19-february-developer-portal
 title: "Interview: Rejuve.AI"
 authors: [devportal]
-tags: [development, developers]
+tags: [development]
 ---
 
 import ThemedImage from '@theme/ThemedImage';
@@ -12,7 +12,7 @@ In this interview, Jasmine, CEO and co-founder of Rejuve.AI, provides insight in
 
 The decision to launch on Cardano reflects their commitment to decentralization and governance. Jasmine discusses performance, highlights the unique features of the Longevity App and outlines the future roadmap. 
 
-The interview concludes with a look at the key partnerships contributing to Rejuve.AI's success. Lets dive right in!
+The interview concludes with a look at the key partnerships contributing to Rejuve.AI's success. Let's dive right in!
 
 <div style={{ textAlign: 'right' }}>
  [**Read more**](https://developers.cardano.org/blog/2024-02-19-february) 
